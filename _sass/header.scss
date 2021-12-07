@@ -1,0 +1,30 @@
+/* This styles the very top banner with the SXS logo */
+
+header {
+    background:#f0f0f0 url($img + "/site/banner_background.png");
+    position:relative;
+    padding:0.1px;
+}
+
+header > .logo {
+    @include desktop {
+        background: url($img + "/site/sxs_logo.png") 50% 0 no-repeat !important;
+        margin: 16px auto;
+        width: 498px;
+        height: 160px !important;
+    }
+    @include touch {
+        background: url($img + "/site/sxs_logo.png") no-repeat scroll 50% -160px transparent !important;
+        margin: 30px auto !important;
+        width: 250px !important;
+        height: 181px !important;
+    }
+    opacity: 1;
+    transition:all .2s ease-in-out;
+    display: block;
+}
+
+header > .logo:hover {
+    opacity:.8;
+    transform: scale(.95,.95);
+}
