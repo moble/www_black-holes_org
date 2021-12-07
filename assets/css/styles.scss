@@ -124,6 +124,7 @@ main {
 .footerherobody img {
     vertical-align: middle;
     opacity: 0.7;
+    transition: all .2s linear 0s;
 }
 .footerherobody img:hover {
     opacity: 1;
