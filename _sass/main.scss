@@ -1,20 +1,6 @@
-body {
-    background:$palegrey;
-    color:$mediumgrey;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
+@charset "utf-8";
 
-a {
-    -webkit-transition: color 0.2s ease-out;
-    -moz-transition: color 0.2s ease-out;
-    -o-transition: color 0.2s ease-out;
-    transition: color 0.2s ease-out;
-    text-decoration: none;
-    // color: $waterblue;
+
+main {
+    background: #e5e4d0 url($img + "/site/main_background.png") repeat 0 0;
 }

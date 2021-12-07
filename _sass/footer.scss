@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+footer {
+    background: $darkgrey url($img + "/site/footer_background.jpg") repeat 0 0;
+    border-top: 4px solid $terracotta;
+    color: $offwhite;
+    text-align: center;
+}
+
+// Override bulma setting
+.footer {
+    padding: 0px;
+}
+
+//// The hero is the part of the footer with the dark background, including institution logos
+
+.footer .hero-body {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.footer .hero-body img {
+    margin: 10px 25px;
+    vertical-align: middle;
+    opacity: 0.7;
+    transition: all .2s linear 0s;
+}
+
+.footer .hero-body img:hover {
+    opacity: 1;
+    transition: all .4s linear 0s;
+}
+
+
+//// The trim is the part at the very bottom with contraasting stitching
+
+footer .trim a {
+    color: $offwhite;
+}
+
+footer .trim a:hover {
+    color: $darkgrey;
+}
+
+footer .trim > .container {
+    padding: 8px;
+}

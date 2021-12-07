@@ -1,14 +1,14 @@
 ---
 ---
-
-// Set up the essentials
 @charset "utf-8";
 
-// Define basic variables here
+
+//// Define basic variables here
 $img: {{ site.baseurl }}/assets/images;
 
-// Set our colors (named by closest match to XKCD survey https://gist.github.com/tremby/578775aaf6330f5f47c9fc6a0c705da5)
-$darkgrey: #333333FF;
+
+//// Set our colors (named by closest match to XKCD survey https://gist.github.com/tremby/578775aaf6330f5f47c9fc6a0c705da5)
+$darkgrey: #423934FF;
 $mediumgrey: #6E6E6EFF;
 $palegrey: #F5F5F5FF;
 $offwhite: #EFEDD8FF;
@@ -20,7 +20,8 @@ $clay: #A8573EFF;
 $earth: #A65B3BFF;
 $waterblue: #0088CCFF;
 
-// Update Bulma's variables
+
+//// Update Bulma's variables
 $grey-dark: $mediumgrey;
 $grey-light: $palegrey;
 $primary: $peach;
@@ -30,12 +31,12 @@ $body-background-color: $palegrey;
 // $input-border-color: transparent;
 // $input-shadow: none;
 $gap: 100px;
-
 $navbar-height-num: 65;
 $navbar-margin: 13;
 $navbar-padding: 0;
 $navbar-height: $navbar-height-num + px;
 $navbar-background-color: $terracotta;
+
 $navbar-item-color: $offwhite;
 $navbar-item-hover-color: $sandyyellow;
 $navbar-item-hover-background-color: $clay;
@@ -55,6 +56,8 @@ $footer-padding: ($navbar-margin + 7.5) + px 0;
 $footer-color: $offwhite;
 
 
+//// This section imports pieces of bulma
+
 // @import "bulma/bulma.sass";
 
 @import "bulma/sass/base/_all.sass";
@@ -66,77 +69,14 @@ $footer-color: $offwhite;
 @import "bulma/sass/layout/_all.sass";
 @import "bulma/sass/utilities/_all.sass";
 
-@import "bulma/sass/grid/columns.sass";
 @import "bulma/sass/components/navbar.sass";
 @import "bulma/sass/elements/container.sass";
-@import "bulma/sass/layout/hero.sass";
-@import "bulma/sass/layout/footer.sass";
-@import "bulma/sass/layout/section.sass";
+@import "bulma/sass/grid/columns.sass";
 
 
-@import "main";
+//// Now we import our own files
+@import "common";
+@import "trim";
 @import "header";
-
-
-// Trim is the pair of contrasting-stitch bars the contain the navbar and footer
-.trim {
-    background: #c4663e url($img + "/site/menu_background.png") repeat 0 0;
-    font-family: $navbar-font-family;
-}
-.trim > .container {
-    height: ($navbar-height-num - 2*$navbar-margin) + px;
-    min-height: ($navbar-height-num - 2*$navbar-margin) + px;
-    padding: $navbar-padding + px 0;
-    margin-top: $navbar-margin + px;
-    align-items: stretch;
-    display: flex;
-    width: 100%;
-}
-
-// Automatically capitalize all the items that reside in the navbar itself
-.navbar-menu > .navbar-start > a.navbar-item, .navbar-menu > .navbar-start > .has-dropdown > a {
-    text-transform: uppercase;
-}
-
-// Put a border around the search box
-.navbar input {
-    border: 1px solid $clay;
-}
-
-main {
-    background: #e5e4d0 url($img + "/site/main_background.png") repeat 0 0;
-}
-
-// Style the footer
-.footerhero {
-    background: #423934 url($img + "/site/footer_background.jpg") repeat 0 0;
-    border-top: 4px solid #DB6C3C;
-    color: #EFEDD8;
-    text-align: center;
-}
-.footerherobody {
-    width: 100%;
-    word-wrap: break-word;
-}
-.footerherobody a {
-    margin: 30px 30px;
-}
-.footerherobody img {
-    vertical-align: middle;
-    opacity: 0.7;
-    transition: all .2s linear 0s;
-}
-.footerherobody img:hover {
-    opacity: 1;
-    transition: all .6s linear 0s;
-}
-
-footer {
-    height: $navbar-height;
-    min-height: $navbar-height;
-    color: $offwhite;
-    font-family: Oswald, Impact, sans-serif;
-}
-footer a {
-    color: $offwhite;
-}
+@import "main";
+@import "footer";

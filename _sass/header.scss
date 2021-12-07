@@ -1,4 +1,5 @@
-/* This styles the very top banner with the SXS logo */
+@charset "utf-8";
+
 
 header {
     background:#f0f0f0 url($img + "/site/banner_background.png");
@@ -27,4 +28,22 @@ header > .logo {
 header > .logo:hover {
     opacity:.8;
     transform: scale(.95,.95);
+}
+
+
+
+// Automatically capitalize all the items that reside in the navbar itself
+.navbar-menu > .navbar-start > a.navbar-item, .navbar-menu > .navbar-start > .has-dropdown > a {
+    text-transform: uppercase;
+}
+
+// Put a border around the search box
+.navbar input {
+    border: 1px solid $clay;
+}
+
+.navbar .trim > .container {
+    align-items: stretch;
+    display: flex;
+    width: 100%;
 }
