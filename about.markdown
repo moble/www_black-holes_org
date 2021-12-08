@@ -1,8 +1,7 @@
 ---
-layout: default
 title: About
-permalink: /about/
 ---
+
 
 <!-- Some comment -->
 
