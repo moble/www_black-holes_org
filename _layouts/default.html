@@ -15,31 +15,15 @@ layout: compress
             {% include header.html %}
         </header>
 
-        <main class="py-6">
+        {% if page.is_homepage %}
 
-            <div class="container is-max-widescreen">
+        {% include homepage.html %}
 
-                <div class="columns">
+        {% else %}
 
-                    <div class="column is-three-quarters">
-                        <article>
-                            {{ content }}
-                        </article>
-                    </div>
+        {% include article.html %}
 
-                    <div class="column">
-                        <aside>
-                            Here is the side text, which contains more navigation, some media, and quotes.
-                        </aside>
-                    </div>
-
-                </div>
-                <!-- {% if page.show_sidebar %}
-                     {% endif %} -->
-
-            </div>
-
-        </main>
+        {% endif %}
 
         <footer class="footer">
             {% include footer.html %}

@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+
+//// The first section on the homepage under the navbar has the rocket ship and the ticket with
+//// "ADMIT ONE" printed on it.  That's what well name this section.
+.admit-one {
+    background: #333333 center 92px url($img + "/site/homepage_admit-one_background.png") repeat;
+    max-height: 440px;
+    height: 440px;
+}
+
+
+
+//// The next section on the homepage is titled "the Science", so that's what we'll name it.
+
+// The "coins" are the circular things that flip.  We'll style them below, using these variables.
+$coinradius: 90;
+$coinedge: 10;
+$coinsize: (2*($coinradius + $coinedge)) + px;
+$coinface: (2*$coinradius) + px;
+$coinmargin: (-$coinradius) + px;
+
+.the-science {
+    background: $brownishgrey url($img + "/site/homepage_coins_background.jpg") repeat 0 0;
+    max-height: 442px;
+    height: 442px;
+    border-top: 13px solid $lightgrey;
+    border-bottom: 4px solid $greyish;
+
+    // This is the little downward-pointing nub that blends in with the top border of this section.
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 13px solid $lightgrey;
+    }
+
+    .title {
+        color: $darkgrey;
+        font-family: 'Times New Roman',Georgia,serif;
+        text-shadow: $greyish 1.4px 1.4px 0;
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 30px;
+
+        h1 {
+            height: 53px;
+        }
+
+        h2 {
+            height: 17px;
+        }
+
+        strong {
+            font-size: 48px;
+            font-style: italic;
+        }
+
+        small {
+            color: $lightgrey;
+            font-size: 16px;
+            font-style: italic;
+            text-shadow: none;
+            letter-spacing: 2px;
+            padding-top: -50px;
+        }
+    }
+
+    // This contains the coins
+    .coins {
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+        margin-bottom: 38px;
+    }
+
+    // This styles each coin
+    .coin {
+        border-radius: 50%;
+        transition: all 0.6s ease-in-out;
+        width: $coinsize;
+        height: $coinsize;
+        margin: 35px;
+        position: relative;
+        text-align: center;
+        color: #FFFFFF;
+
+        .centering {
+            width: $coinface;
+            height: $coinface;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: $coinmargin 0 0 $coinmargin;
+        }
+
+        .edge {
+            background: #333333;
+            box-shadow: 0 0 0 10px #FFFFFF33;
+        }
+
+        .reverse {
+            opacity: 0;
+            background: #333 url($img + "/site/homepage_admit-one_background.png");
+            pointer-events: none;
+            transform: scale(1.5);
+            transition: all 0.4s ease-in-out 0.2s;
+            line-height: 14px;
+
+            h3 {
+                font-family: $navbar-font-family;
+                font-size: 19px;
+                padding-top: 45px;
+                height: 105px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                line-height: 24px;
+            }
+
+            p {
+                border-top: 1px solid #FFFFFF88;
+                font-size: 11px;
+                font-style: italic;
+                padding: 8px 5px 0;
+                margin: 0 30px;
+                width: 120px;
+            }
+
+            a {
+                text-transform: uppercase;
+                font-size: 9px;
+                font-weight: bold;
+            }
+        }
+
+        &:hover .obverse {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        &:hover .reverse {
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: auto;
+        }
+
+        .label {
+            color: $lightgrey;
+            font-style: italic;
+            font-family: Georgia,serif;
+            font-size: 17px;
+            letter-spacing: 1px;
+            margin-top: (2*($coinradius + $coinedge)+10) + px;
+        }
+    }
+
+    .coin1 {
+        background: url($img + "/site/homepage_coin_relativity.jpg") center;
+    }
+
+    .coin2 {
+        background: url($img + "/site/homepage_coin_gw.png") center;
+    }
+
+    .coin3 {
+        background: url($img + "/site/homepage_coin_compact.png") center;
+    }
+
+    .coin4 {
+        background: url($img + "/site/homepage_coin_nr.png") center;
+    }
+
+}

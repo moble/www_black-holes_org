@@ -8,17 +8,20 @@ $img: {{ site.baseurl }}/assets/images;
 
 
 //// Set our colors (named by closest match to XKCD survey https://gist.github.com/tremby/578775aaf6330f5f47c9fc6a0c705da5)
-$darkgrey: #423934FF;
-$mediumgrey: #6E6E6EFF;
-$palegrey: #F5F5F5FF;
-$offwhite: #EFEDD8FF;
-$sandyyellow: #FFEC6DFF;
-$palepeach: #FFEFBE4C;
-$peach: #F7A87DFF;
-$terracotta: #D55B2FFF;
-$clay: #A8573EFF;
-$earth: #A65B3BFF;
-$waterblue: #0088CCFF;
+$darkgrey: #423934;
+$mediumgrey: #6E6E6E;
+$brownishgrey: #797465;
+$greyish: #A39B8A;
+$lightgrey: #DEDAC8;
+$palegrey: #F5F5F5;
+$offwhite: #EFEDD8;
+$sandyyellow: #FFEC6D;
+$palepeach: #FFEFBE4C;  // The extra 2 letters are for transparency
+$peach: #F7A87D;
+$terracotta: #D55B2F;
+$clay: #A8573E;
+$earth: #A65B3B;
+$waterblue: #0088CC;
 
 
 //// Update Bulma's variables
@@ -58,20 +61,26 @@ $footer-color: $offwhite;
 
 //// This section imports pieces of bulma
 
+//// Import all at once
 // @import "bulma/bulma.sass";
 
+//// Import groups of objects
 @import "bulma/sass/base/_all.sass";
 // @import "bulma/sass/components/_all.sass";
 // @import "bulma/sass/elements/_all.sass";
-@import "bulma/sass/form/_all.sass";
+// @import "bulma/sass/form/_all.sass";
 // @import "bulma/sass/grid/_all.sass";
 @import "bulma/sass/helpers/_all.sass";
 @import "bulma/sass/layout/_all.sass";
 @import "bulma/sass/utilities/_all.sass";
 
+//// Import specific pieces
 @import "bulma/sass/components/navbar.sass";
 @import "bulma/sass/elements/container.sass";
+@import "bulma/sass/elements/title.sass";
 @import "bulma/sass/grid/columns.sass";
+@import "bulma/sass/form/shared.sass";
+@import "bulma/sass/form/input-textarea.sass";
 
 
 //// Now we import our own files
@@ -79,4 +88,5 @@ $footer-color: $offwhite;
 @import "trim";
 @import "header";
 @import "main";
+@import "homepage";
 @import "footer";
