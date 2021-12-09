@@ -3,10 +3,16 @@
 //// The first section on the homepage under the navbar has the rocket ship and the ticket with
 //// "ADMIT ONE" printed on it.  That's what well name this section.
 .admit-one {
-    background: #333333 center 92px url($img + "/site/homepage_admit-one_background.png") repeat;
     max-height: 440px;
     height: 440px;
     position: relative;
+    overflow: hidden;
+    background: #333333 center 92px url($img + "/site/homepage_admit-one_background.png") repeat;
+    color: $offwhite;
+    font-size: 48px;
+    font-weight: 630;
+    text-align: center;
+    letter-spacing: 2px;
 
     // Start all the div's at the bottom center of the background; we'll translate them from there
     div {
@@ -15,53 +21,140 @@
         right: 0;
         bottom: 0;
         margin: auto;
-        animation-fill-mode: forwards;
     }
 
-    &-moon { // 768x116
+    &-animated {
+        animation-duration: 2.5s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out;
+    }
+
+    $rocket-x: 0;
+    $rocket-y: -46px;
+    $bbh-x: 326px;
+    $bbh-y: -197px;
+    $inspiral-x: -330px;
+    $inspiral-y: -278px;
+    $ticket-x: 0;
+    $ticket-y: -185px;
+    $arrows-x: 0;
+    $arrows-y: -240px;
+    $ready-x: 0;
+    $ready-y: -325px;
+    $offscreen-x: 2000px;
+    $offscreen-y: 440px;
+
+    @keyframes moon-animation {
+        0% {transform: translate(0, 116px);}
+        20% {transform: initial;}
+    }
+
+    @keyframes inspiral-animation {
+        0% {transform: translate(-$offscreen-x, $inspiral-y);}
+        10% {transform: translate(-$offscreen-x, $inspiral-y);}
+        30% {transform: translate($inspiral-x, $inspiral-y);}
+    }
+
+    @keyframes bbh-animation {
+        0% {transform: translate($offscreen-x, $bbh-y);}
+        20% {transform: translate($offscreen-x, $bbh-y);}
+        40% {transform: translate($bbh-x, $bbh-y);}
+    }
+
+    @keyframes rocket-animation {
+        // cubic-bezier(.33,0,.67,.33) and cubic-bezier(.33,.67,.67,1) describe motion under
+        // constant acceleration, though they are quite close to ease-in [cubic-bezier(0.42, 0.0,
+        // 1.0, 1.0)] and ease-out [cubic-bezier(0.0, 0.0, 0.58, 1.0)], respectively.
+        0% {transform: translate($rocket-x, -$offscreen-y); animation-timing-function: linear;}
+        30% {transform: translate($rocket-x, -$offscreen-y); animation-timing-function: linear;}
+        45% {transform: translate($rocket-x, $rocket-y); animation-timing-function: cubic-bezier(.33,.67,.67,1);}
+        50% {transform: translate($rocket-x, $rocket-y - 20px); animation-timing-function: cubic-bezier(.33,0,.67,.33);}
+        55% {transform: translate($rocket-x, $rocket-y); animation-timing-function: cubic-bezier(.33,.67,.67,1);}
+        58% {transform: translate($rocket-x, $rocket-y - 7px); animation-timing-function: cubic-bezier(.33,0,.67,.33);}
+        61% {transform: translate($rocket-x, $rocket-y);}
+    }
+
+    @keyframes ticket-animation {
+        0% {transform: translate($ticket-x, 0.75*$ticket-y); opacity: 0;}
+        75% {transform: translate($ticket-x, 0.75*$ticket-y); opacity: 0;}
+        100% {transform: translate($ticket-x, $ticket-y); opacity: 1;}
+    }
+
+    @keyframes arrows-animation {
+        0% {transform: translate($arrows-x, -$offscreen-y);}
+        60% {transform: translate($arrows-x, -$offscreen-y);}
+        80% {transform: translate($arrows-x, $arrows-y);}
+    }
+
+    @keyframes ready-animation {
+        0% {transform: translate($ready-x, $ready-y - $offscreen-y);}
+        60% {transform: translate($ready-x, $ready-y - $offscreen-y);}
+        80% {transform: translate($ready-x, $ready-y);}
+    }
+
+    // Note that we need to set the width and height of each of the divs below, so that positioning
+    // can work
+
+    &-moon {
         width: 768px;
         height: 116px;
+        animation-name: moon-animation;
     }
 
-    &-rocket { // 59x106
+    &-rocket {
         width: 59px;
         height: 106px;
-        transform: translate(0, -46px); // 220-53+40px
+        transform: translate($rocket-x, $rocket-y);
+        animation-name: rocket-animation;
     }
 
-    &-bbh { // 142x140
+    &-bbh {
         width: 142px;
         height: 140px;
-        transform: translate(326px, -197px);
+        transform: translate($bbh-x, $bbh-y);
+        animation-name: bbh-animation;
     }
 
-    &-inspiral { // 222x109
+    &-inspiral {
         width: 229px;
         height: 109px;
-        transform: translate(-330px, -278px);
+        transform: translate($inspiral-x, $inspiral-y);
+        animation-name: inspiral-animation;
     }
 
-    &-ticket { // 220x110
+    &-ticket {
         width: 220px;
         height: 110px;
-        transform: translate(0, -190px);
+        transform: translate($ticket-x, $ticket-y);
+        animation-name: ticket-animation;
     }
 
-    &-arrows { // 288x80
+    &-ticket a img {
+        transition: all .2s ease-in-out;
+    }
+
+    &-ticket a:hover img {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    &-arrows {
         width: 288px;
         height: 80px;
-        transform: translate(0, -240px);
+        transform: translate($arrows-x, $arrows-y);
+        animation-name: arrows-animation;
     }
+
+    &-ready {
+        width: 400px;
+        height: 50px;
+        transform: translate($ready-x, $ready-y);
+        animation-name: ready-animation;
+    }
+
 }
 
 //// The next section on the homepage is titled "the Science", so that's what we'll name it.
-
-// The "coins" are the circular things that flip.  We'll style them below, using these variables.
-$coinradius: 90;
-$coinedge: 10;
-$coinsize: (2*($coinradius + $coinedge)) + px;
-$coinface: (2*$coinradius) + px;
-$coinmargin: (-$coinradius) + px;
 
 .the-science {
     background: $brownishgrey url($img + "/site/homepage_coins_background.jpg") repeat 0 0;
@@ -98,6 +191,7 @@ $coinmargin: (-$coinradius) + px;
         strong {
             font-size: 48px;
             font-style: italic;
+            font-weight: 700;
         }
 
         small {
@@ -109,6 +203,13 @@ $coinmargin: (-$coinradius) + px;
             padding-top: -50px;
         }
     }
+
+    // The "coins" are the circular things that flip.  We'll style them below, using these variables.
+    $coinradius: 90;
+    $coinedge: 10;
+    $coinsize: (2*($coinradius + $coinedge)) + px;
+    $coinface: (2*$coinradius) + px;
+    $coinmargin: (-$coinradius) + px;
 
     // This contains the coins
     .coins {
