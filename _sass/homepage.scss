@@ -1,15 +1,58 @@
 @charset "utf-8";
 
-
 //// The first section on the homepage under the navbar has the rocket ship and the ticket with
 //// "ADMIT ONE" printed on it.  That's what well name this section.
 .admit-one {
     background: #333333 center 92px url($img + "/site/homepage_admit-one_background.png") repeat;
     max-height: 440px;
     height: 440px;
+    position: relative;
+
+    // Start all the div's at the bottom center of the background; we'll translate them from there
+    div {
+        position: absolute; 
+        left: 0; 
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        animation-fill-mode: forwards;
+    }
+
+    &-moon { // 768x116
+        width: 768px;
+        height: 116px;
+    }
+
+    &-rocket { // 59x106
+        width: 59px;
+        height: 106px;
+        transform: translate(0, -46px); // 220-53+40px
+    }
+
+    &-bbh { // 142x140
+        width: 142px;
+        height: 140px;
+        transform: translate(326px, -197px);
+    }
+
+    &-inspiral { // 222x109
+        width: 229px;
+        height: 109px;
+        transform: translate(-330px, -278px);
+    }
+
+    &-ticket { // 220x110
+        width: 220px;
+        height: 110px;
+        transform: translate(0, -190px);
+    }
+
+    &-arrows { // 288x80
+        width: 288px;
+        height: 80px;
+        transform: translate(0, -240px);
+    }
 }
-
-
 
 //// The next section on the homepage is titled "the Science", so that's what we'll name it.
 
@@ -79,16 +122,16 @@ $coinmargin: (-$coinradius) + px;
     .coin {
         border-radius: 50%;
         transition: all 0.6s ease-in-out;
-        width: $coinsize;
-        height: $coinsize;
+        width: $coinsize !important;
+        height: $coinsize !important;
         margin: 35px;
         position: relative;
         text-align: center;
         color: #FFFFFF;
 
         .centering {
-            width: $coinface;
-            height: $coinface;
+            width: $coinface !important;
+            height: $coinface !important;
             position: absolute;
             top: 50%;
             left: 50%;
