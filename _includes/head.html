@@ -1,9 +1,17 @@
 <!-- The following is enclosed in <head> tags already -->
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta name="keywords" content="Gravitational Waves,Relativity,Einstein,SXS,Numerical Relativity,Spectral Einstein Code,Compact Objects,Theoretical Astrophysics,SpEC">
 <meta name="description" content="The SXS project is a collaborative research effort involving multiple institutions. Our goal is the simulation of black holes and other extreme spacetimes to gain a better understanding of Relativity, and the physics of exotic objects in the distant cosmos.">
-<title>{{ page.title }} - SXS</title>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,regular,700&subset=latin,latin-ext" type="text/css">
 <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+<title>{{ page.title }} - SXS</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" type="text/css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+
+{% if page.is_homepage %}{% else %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
