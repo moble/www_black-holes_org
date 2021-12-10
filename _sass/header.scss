@@ -30,6 +30,14 @@ header > .logo:hover {
     transform: scale(.95,.95);
 }
 
+.navbar-burger {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    border: 2px solid $terracotta;
+    border-radius: 3px;
+}
 
 
 // Automatically capitalize all the items that reside in the navbar itself
