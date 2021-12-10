@@ -127,15 +127,17 @@
         height: 110px;
         transform: translate($ticket-x, $ticket-y);
         animation-name: ticket-animation;
-    }
 
-    &-ticket a img {
-        transition: all .2s ease-in-out;
-    }
+        a {
+            img {
+                transition: all .2s ease-in-out;
+            }
+        }
 
-    &-ticket a:hover img {
-        transform: scale(1.1);
-        cursor: pointer;
+        a:hover img {
+            transform: scale(1.1);
+        }
+
     }
 
     &-arrows {
@@ -146,13 +148,14 @@
     }
 
     &-ready {
-        width: 400px;
+        width: 288px; // No wider than the image of the arrows
         height: 50px;
         transform: translate($ready-x, $ready-y);
         animation-name: ready-animation;
     }
 
 }
+
 
 //// The next section on the homepage is titled "the Science", so that's what we'll name it.
 
@@ -251,6 +254,7 @@
             transform: scale(1.5);
             transition: all 0.4s ease-in-out 0.2s;
             line-height: 14px;
+            cursor: pointer;
 
             h3 {
                 font-family: $navbar-font-family;
@@ -275,6 +279,10 @@
                 text-transform: uppercase;
                 font-size: 9px;
                 font-weight: bold;
+            }
+
+            a:hover {
+                color: $offwhite;
             }
         }
 
@@ -315,4 +323,13 @@
         background: url($img + "/site/homepage_coin_nr.png") center;
     }
 
+}
+
+
+.research {
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-style: italic;
+    }
 }

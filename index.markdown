@@ -11,3 +11,5 @@ is_homepage: true
 ## Subtitle
 
 This is just a quick example to demonstrate how the main content is laid out.  This is the main text
+
+A link with blank target is [here](www.google.com){target:_blank}
