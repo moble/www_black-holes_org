@@ -16,22 +16,29 @@ layout: compress
         </header>
 
         {% if page.is_homepage %}
-
-        {% include homepage.html %}
-
+            {% include homepage.html %}
         {% else %}
-
-        {% include article.html %}
-
+            {% include article.html %}
         {% endif %}
 
         <footer class="footer">
             {% include footer.html %}
         </footer>
 
+        <!-- NOTE:
+             There are plenty of references around the web saying that it no
+             longer matters where you put scripts.  However, as of 2022,
+             Mozilla's trustworthy MDN docs say that "Scripts without async,
+             defer or type='module' attributes, as well as inline scripts, are
+             fetched and executed immediately, before the browser continues to
+             parse the page."
+        -->
         <script>
          {% include navbar-burgers.js %}
+         {% include latest-tweet.js %}
         </script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     </body>
 
