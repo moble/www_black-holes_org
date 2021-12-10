@@ -1,0 +1,32 @@
+---
+layout: post
+title: The Four Areas of Science We Study
+joomla_id: 150
+joomla_url: the-science
+date: 2014-08-06 05:26:57.000000000 +00:00
+---
+<div class="iconlink science"><a href="the-science-relativity/relativity/the-disputed-center-of-the-universe" title="Relativity"><img alt="Relativity" src="templates/gantry/images/relativity2.jpg" /></a>
+<div class="icontext">
+<h3><a href="the-science-relativity/relativity/the-disputed-center-of-the-universe" title="Relativity">Relativity</a></h3>
+<p>Einstein's Version of the Laws of Physics</p>
+</div>
+</div>
+<div class="iconlink science"><a href="the-science-gravitational-waves/gravitational-wave-astronomy/gravitational-waves" title="Gravitational Wave Astronomy"><img alt="Gravitational Wave Astronomy" src="templates/gantry/images/gravitational_waves.png" /></a>
+<div class="icontext">
+<h3><a href="the-science-gravitational-waves/gravitational-wave-astronomy/gravitational-waves" title="Gravitational Wave Astronomy">Gravitational Wave Astronomy</a></h3>
+<p>Ripples in the Fabric of Space Time</p>
+</div>
+</div>
+<div class="iconlink science"><a href="the-science-compact-objects/compact-objects/white-dwarfs" title="Compact Objects"><img alt="Compact Objects" src="templates/gantry/images/compact.png" /></a>
+<div class="icontext">
+<h3><a href="the-science-compact-objects/compact-objects/white-dwarfs" title="Compact Objects">Compact Objects</a></h3>
+<p>The End Points of Stellar Evolution</p>
+</div>
+</div>
+<div class="iconlink science"><a href="the-science-numerical-relativity/numerical-relativity/einstein-s-equations" title="Numerical Relativity"><img alt="Numerical Relativity" src="templates/gantry/images/numerical_relativity.png" /></a>
+<div class="icontext">
+<h3><a href="the-science-numerical-relativity/numerical-relativity/einstein-s-equations" title="Numerical Relativity">Numerical Relativity</a></h3>
+<p>Giving the Problem to a Computer</p>
+</div>
+</div>
+<p>{!glossary}</p>

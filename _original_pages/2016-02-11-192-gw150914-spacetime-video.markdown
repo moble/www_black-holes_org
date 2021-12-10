@@ -1,0 +1,9 @@
+---
+layout: post
+title: 'GW150914: Spacetime Video'
+joomla_id: 192
+joomla_url: gw150914-spacetime-video
+date: 2016-02-11 03:54:12.000000000 +00:00
+---
+<p>{youtube}c-2XIuNFgD0{/youtube}</p>
+<p>See the original uncompressed video <a href="videos/bbh_gw/Warped_Spacetime_Horizons_Long_4k.mp4">here</a>.</p>

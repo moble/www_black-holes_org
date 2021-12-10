@@ -1,0 +1,9 @@
+---
+layout: post
+title: 'GW150914: Lensing Video'
+joomla_id: 191
+joomla_url: gw150914-lensing-video
+date: 2016-02-11 03:28:14.000000000 +00:00
+---
+<p>{youtube}Zt8Z_uzG71o{/youtube}</p>
+<p>See the original uncompressed video&nbsp;<a href="videos/bbh_gw/creditsmovie.mp4">here</a>.</p>

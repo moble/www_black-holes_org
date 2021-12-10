@@ -1,0 +1,808 @@
+---
+layout: post
+title: People
+joomla_id: 1
+joomla_url: people
+date: 2013-01-28 23:44:55.000000000 +00:00
+---
+<p><strong>Please click on the name tabs to read more about our group members.</strong></p>
+<p>{tab Faculty|red}</p>
+{slider Alessandra Buonanno|inactive}
+<div class="bio">
+<h3>Alessandra Buonanno</h3>
+<h4>Director, Division of Astrophysical and Cosmological Relativity</h4>
+<img src="images/people/alessandra_buonanno.jpg" alt="Alessandra Buonanno" />
+<div class="contact-info">Phone:&nbsp;+49 331 567-7220 Email:<a href="mailto:alessandra.buonanno@aei.mpg.de">alessandra.buonanno@aei.mpg.de</a><br />Office Address:Am Mühlenberg 1, 14476 Potsdam-Golm, Germany</div>
+<h5>Institution</h5>
+<p>Max Planck Institute for Gravitational Physics (Albert Einstein Institute)</p>
+<h5>Specialty Areas</h5>
+<p>Theory and the detection of gravitational waves</p>
+<h5>Research Projects</h5>
+<p>&nbsp;</p>
+<h5>Biography</h5>
+Alessandra Buonanno earned her PhD in theoretical physics at the University of Pisa in Italy. After a brief period spent at the theory division of CERN, she held postdoctoral positions at the Institut des Hautes Etudes Scientifiques (IHES) in France and at the California Institute of Technology in the USA. She was a staff researcher (CR1) at the Institut d'Astrophysique de Paris (IAP) and Laboratoire Astroparticule et Cosmologie (APC) in Paris with the Centre Nationale de la Recherche Scientifique (CNRS) before joining the University of Maryland as physics professor. While at the University of Maryland, Buonanno has been a Fellow of the Alfred P. Sloan Foundation. She was a Radcliffe Fellow at the Radcliffe Institute for Advanced Study at Harvard University. She is a Fellow of the International Society on General Relativity and Gravitation, and a Fellow of the American Physical Society.<br />
+<h5>Selected Publications</h5>
+</div>
+{slider Matthew D. Duez}
+<div class="bio">
+<h3>Matthew D. Duez</h3>
+<h4>Assistant Professor of Physics</h4>
+<img src="images/people/matthew_duez.jpg" alt="Matthew Duez" />
+<div class="contact-info"><span class="phone">Phone:509-335-2396</span><span class="email">Email:m.duez@wsu.edu</span><br /><span class="address">Office Address:Webster Physical Sciences 947E</span></div>
+<h5>Institution</h5>
+<p>Washington State University</p>
+<h5>Specialty Areas</h5>
+<p>Astrophysics</p>
+<h5>Research Projects</h5>
+<p>My research focuses on the dynamics of hot nuclear matter in strongly curved spacetime.&nbsp; Most of my published work concerns black hole-neutron star binary mergers, which are potentially important sources of gravitational waves, kilonovae, short duration gamma ray bursts (GRBs), and r-process elements.&nbsp; Much of our black hole-neutron star work has been devoted to exploring the large parameter space of possible binaries.&nbsp; There are two interesting (from a fluid dynamics/GRB perspective) regions of this space, where the neutron star is ripped apart before being swallowed by the black hole:&nbsp; systems with low black hole mass and systems with high black hole spin.&nbsp; We've focused a lot on binaries with high-spin, moderate-to-high mass&nbsp; black holes both because they've gotten less attention from other groups and because SpEC is very good at handling high-spin black holes.<br /><br />A black hole-neutron star simulation must adequately model the inspiral of the binary, its merger, outflows of ejected matter into interstellar space, and the accretion disk formed by the merger of hot nuclear matter swirling around the black hole.&nbsp; Lately, my interest has mostly been on the last two issues.&nbsp;&nbsp; With regard to outflows, the goal of our work is to track ejected matter far from the merger site to predict electromagnetic signals and final elemental abundances.&nbsp; For accretion disks, we are studying the effects of magnetic fields and neutrino emission and applying simulations to test gamma ray burst models and to characterize the neutrino radiation.<br /><br />I'm also very interested in the extension of SXS research to studies of binary neutron stars, newborn neutron stars, black hole accretion in general, and other strong-gravity nuclear matter systems that involve the sort of physics we've been playing with in our black hole-neutron star mergers.&nbsp; To me, the fascination of non-vacuum numerical relativity is that 1) all of these other exotic areas of physics come into play in addition to strong gravity, 2) simulations are still so immature that major pieces of physics have yet to be included and qualitative surprises may be in store, and 3) the existence of a special frame picked out by the fluid flow makes it much easier to convert simulation data into intelligible narratives.</p>
+<h5>Biography</h5>
+<p>I got my PhD in 2005 at the University of Illinois at Urbana-Champaign working with Prof. Stuart Shapiro on the effects of viscous and magnetic angular momentum transport on binary neutron star merger remnants.&nbsp; I then went to Cornell as a postdoc working under Prof. Saul Teukolsky.&nbsp; My main task during these years was to add hydrodynamics to the Spectral Einstein Code and carry out our first black hole-neutron star simulations.&nbsp; I next began working on adding more realistic modeling of the neutron star matter to these simulations.&nbsp; In 2010, I joined the faculty of Washington State University as an assistant professor.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>C. D. Muhlberger, F. H. Nouri, M. D. Duez, F. Foucart, L. E. Kidder, C. D. Ott, M. A. Scheel, B. Szilagyi, and S. A. Teukolsky, "Magnetic effects on the low-T/|W| instability in differentially rotating neutron stars", Phys. Rev. D 90, 104014 (2014). [<a href="http://arxiv.org/abs/1405.2144">http://arxiv.org/abs/1405.2144</a>]</li>
+<li>F. Foucart, M. B. Deaton, M. D. Duez, E. O'Connor, C. D. Ott, R. Haas, L. E. Kidder, H. P. Pfeiffer, M. A. Scheel, and B. Szilagyi, "Neutron star-black hole mergers with a nuclear equation of state and neutrino cooling:&nbsp; dependence in the binary parameters", Phys. Rev. D 90, 024026 (2014). [<a href="http://arxiv.org/abs/1405.1121">http://arxiv.org/abs/1405.1121</a>]</li>
+<li>M. B. Deaton , M. D. Duez, F. Foucart, E. O'Connor, C. D. Ott, L .E. Kidder, C. D. Muhlberger, M. A. Scheel, and B. Szilagyi, "Black hole-neutron star mergers with a hot nuclear equation of state:&nbsp; Outflow and neutrino-cooled disk for a low-mass, high-spin case", Astrophys. J. 776, 47 (2013). [<a href="http://arxiv.org/abs/1304.3384">http://arxiv.org/abs/1304.3384</a>]</li>
+<li>M. D. Duez "Numerical relativity confronts compact neutron star binaries:<br /> a review and status report, Class. Quant. Grav. 27, 114002, 2010. [<a href="http://arxiv.org/abs/0912.3529" target="_blank">http://arxiv.org/abs/0912.3529</a>]</li>
+<li>M. D. Duez, F. Foucart, L. E. Kidder, H. P. Pfeiffer, M. A. Scheel, and<br /> S. A. Teukolsky, "Evolving black hole-neutron star binaries in general relativity using pseudospectral and finite difference methods", Phys. Rev. D 78, 104015 (2008). [<a href="http://arxiv.org/abs/0809.0002" target="_blank">http://arxiv.org/abs/0809.0002</a>]</li>
+</ul>
+</div>
+{slider François Foucart|inactive}
+<div class="bio">
+<h3>François Foucart</h3>
+<h4>Einstein Post-doctoral Fellow</h4>
+<img src="images/people/francois_foucart.jpg" alt="Francois Foucart" />
+<div class="contact-info"><span class="phone">Phone:647-457-7558</span><span class="email">Email:fvfoucart@lbl.gov</span><br /><span class="address">Office Address:Lawrence Berkeley National Laboratory, 1 Cyclotron Rd Mailstop 070-0245, Berkeley, CA 94720, USA</span></div>
+<h5>Institution</h5>
+<p>Lawrence Berkeley National Laboratory</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics</p>
+<h5>Research Projects</h5>
+<p>Mergers of black holes and neutron stars in binaries; Long term evolution of accretion disks</p>
+<h5>Biography</h5>
+<p>I am currently an Einstein post-doctoral fellow at Lawrence Berkeley National Lab (LBL), where I work mainly in numerical relativity as a member of the SXS collaboration. My research involves studying mergers of compact objects (black holes and neutron stars) through numerical simulations in general relativity, as well as the long term evolution of accretion disks.</p>
+<p>I obtained engineering degrees from both the Free University of Brussels (ULB) and the Ecole Centrale Paris (ECP) in 2005, before moving to the United States for my PhD. I graduated from Cornell in 2011. I then worked for 3 years as a post-doctoral fellow at the Canadian Institute for Theoretical Astrophysics (CITA) in Toronto.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Evolution of linear warps in accretion discs and applications to protoplanetary discs in binaries. F. Foucart, D. Lai. MNRAS (2014). [<a href="http://arxiv.org/abs/1406.3331" target="_blank">http://arxiv.org/abs/1406.3331</a>]</li>
+<li>Neutron star-black hole mergers with a nuclear equation of state and neutrino cooling: Dependence in the binary parameters. F. Foucart, M. B. Deaton, M. D. Duez, E. O'Connor, C. D. Ott, R. Haas, L. E. Kidder, H. P. Pfeiffer, M. A. Scheel, B. Szilagyi. Phys. Rev. D 90, 024026 (2014). [<a href="http://arxiv.org/abs/1405.1121" target="_blank">http://arxiv.org/abs/1405.1121</a>]</li>
+<li>First direct comparison of non-disrupting neutron star-black hole and binary black hole merger simulations. F. Foucart, L. Buchman, M. D. Duez, M. Grudich, L. E. Kidder, I. MacDonald, A. Mroue, H. P. Pfeiffer, M. A. Scheel, B. Szilagyi. 10.1103/PhysRevD.88.064017 (2013). [<a href="http://arxiv.org/abs/1307.7685" target="_blank">http://arxiv.org/abs/1307.7685</a>]</li>
+</ul>
+</div>
+{slider Jim Fuller|inactive}
+<div class="bio">
+<h3>Jim Fuller</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+</div>
+{slider Scott Field|inactive}
+<div class="bio">
+<h3>Scott Field</h3>
+<h4>Research Associate</h4>
+<img src="images/people/placeholder.jpg" alt="Scott Field" />
+<div class="contact-info"><span class="email">Email:sef74@cornell.edu</span> <br /> <span class="address">Office Address:610 Space Sciences Building, Cornell University, Ithaca, NY 14853</span></div>
+<h5>Institution</h5>
+<p>Cornell University</p>
+</div>
+{slider Lawrence E. Kidder}
+<div class="bio">
+<h3>Lawrence E. Kidder</h3>
+<h4>Senior Research Associate</h4>
+<p><img src="images/people/lawrence_kidder.jpg" alt="Lawrence Kidder" /></p>
+<span class="phone">Phone:607-255-6564</span> <span class="email">Email:<a href="mailto:kidder@astro.cornell.edu">kidder@astro.cornell.edu</a></span><br /><span class="address">Office Address:620 Space Sciences Building, Cornell University, Ithaca, NY 14853</span><br /><br />
+<h5>Institution</h5>
+Cornell University<br /><br />
+<h5>Specialty Areas</h5>
+Numerical relativity<br /><br /></div>
+{slider Geoffrey Lovelace}
+<div class="bio">
+<h3>Geoffrey Lovelace</h3>
+<h4>Assistant Professor of Physics</h4>
+<p><img src="images/people/geoffrey_lovelace.jpg" alt="Geoffrey Lovelace" /></p>
+<p><span class="phone">Phone:+1 (657) 278-7501</span><span class="email">Email:glovelace@exchange.fullerton.edu</span><br /><span class="address">Office Address:McCarthy Hall 601B</span></p>
+<h5>Institution</h5>
+<p>Cal State Fullerton</p>
+<h5>Specialty Areas</h5>
+<p>Gravitational Wave Physics</p>
+<h5>Research Projects</h5>
+<p>Using numerical relativity to model sources of gravitational waves</p>
+<h5>Biography</h5>
+<p>I am currently an assistant professor in the <a href="http://physics.fullerton.edu" target="_blank" title="http://physics.fullerton.edu">Department of Physics</a>&nbsp;at California State University, Fullerton. My current research interests focus on using numerical relativity to model sources of gravitational waves, such as merging black hole-black hole and black hole-neutron star binaries. I am joining assistant professors <a href="http://physics.fullerton.edu/%7Ejread/" target="_blank">Jocelyn Read</a> and <a href="http://physics.fullerton.edu/%7Ejosmith/" target="_blank">Joshua Smith</a> in Cal State Fullerton's new Gravitational Wave Physics and Astronomy Center (GWPAC), and I also am a member of the Simulating eXtreme Spacetimes (SXS) collaboration.</p>
+<p>As a graduate student at Caltech, my research spanned a variety of topics in gravitational-wave physics, including <a href="http://arxiv.org/abs/gr-qc/0610041" target="_blank" title="http://arxiv.org/abs/gr-qc/0610041">thermal noise in gravitational-wave detectors</a>, black-hole&nbsp;<a href="http://arxiv.org/abs/gr-qc/0505156" target="_blank" title="http://arxiv.org/abs/gr-qc/0505156">tidal</a>&nbsp;<a href="http://arxiv.org/abs/gr-qc/0702146" target="_blank" title="http://arxiv.org/abs/gr-qc/0702146">deformation</a>, and reducing&nbsp;<a href="http://arxiv.org/abs/gr-qc/0702106" target="_blank" title="http://arxiv.org/abs/gr-qc/0702106">orbital eccentricity</a> and <a href="http://arxiv.org/abs/0812.3132" target="_blank" title="http://arxiv.org/abs/0812.3132">spurious gravitational radiation</a> in numerical simulations of binary black holes. Building on this broad introduction, I focused my postdoctoral research at Cornell entirely on numerical relativity: I have simulated merging black holes with the&nbsp;<a href="http://arxiv.org/abs/1110.2229" target="_blank" title="http://arxiv.org/abs/1110.2229">highest spins to date</a>, explored new tools for building&nbsp;<a href="http://arxiv.org/abs/1012.4869" target="_blank" title="http://arxiv.org/abs/1012.4869">physical insight</a>&nbsp;into&nbsp;<a href="http://cosmiclog.msnbc.msn.com/_news/2011/04/12/6459401-black-holes-make-space-time-splash" target="_blank" title="http://cosmiclog.msnbc.msn.com/_news/2011/04/12/6459401-black-holes-make-space-time-splash">strongly warped spacetime</a>, and investigated&nbsp;<a href="http://arxiv.org/abs/1105.3922" target="_blank" title="http://arxiv.org/abs/1105.3922">implicit-explicit time stepping</a>&nbsp;as a way to reduce the cost of binary black hole simulations.My research goals focus on modeling sources of gravitational waves using numerical relativity. Gravitational waves—ripples of spacetime curvature—promise to open a new window on the universe; the Advanced Laser Interferometer Gravitational-wave Observatory (Advanced LIGO), currently under construction (scheduled for completion in 2015), is expected to <a href="http://arxiv.org/abs/1103.2728" target="_blank" title="http://arxiv.org/abs/1103.2728">detect between 1 and 1000 gravitational waveforms per year</a>&nbsp;from mergers of compact objects (black holes, neutron stars, and white dwarfs). These spacetimes and the gravitational waves they emit can only be predicted numerically (all analytic approximations break down).</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>A Mroue et al. "A catalog of 174 high-quality binary black-hole simulations for gravitational-wave astronomy." Phys. Rev. Lett.&nbsp;<strong>111</strong>, 241104 (2013), <a href="http://arxiv.org/abs/1304.6077">arXiv:1304.6077</a></li>
+<li>D Hemberger, G Lovelace, TJ Loredo, LE Kidder, MA Scheel, B Szilagyi, NW Taylor, and SA Teukolsky. "Final spin and radiated energy in numerical simulations of binary black holes with equal masses and equal, aligned or anti-aligned spins." Phys. Rev. D&nbsp;<strong>88</strong>, 064014 (2013), <a href="http://arxiv.org/abs/1305.5991">arXiv:1305.5991</a>.</li>
+<li>G Lovelace, MD Duez, F Foucart, LE Kidder, HP Pfeiffer, MA Scheel, and B Szilagyi. "Massive disk formation in the tidal disruption of a neutron star by a nearly extremal black hole." CQG&nbsp;<strong>30</strong>, 135004 (2013), <a href="http://arxiv.org/abs/1302.6297">arXiv:1302.6297</a>.</li>
+</ul>
+</div>
+{slider Robert Owen}
+<div class="bio">
+<h3>Robert Owen</h3>
+<h4>Assistant Professor</h4>
+<br /><img src="images/people/RobOwenPhoto_small.jpg" alt="RobOwenPhoto small" /></div>
+<div>&nbsp;</div>
+<div class="contact-info"><span class="phone">Phone:440.775.8566 </span></div>
+<div class="contact-info"><span class="email">Email:rowen@oberlin.edu</span><br /><span class="address">Office Address:Wright Laboratory 210<br /></span></div>
+<h5>Institution</h5>
+<p>Oberlin College</p>
+<h5>Specialty Areas</h5>
+<p>Gravitation theory, the interface of numerical relativity with continuum general relativity.</p>
+<h5>Biography</h5>
+<p>I have been a member of the SXS collaboration from my time in graduate school at Caltech, through my postdoctoral work at Cornell, and now into my faculty work at Oberlin College. My work with this collaboration generally focuses on the interface of our numerical code with continuum mathematics. I have developed and implemented methods for defining and computing the spin angular momentum on distorted black holes, techniques that have roots in the mathematical formalisms of isolated and dynamical horizons (introduced by Ashtekar and collaborators), as well as the "quasilocal charge" formalism of Brown and York. I have extended this formalism to define measures of multipolar structure, which can be used to study tidal interactions in strongly gravitating black-hole systems. I have also studied methods for defining the pointwise algebraic speciality in strongly dynamical numerical spacetimes. I have applied both of these last two techniques to demonstrate unambiguously that the final remnant of numerical black hole mergers is indeed a Kerr black hole. I have also been involved in deriving representations of Einstein's field equations that are well-behaved in the SpEC code. In recent years, I have paid particular attention to the visualization of strong gravitational fields, contributing to the development of the "vortex/tendex formalism," which is closely related to the previously mentioned techniques for defining multipolar structure on dynamical horizons.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Robert Owen, Jeandrew Brink, Yanbei Chen, Jeffrey D. Kaplan, Geoffrey Lovelace, Keith D. Mathews, David A. Nichols, Mark A. Scheel, Fan Zhang, Aaron Zimmerman, Kip S. Thorne, "Frame-Dragging Vortexes and Tidal Tendexes Attached to Colliding Black Holes: Visualizing the Curvature of Spacetime", Phys. Rev. Lett. 106, 151101 (2011), [<a href="http://arxiv.org/abs/1012.4869">http://arxiv.org/abs/1012.4869</a><span class="arxivid"></span><span class="arxivid"></span>]</li>
+<li>Robert Owen, "The Final Remnant of Binary Black Holes: Multipolar Analysis", Phys. Rev. D, 80, 084012 (2009), [<a href="http://arxiv.org/abs/0907.0280">http://arxiv.org/abs/0907.0280</a>]</li>
+<li>Lee Lindblom, Mark A. Scheel, Lawrence E. Kidder, Robert Owen, Oliver Rinne, "A New Generalized Harmonic Evolution System" Class. Quant. Grav. 23, S447 (2006), [<a href="http://arxiv.org/abs/gr-qc/0512093">http://arxiv.org/abs/gr-qc/0512093</a>]</li>
+</ul>
+{slider Harald P. Pfeiffer}
+<div class="bio">
+<h3>Harald P. Pfeiffer</h3>
+<h4>Associate&nbsp;Professor</h4>
+<img src="images/people/harald_pfeiffer.jpg" alt="Harald Pfeiffer" />
+<div class="contact-info"><span class="phone">Phone:+1 416-978-8497</span><span class="email">Email:pfeiffer@cita.utoronto.ca</span><br /><span class="address">Office Address:Canadian Institute for Theoretical Astrophysics, University of Toronto, 60 St. George Street, Toronto, ON, M5S 3H8, Canada<br /></span></div>
+<h5>Institution</h5>
+<p>CITA (University of Toronto)</p>
+<h5>Specialty Areas</h5>
+<p>Cosmology and Gravity</p>
+<h5>Research Projects</h5>
+<p>Computer calculations of Einstein's equations to learn about black holes and neutron stars</p>
+<h5>Biography</h5>
+<p>I am an Assistant Professor at the <a href="http://www.cita.utoronto.ca" target="_blank">CITA</a> within the <a href="http://www.utoronto.ca" target="_blank">University of Toronto</a>.</p>
+<p>My goal is to understand gravity through computer simulations of Black Holes and Neutron stars. This involves developing computer codes to simulate these systems; simulating them; analysing the output (including graphics); using the results to learn about how gravity works; using the results to help detect and understand gravitational waves from black holes and Neutron stars. Much of this work is done with collaborators at Caltech and Cornell.</p>
+<p>You can read <a href="http://www.cita.utoronto.ca/%7Epfeiffer/research_.html" target="_blank">more about my research</a> or browse through <a href="http://www.cita.utoronto.ca/%7Epfeiffer/pictures.html" target="_blank">images and movies</a>.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Hyperbolicity of force-free electrodynamics<br /> H.P. Pfeiffer, A.I. MacFadyen <br /> pp. 1-11 (2013) [<a href="http://www.arXiv.org/abs/1307.7782" target="_blank">arXiv:1307.7782</a>]</li>
+<li>First direct comparison of non-disrupting neutron star-black hole and binary black hole merger simulations<br /> F. Foucart, L. Buchman, M.D. Duez, M. Grudich, L.E. Kidder, I. MacDonald, A.H. Mroué, H.P. Pfeiffer, M.A. Scheel, B. Szilágyi<br /> pp. 1-13 (2013) [<a href="http://www.arXiv.org/abs/1307.7685" target="_blank">arXiv:1307.7685</a>]</li>
+<li>Precession-tracking coordinates for simulations of compact-object-binaries<br /> S. Ossokine, L.E. Kidder, H.P. Pfeiffer<br /> pp. 1-11 (2013) Accepted by PRD. [<a href="http://www.arXiv.org/abs/1304.3067" target="_blank">arXiv:1304.3067</a>]</li>
+<li>Massive disk formation in the tidal disruption of a neutron star by a nearly extremal black hole<br /> G. Lovelace, M.D. Duez, F. Foucart, L.E. Kidder, H.P. Pfeiffer, M.A. Scheel, B. Szilagyi <br /><a href="http://dx.doi.org/10.1088/0264-9381/30/13/135004" target="_blank"> CQG 30, 135004 pp. 1-18 (June 3, 2013) </a> [<a href="http://www.arXiv.org/abs/1302.6297" target="_blank">arXiv:1302.6297</a>]</li>
+</ul>
+</div>
+{slider Mark A. Scheel}
+<div class="bio">
+<h3>Mark A. Scheel</h3>
+<h4>Research Professor of Physics</h4>
+<img src="images/people/Scheel_250.jpg" alt="" /><span class="phone">Phone:626-395-8418</span><span class="email">Email:<a href="mailto:scheel@tapir.caltech.edu">scheel@tapir.caltech.edu</a></span><br /><span class="address">Office Address:337 Cahill<br /></span><br /><br />
+<h5>Institution</h5>
+Caltech (TAPIR)<br /><br />
+<h5>Specialty Areas</h5>
+Theoretical Astrophysics<br /><br />
+<h5>Research Projects</h5>
+Numerical relativity; binary black hole simulations; spectral numerical methods.<br /><br /></div>
+{slider Leo Stein|inactive}
+<div class="bio">
+<h3>Leo Stein</h3>
+<h4>Assistant Professor</h4>
+<img src="images/people/leo_stein_MS.jpg" alt="Leo Stein" width="180" />
+<div class="contact-info"><span class="address">Office Address:205 Lewis Hall</span></div>
+<h5>Institution</h5>
+<p>The University of Mississippi</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical astrophysics, tests of general relativity and beyond-GR theories</p>
+<h5>Research Projects</h5>
+<p>Simulating binary black hole systems in beyond-GR theories</p>
+<h5>Biography</h5>
+<p>I received my BS in physics from Caltech in 2006, where my senior thesis was on coherent LIGO data analysis with multiple detectors and sky localization. I then switched coasts to attend MIT for my PhD in physics (2012). My doctoral thesis was on (i) numerical methods for black-hole perturbation theory in GR, and (ii) the beyond-GR physics of gravitational waves, compact objects, and compact binaries emitting gravitational waves. This work was under the supervision of Prof. Scott Hughes, and with lots of collaboration with Nicolas Yunes. From 2012-2015 I was a NASA Einstein postdoctoral fellow at Cornell University, where I continued my work on beyond-GR gravitational physics, working in Prof. Eanna Flanagan's group. I moved to Caltech as a senior postdoctoral scholar, before arriving at Mississippi as a professor.</p>
+<h5>Selected Publications</h5>
+See <a href="http://duetosymmetry.com/">http://duetosymmetry.com/</a>.</div>
+<p>{slider Saul A. Teukolsky|inactive}<br /><br /></p>
+<div class="bio">
+<h3>Saul A. Teukolsky</h3>
+<h4>Hans A. Bethe Professor of Physics and Astrophysics</h4>
+<p><img src="images/people/saul_teukolsky.jpg" alt="Saul A. Teukolsky" /><span class="phone">Phone:607.255.5897</span><span class="email">Email:<a href="mailto:saul@astro.cornell.edu">saul@astro.cornell.edu</a></span><br /><span class="address">Office Address:608 Space Sciences Building, Cornell University, Ithaca, NY 14853</span><br /><br /></p>
+<h5>Institution</h5>
+<p>Cornell University<br /><br /></p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics<br /><br /></p>
+<h5>Research Projects</h5>
+<p>Solving Einstein's Equations for Black Hole Mergers Using Supercomputers.<br /><br /></p>
+<h5>Biography</h5>
+<p>Saul Teukolsky's major research interests include general relativity, relativistic astrophysics, and computational astrophysics. He is engaged in a long-term project to solve Einstein's equations of general relativity by computer. One of the ultimate goals of this project is to predict the gravitational waveform from coalescing black holes in binary orbit about each other. It is expected that such events will be among the first signals detected when the Laser Interferometer Gravitational Wave Observatory (LIGO) comes into operation. This project uses large supercomputers all over the country, and is being carried out in collaboration with researchers at several other institutions.<br /><br />Teukolsky's recent research has spanned many other topics in relativistic astrophysics. He has worked on naked singularities in general relativity; the properties of rapidly rotating neutron stars, including possible observational signatures in pulsars; exploding neutron stars; relativistic stellar dynamics; and planets around pulsars. Most of this work is done in collaboration with other members of the Theoretical Astrophysics Group, including graduate students.<br /><br /></p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Black Hole-Neutron Star Mergers for 10 Solar Mass Black Holes. F. Foucart, M. D. Duez, L. E. Kidder, M. A. Scheel, B. Szilagyi and S. A. Teukolsky. Phys. Rev., D85, 044015 (2012). [<a href="http://arxiv.org/abs/1111.1677" target="_blank">http://arxiv.org/abs/1111.1677</a>]</li>
+<li>Equation of State Effects in Black Hole-Neutron Star Mergers. M. D. Duez, F. Foucart, L. E. Kidder, C. D. Ott and S. A.&nbsp; Teukolsky. Class. Quant. Grav., 27, 114106 (2010). [<a href="http://arxiv.org/abs/0912.3528" target="_blank">http://arxiv.org/abs/0912.3528</a>]</li>
+<li>Spinning Down Newborn Neutron Stars: Nonlinear development of the R-Mode Instability. R. Bondarescu, S. A. Teukolsky and I. Wasserman. Phys. Rev., D79, 104003 (2009). [<a href="http://arxiv.org/abs/0809.3448" target="_blank">http://arxiv.org/abs/0809.3448</a>]</li>
+<li>Initial Data for Black Hole-Neutron Star Binaries: A Flexible, High-Accuracy Spectral Method. F. Foucart, L. E. Kidder, H. P. Pfeiffer and S. A. Teukolsky. Phys. Rev., D77, 124051 (2008). [<a href="http://arxiv.org/abs/0804.3787" target="_blank">http://arxiv.org/abs/0804.3787</a>]</li>
+<li>Evolving Compact Object Binaries in General Relativity Using Pseudospectral and Finite Difference Methods. M. D. Duez, F. Foucart, L. E. Kidder, H. P. Pfeiffer, M. A. Scheel and S. A. Teukolsky. Phys. Rev., D78, 104015 (2008).[<a href="http://arxiv.org/abs/0809.0002" target="_blank">http://arxiv.org/abs/0809.0002</a>]</li>
+<li>Numerical Recipes: The Art of Scientific Computing, W. H. Press, S. A. Teukolsky, W. T. Vetterling and B. P. Flannery (3rd ed., Cambridge University Press, New York 2007). [<a href="http://www.nr.com/" target="_blank">http://www.nr.com/</a>]</li>
+<li>Black Holes, White Dwarfs, and Neutron Stars: The Physics of Compact Objects, S. L. Shapiro and S. A. Teukolsky (John Wiley, New York 1983). [<a href="http://www.amazon.com/Black-Holes-White-Dwarfs-Neutron/dp/0471873160" target="_blank">http://www.amazon.com/Black-Holes-White-Dwarfs-Neutron/dp/0471873160</a>]</li>
+</ul>
+</div>
+<p>{slider Kip S. Thorne|inactive}<br /><br /></p>
+<div class="bio">
+<h3>Kip S. Thorne</h3>
+<h4>Feynman Professor of Theoretical Physics</h4>
+<p><span class="phone"><img src="images/thorne.jpg" alt="thorne" /></span></p>
+<h5>Institution</h5>
+<p>California Institute of Technology<br /><br /></p>
+</div>
+{slider Aaron Zimmerman|inactive}
+<div class="bio">
+<h3>Aaron Zimmerman</h3>
+<h4>Senior Research Associate</h4>
+<img src="images/people/zimmerman_aaron.jpg" alt="Aaron Zimmerman" />
+<div class="contact-info"><span class="email">Email:azimmer@cita.utoronto.ca</span></div>
+<h5>Institution</h5>
+<p>Canadian Institute for Theoretical Astrophysics (CITA)</p>
+<h5>Specialty Areas</h5>
+<p>Black hole perturbation theory</p>
+<h5>Biography</h5>
+<p>Aaron graduated from Caltech in 2013, where he has advised by Yanbei Chen and worked with members of the SXS collaboration. After this, he moved to Toronto to take a postdoc position at CITA, where he works at the interface of analytic approximations and numerical relativity. More details can be found on his <a href="https://zimmermanaaron.wordpress.com">website</a>.</p>
+</div>
+{/sliders} {tab Academic Staff|orange} {slider Michael O. Boyle|inactive}
+<div class="bio">
+<h3>Michael Boyle</h3>
+<h4>Research Associate</h4>
+<img src="images/people/michael_boyle.jpg" alt="Michael Boyle" />
+<div class="contact-info"><span class="email">Email:mob22@cornell.edu</span><br /><span class="address">Office Address:604 Space Sciences Building, Cornell University, Ithaca, NY 14853</span></div>
+<h5>Institution</h5>
+<p>Cornell University</p>
+</div>
+{slider Luisa T. Buchman|inactive}
+<div class="bio">
+<h3>Luisa T. Buchman</h3>
+<h4>Consultant</h4>
+<img src="images/people/luisa_buchman.jpg" alt="Luisa T. Buchman" />
+<div class="contact-info"><span class="email">Email:lbuchman[at]tapir.caltech.edu</span><br /><span class="address"></span></div>
+<h5>Institution</h5>
+<p>California Institute of Technology</p>
+</div>
+{slider Chad Galley|inactive}
+<div class="bio">
+<h3>Chad Galley</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+</div>
+{slider Viktoriya Giryanskya Morozova|inactive}
+<div class="bio">
+<h3>Viktoriya Giryanskya Morozova</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+</div>
+{slider Roland Haas|inactive}
+<div class="bio">
+<h3>Roland Haas</h3>
+<h4>Junior Scientist/Postdoc</h4>
+<img src="images/people/roland_haas.jpg" alt="Photo of Roland Haas" />
+<div class="contact-info"><span class="phone">Phone:&nbsp;+49 331 567-7191 </span><span class="email">Email:rhaas@aei.mpg.de</span><br /><span class="address">Office Address:0.68</span></div>
+<h5>Institution</h5>
+<p>Albert Einstein Institute</p>
+<h5>Specialty Areas</h5>
+<p>Numerical Relativity</p>
+<h5>Research Projects</h5>
+<p>Solving Einstein's Equations for Neutron Star Mergers Using Supercomputers; High-performance scientific computing;</p>
+<h5>Biography</h5>
+<p>I am currently a postdoctoral research fellow at the Albert Einstein Institute in Potsdam-Golm, Germany where I work on studying binary neutron star mergers using SpEC as well as other computing related projects.</p>
+<p>I obtained my PhD from the University of Guelph, Canada working with Eric Poisson on black hole pertubation theory and self-force problems. I later joined the numerical relativity group at GeorgiaTech and afterwards TAPIR as a postdoc before moving to the AEI.</p>
+<h5>Selected Publications</h5>
+<p>An up to date list of my <a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?library&amp;libname=AllPub&amp;libid=53cd220ebd">publications</a> can be found on on the ADS server.</p>
+</div>
+{slider Francois Hebert|inactive}
+<div class="bio">
+<h3>Francois Hebert</h3>
+<h4>Advisor: Professor Saul A. Teukolsky</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="email">Email:fmh33@cornell.edu</span><br /><span class="address">Office Address:619 Space Sciences Building, Cornell University, Ithaca, NY 14853</span></div>
+<h5>Institution</h5>
+<p>Cornell University</p>
+<h5>Specialty Areas</h5>
+<p>Discontinuous Galerkin, gravitational lensing</p>
+<h5>Research Projects</h5>
+<p>Using the Discontinuous Galerkin algorithm to improve the accuracy of the hydro treatment in numerical simulations with neutron stars. Simulating the gravitational lensing effects caused by the strong-field gravity near compact objects.</p>
+</div>
+{slider Ian Hinder|inactive}
+<div class="bio">
+<h3>Ian Hinder</h3>
+<h4>Junior Scientist/Postdoc</h4>
+<img src="images/people/IanHinder.jpg" alt="Photo of Ian Hinder" width="150" />
+<div class="contact-info"><span class="phone">Phone:&nbsp;+49 331 567-7185 </span><span class="email">Email:ian.hinder@aei.mpg.de</span><br /><span class="address">Office Address:0.64</span></div>
+<h5>Institution</h5>
+<p>Albert Einstein Institute</p>
+<h5>Specialty Areas</h5>
+<p>Numerical Relativity</p>
+<p>Black holes</p>
+<h5>Research Projects</h5>
+<p>Solving Einstein's Equations for Binary Black Hole Mergers Using Supercomputers; High-performance scientific computing;</p>
+<h5>Biography</h5>
+<p>I am currently a postdoctoral research fellow at the Albert Einstein Institute in Potsdam-Golm, Germany where I work on studying binary black hole mergers using SpEC as well as other numerical relativity projects.</p>
+<p>I obtained my PhD from the University of Southampton, UK, working with Carsten Gundlach on hyperbolicity and stability of continuum and discrete formulations of the Einstein equations. I later joined the numerical relativity group at Penn State and afterwards AEI as a postdoc.</p>
+<h5>Selected Publications</h5>
+<p>An up to date list of my <a href="http://inspirehep.net/search?p=exactauthor%3AI.Hinder.1&amp;sf=earliestdate">publications</a> can be found on on the INSPIRE server.</p>
+</div>
+<p>&nbsp;</p>
+<p>{slider Prayush Kumar|inactive}</p>
+<div class="bio">
+<h3>Prayush Kumar</h3>
+<h4>Postdoctoral Fellow</h4>
+<img src="images/people/Praush_Kumar_300.jpg" alt="Praush Kumar 300" /></div>
+<p><span style="font-family: Helvetica; font-size: 12px; line-height: normal;">Phone: +1 647-470-2521</span><br style="font-family: Helvetica; font-size: 12px; line-height: normal;" /><span style="font-family: Helvetica; font-size: 12px; line-height: normal;">Email:&nbsp;</span><a href="mailto:prkumar@cita.utoronto.ca" class="moz-txt-link-abbreviated" style="font-family: Helvetica; font-size: 12px; line-height: normal;">prkumar@cita.utoronto.ca</a></p>
+<p>&nbsp;</p>
+<h5>Institution</h5>
+<p>Canadian Institute for Theoretical Astrophysics</p>
+<h5>Specialty Areas</h5>
+<p><span style="font-family: Helvetica; font-size: 12px; line-height: normal;">Application of numerical relativity merger simulations to Advanced LIGO searches</span></p>
+<h5><span style="font-size: 0.83em;">Biography</span></h5>
+<p><span style="font-family: Helvetica; font-size: 12px; line-height: normal;">I am currently a postdoctoral fellow working on gravitational-wave astronomy and numerical relativity of compact binaries with Prof. Harald P. Pfeiffer at CITA. Before that, I completed my graduate studies with Prof. Duncan A. Brown at Syracuse University working on the development of novel methods for enhancing the search for binary black holes with the Advanced LIGO instruments. I defended my thesis in Aug. 2014. Before that, I obtained a Bachelor's degree in Electrical &amp; Electronics Engineering from Birla Institute of Technology &amp; Science - Pilani (India) in 2009.</span></p>
+<h5>Selected Publications</h5>
+<ul>
+<li><a href="http://inspirehep.net/record/1416170" class="moz-txt-link-rfc2396E" style="font-family: Helvetica; font-size: 12px; line-height: normal;">&lt;</a><a href="http://inspirehep.net/record/1416170&gt;">http://inspirehep.net/record/1416170&gt;</a></li>
+<li><a href="http://inspirehep.net/record/1416170&gt;"></a><a href="http://inspirehep.net/record/1262670" class="moz-txt-link-rfc2396E" style="font-family: Helvetica; font-size: 12px; line-height: normal;">&lt;</a><a href="http://inspirehep.net/record/1262670&gt;">http://inspirehep.net/record/1262670&gt;</a></li>
+<li><a href="http://inspirehep.net/record/1262670&gt;"></a><a href="http://inspirehep.net/record/1283330" class="moz-txt-link-rfc2396E" style="font-family: Helvetica; font-size: 12px; line-height: normal;">&lt;</a><a href="http://inspirehep.net/record/1283330&gt;">http://inspirehep.net/record/1283330&gt;</a></li>
+</ul>
+{slider Jordan Moxon|inactive}
+<div class="bio">
+<h3>Jordan Moxon</h3>
+<h4>Postdoctoral Scholar in Physics</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="address">Office Address:Cahill 325, West Bridge 252</span></div>
+<h5>Institution</h5>
+<p>TAPIR &amp; LIGO Laboratory, Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Relativity theory, theoretical astrophysics, binary black hole waveform modelling</p>
+</div>
+<p>{slider David Radice|inactive}</p>
+<div class="bio">
+<h3>David Radice</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/david_radice.jpg" alt="David Radice" width="180" />
+<div class="contact-info"><span class="email">Email:dradice@caltech.edu</span><br /><span class="address">Office Address:Cahill 327</span></div>
+<h5>Institution</h5>
+<p>California Institute of Technology</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics; Numerical Relativity</p>
+<h5>Research Projects</h5>
+<p>Neutrino-driven convection in core-collapse supernovae; Binary neutron star mergers</p>
+<h5>Biography</h5>
+<p>I am currently a Walter Burke Fellow in Theoretical Astrophysics and Relativity at Caltech. Before that, I did my graduate studies with Prof. Luciano Rezzolla at the Albert Einstein Institute in Potsdam (Germany) working on the development of new methods for general-relativistic hydrodynamics simulations. I defended my PhD in Physics in Nov. 2013. I also hold a Master's degree in Mathematical Engineering from Politecnico di Milano (Italy).</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>D. Radice, S. M. Couch and C. D. Ott. Implicit Large Eddy Simulations of Anisotropic Weakly Compressible Turbulence with Application to Core-Collapse Supernovae, Computational Astrophysics and Cosmology 2, 7 (2015), arXiv:1501.03169</li>
+<li>D. Radice, L. Rezzolla and F. Galeazzi. Beyond Second-Order Convergence in Simulations of Binary Neutron Stars in Full General-Relativity, Monthly Notices of the Royal Astronomical Society: Letters 437, L46 (2014), arXiv:1306.6052</li>
+<li>D. Radice and L. Rezzolla, Discontinuous Galerkin Methods for General-Relativistic Hydrodynamics: Formulation and Application to Spherical Symmetric Spacetimes, Physical Review D 84, 024010 (2011), arXiv:1103.2426</li>
+</ul>
+</div>
+{slider Luke Roberts|inactive}
+<div class="bio">
+<h3>Luke Roberts</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+</div>
+{slider Patricia Schmidt|inactive}
+<div class="bio">
+<h3>Patricia Schmidt</h3>
+<h4>Postdoctoral Scholar in Physics</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="email">Email:pschmidt@tapir.caltech.edu, pschmidt@ligo.caltech.edu</span><br /><span class="address">Office Address:Cahill 325, West Bridge 252</span></div>
+<h5>Institution</h5>
+<p>TAPIR &amp; LIGO Laboratory, Caltech</p>
+<h5>Specialty Areas</h5>
+<p>binary black hole waveform modelling, precessing black hole binaries</p>
+<h5>Selected Publications</h5>
+<ul>
+<li><a href="https://inspirehep.net/record/881253" target="_blank">https://inspirehep.net/record/881253</a></li>
+<li><a href="https://inspirehep.net/record/1122533" target="_blank">https://inspirehep.net/record/1122533</a></li>
+<li><a href="https://inspirehep.net/record/1247962" target="_blank">https://inspirehep.net/record/1247962</a></li>
+<li><a href="https://inspirehep.net/record/1310265" target="_blank">https://inspirehep.net/record/1310265</a></li>
+</ul>
+</div>
+{slider Andre da Silva Schneider|inactive}
+<div class="bio">
+<h3>Andre da Silva Schneider</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/andre_da_silva_schneider.png" alt="Andre da Silva Schneider" width="180" />
+<div class="contact-info"><span class="email">Email:andre@tapir.caltech.edu</span><br /><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>California Institute of Technology</p>
+<h5>Specialty Areas</h5>
+<p>Nuclear Astrophysics</p>
+<h5>Research Projects</h5>
+<p>Calculate equations of state of nuclear matter using general Skyrme parametrizations.<br /> Simulation of accretion induced collapse of white dwarfs into neutron stars.</p>
+<h5>Biography</h5>
+<p>I have a bachelor and a master's degree in Physics from the Federal University of Santa Catarina (UFSC) in Brazil. At UFSC I worked with Prof. Ricardo Marinelli obtaining nucleon wave-functions in nuclei to calculate cross sections of electron-nuclei scattering. Later I worked in the University of Coimbra in Portugal with Prof. Constança Providência calculating equations of state for hybrid neutron stars. After that I went to Indiana University where I obtained a Ph.D. degree in 2013 and worked as a Postdoctoral scholar in 2014. In Indiana I worked with Prof. Charles Horowitz on molecular dynamics simulations of dense plasmas and nuclear pasta. In October 2014 I moved to Caltech where I study equations of state of nuclear matter and accretion induced collapse of white dwarfs into neutron stars.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Nuclear Pasta Formation A. S. Schneider, C. J. Horowitz, J. Hughto and D. K. Berry Phys. Rev. C 88 065807 (2013) [http://arxiv.org/abs/1307.1678]</li>
+<li>Direct MD simulation of liquid-solid phase equilibria for two-component plasmas A. S. Schneider, J. Hughto, C. J. Horowitz, D. K. Berry Phys. Rev. C 85 066405 (2012) [http://arxiv.org/abs/1108.3101]</li>
+</ul>
+</div>
+{slider Natalia Storch|inactive}
+<div class="bio">
+<h3>Natalia Storch</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="email">Email:natalia@tapir.caltech.edu</span><br /><span class="address">Office Address:Cahill 323</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics, Exoplanet Dynamics</p>
+<h5>Research Projects</h5>
+<p>Exploring various aspects of exoplanet formation and dynamics, such as the origin of spin-orbit misalignment in Hot Jupiter systems.</p>
+<h5>Biography</h5>
+<p>I graduated from the University of California, Santa Barbara with a B.S. in Physics in Spring 2009. During my time there, I worked with Professor Omer Blaes on the physics of black hole accretion discs. I received my Ph.D. in Physics from Cornell University in 2015. I was advised by Professor Dong Lai and worked on several topics in compact object astrophysics and exoplanet astrophysics. I am currently a Sherman Fairchild Postdoctoral Scholar at Caltech.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Storch, N. I., Anderson, K. R., &amp; Lai, D. 2014, Chaotic Dynamics of Stellar Spin in Binaries and the Production of Misaligned Hot Jupiters, Science, 345 (6202), 1317-1321 [http://arxiv.org/abs/1409.3247]</li>
+</ul>
+</div>
+{slider Jono Squire|inactive}
+<div class="bio">
+<h3>Jono Squire</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/jono_squire.jpg" alt="Jono Squire" width="180" />
+<div class="contact-info"><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics; Turbulence in astrophysical plasmas and fluids</p>
+<h5>Research Projects</h5>
+<p>Magnetic field generation (dynamo) in turbulence, including in accretion disks and protoneutron stars</p>
+<h5>Biography</h5>
+<p>I carried out my undergraduate degree in physics at Otago University in New Zealand, before coming to Princeton on a Fulbright in 2010 to start a PhD at the Princeton Plasma Physics Lab. Here I worked on a variety of projects, mainly related to theoretical aspects of plasma physics and fusion energy, before starting thesis work with Amitava Bhattacharjee on turbulence and magnetic field generation in accretion disks. I came to Caltech in 2015, where I am currently a Walter Burke Fellow in Theoretical Astrophysics.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Squire, J. &amp; Bhattacharjee, A. Generation of Large-Scale Magnetic Fields by Small-Scale Dynamo in Shear Flows. Phys. Rev. Lett. 115, 175003 (2015). [http://arxiv.org/abs/1506.04109]</li>
+<li>Squire, J. &amp; Bhattacharjee, A. Nonmodal Growth of the Magnetorotational Instability. Phys. Rev. Lett.113, 025006 (2014) [http://arxiv.org/pdf/1406.6582].</li>
+<li>Squire, J., Qin, H. &amp; Tang, W. M. Geometric integration of the Vlasov-Maxwell system with a variational particle-in-cell scheme. Phys. Plasmas 19, 4501 (2012) [http://arxiv.org/abs/1401.6723].</li>
+</ul>
+</div>
+{/sliders} {tab Graduate Students|blue} {slider Kevin Barkett|inactive}
+<div class="bio">
+<h3>Kevin Barkett</h3>
+<h4>Advisor: Christian Ott</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="email">Email:kbarkett@caltech.edu</span><br /><span class="address">Office Address:Cahill 356</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+</div>
+{slider Jonathan Blackman|inactive}
+<div class="bio">
+<h3>Jonathan Blackman</h3>
+<h4>Advisor: Christian Ott</h4>
+<img src="images/people/johnantan_blackman.jpg" alt="johnantan blackman" />
+<div class="contact-info"><span class="email">Email:jblackma@caltech.edu</span><br /><span class="address">Office Address:Cahill 360</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Numerical Relativity</p>
+<h5>Research Projects</h5>
+<p>Building empirical gravitational waveform models from numerical relativity simulations</p>
+<h5>Biography</h5>
+<p>Biography: After receiving my bachelor's degree in honours Mathematics and Physics from the University of British Columbia in 2011, I went to the Perimeter Institute for the PSI master's program. In the fall of 2012 I began my PhD studies at CalTech and am currently part of the TAPIR group run by Christian Ott.</p>
+<p>My primary research project is building highly accurate waveform models out of selected numerical relativity binary black hole simulations through reduced order modelling.&nbsp; Outside of academia, I attempt to injure myself by running too far, sometimes up mountains.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Sparse Representations of Gravitational Waves from Precessing Compact Binaries.&nbsp; J. Blackman, B. Szilagyi, C. R. Galley, M. Tiglio. Phys. Rev. Lett. 113, 021101 (2014). [<a href="http://arxiv.org/abs/1401.7038">http://arxiv.org/abs/1401.7038</a>]</li>
+</ul>
+</div>
+{slider M. Brett Deaton|inactive}
+<div class="bio">
+<h3>M. Brett Deaton</h3>
+<h4>Advisor: Professor Matthew Duez</h4>
+<img src="images/people/placeholder.jpg" alt="placeholder" />
+<div class="contact-info"><span class="phone">Phone:719.447.5717 </span><span class="email">Email:mbdeaton@wsu.edu</span></div>
+<h5>Institution</h5>
+<p>Washington State University</p>
+<h5>Specialty Areas</h5>
+<p>Computational Astrophysics</p>
+<h5>Research Projects</h5>
+<p>The role of radiation in remnant accretion disks</p>
+<h5>Teaching</h5>
+<p><a href="http://public.wsu.edu/~mbdeaton/Classes/ASTR150/index.html" target="_blank" title="Astronomy 150 Spring 2014">Astronomy 150 Spring 2014</a></p>
+<h5>Biography</h5>
+<p>I’m a 6th-year astrophysics graduate student at Washington State University.</p>
+<p>In my research I am interested in compact objects, especially mergers of neutron stars and black holes, and the related observational phenomena of gravitational waves, gamma ray bursts, radio transients, and kilonovae. I focus on understanding radiative transfer of energy in these extreme astrophysical environments. I use a computational theoretical approach.</p>
+<p>I love to teach! My goal as a teacher is similar to my goal as a scientific observer: “to lean into the kernel”*. This goal drives my teaching. When I lecture about some piece of the world, I lean into it alone, in preparation, even if it’s an old topic. Then in the classroom, I listen to my students, who often voice questions I’ve never considered. The whole classroom grows when we lean in to hear them.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Black hole-neutron star mergers at realistic mass ratios: Equation of state and spin orientation effects. F. Foucart, M. B. Deaton, et al. Phys. Rev. D 87, 084006 (2013). [<a href="http://arxiv.org/abs/1212.4810" target="_blank">http://arxiv.org/abs/1212.4810</a>]</li>
+<li>Black Hole-Neutron Star Mergers with a Hot Nuclear Equation of State: Outflow and Neutrino-Cooled Disk for a Low-Mass, High-Spin Case. M. B. Deaton et al. ApJ. 776, 47 (2013). [<a href="http://arxiv.org/abs/1304.3384" target="_blank">http://arxiv.org/abs/1304.3384</a>]</li>
+<li>Neutron star-black hole mergers with a nuclear equation of state and neutrino cooling: Dependence in the binary parameters. F. Foucart, M. B. Deaton, et al.&nbsp;Phys. Rev. D 90, 024026 (2014). [<a href="http://arxiv.org/abs/1405.1121" target="_blank">http://arxiv.org/abs/1405.1121</a>]</li>
+</ul>
+</div>
+{slider Nils Deppe|inactive}
+<div class="bio">
+<h3>Nils Deppe</h3>
+<img src="images/people/placeholder.jpg" alt="Nils Deppe" />
+<div class="contact-info"><span class="email">Email:nd357@cornell.edu</span></div>
+</div>
+{slider Matthew Giesler|inactive}
+<div class="bio">
+<h3>Matthew Giesler</h3>
+<h4>Advisor: Christian Ott</h4>
+<img src="images/people/giesler3.jpg" alt="Name" />
+<div class="contact-info"><span class="email">Email:mgiesler@tapir.caltech.edu</span><br /><span class="address">Office Address:Cahill 360</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Numerical Relativity</p>
+<h5>Research Projects</h5>
+<p>For details, see <a href="http://www.tapir.caltech.edu/~mgiesler/">my website</a>.</p>
+</div>
+{slider Adam Lewis|inactive}
+<div class="bio">
+<h3>Adam Lewis</h3>
+<h4>Advisor: Harald Pfeiffer</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="email">Email:adam.lws@gmail.com</span></div>
+<h5>Institution</h5>
+<p>CITA (University of Toronto)</p>
+<h5>Research Projects</h5>
+<p>GPU computing, eccentric BBH inspirals, analytic and numerical relativity comparisons</p>
+</div>
+{slider Jonas Lippuner|inactive}
+<div class="bio">
+<h3>Jonas Lippuner</h3>
+<h4>Advisor: Christian Ott</h4>
+<img src="images/people/jonas_lippuner.jpg" alt="Jonas Lippuner" width="180" />
+<div class="contact-info"><span class="email">Email:jlippuner@tapir.caltech.edu</span><br /><span class="address">Office Address:Cahill 355</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Computational astrophysics, nuclear astrophysics, nucleosynthesis, NVIDIA CUDA</p>
+<h5>Research Projects</h5>
+<p>r-process nucleosynthesis in compact object mergers</p>
+<h5>Biography</h5>
+<p>Jonas was born and raised in Switzerland and received his BSc (Hons) in Mathematics and Physics from the University of Manitoba in Winnipeg, Manitoba, Canada in 2012. In the fall of 2012, Jonas started his PhD in Physics at Caltech in the theoretical astrophysics group. In the summer of 2015, he worked at NVIDIA as a CUDA DevTech Intern.</p>
+<p>Outside of academia, Jonas is very active in his church and he pursues forex trading as a hobby.</p>
+<p>My website is <a href="http://lippuner.ca">http://lippuner.ca</a>.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>http://arxiv.org/abs/1508.03133</li>
+</ul>
+</div>
+{slider Maria (Masha) Okounkova|inactive}
+<div class="bio">
+<h3>Maria (Masha) Okounkova</h3>
+<h4>Advisor: Yanbei Chen</h4>
+<img src="images/people/maria_okounkova.jpg" alt="Maria Okounkova" />
+<div class="contact-info"><span class="email">Email:<a href="mailto:mokounko@tapir.caltech.edu">mokounko@tapir.caltech.edu</a><br /></span><span class="address">Office Address:Cahill 360</span></div>
+<h5>Institution</h5>
+<p>California Institute of Technology</p>
+<h5>Specialty Areas</h5>
+<p>Numerical Relativity</p>
+<h5>Research Projects</h5>
+<p>Numerical tests of the Cosmic Censorship Conjecture, collisionless matter simulation in SpEC, simulating binary black hole systems in beyond-GR theories</p>
+<h5>Biography</h5>
+<p>I graduated from Princeton in 2014, with a major in physics and a minor in computer science. I am currently getting my PhD in physics at Caltech, where I am advised by Yanbei Chen and work closely with Mark Scheel and other members of the SXS collaboration. I also lead the TAPIR numerical relativity group meetings.</p>
+<p>More information can be found on my website, <a href="http://www.tapir.caltech.edu/~mokounko/">http://www.tapir.caltech.edu/~mokounko/</a>.</p>
+</div>
+{slider Sherwood Richers|inactive}
+<div class="bio">
+<h3>Sherwood Richers</h3>
+<h4>Advisor: Christian Ott</h4>
+<img src="images/people/sherwood_richers.jpg" alt="Sherwood Richers" />
+<div class="contact-info"><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Monte Carlo Neutrino Transport</p>
+<h5>Research Projects</h5>
+<p>Monte Carlo neutrino transport in post-merger accretion disks of compact objects; Dependence of supernova gravitational wave signal on the nuclear equation of state</p>
+<h5>Biography</h5>
+<p>I received my bachelor's degree in Astronomy-Physics at the University of Virginia in 2012 before starting my graduate studies in the TAPIR group at Caltech. My current research efforts are focused on understanding aspects of highly-energetic supernovae and gamma-ray bursts through GRMHD simulations of the fluid and Monte Carlo simulations of neutrino transport. Since joining TAPIR I have earned my private pilot's license, and I try to fly as often as possible, sometimes inverted.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Sherwood Richers et al. "Monte Carlo Neutrino Transport in Post-Merger Disks." Submitted to The Astrophysical Journal</li>
+<li>Philipp Moesta et al. "Magnetorotational Core-Collapse Supernovae in Three Dimensions." The Astrophysical Journal Letters 03/2014</li>
+<li>John F. Hawley, Sherwood A. Richers, Xiaoyue Guan, and Julian H. Krolik. "Testing Convergence for Global Accretion Disks." The Astrophysical Journal 08/2013</li>
+</ul>
+</div>
+{slider William Throwe|inactive}
+<div class="bio">
+<h3>William Throwe</h3>
+<h4>Advisor: Professor Saul A. Teukolsky</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="email">Email:wtt6@cornell.edu</span><br /><span class="address">Office Address:619 Space Sciences Building, Cornell University, Ithaca, NY 14853</span></div>
+<h5>Institution</h5>
+<p>Cornell University</p>
+<h5>Specialty Areas</h5>
+<p>Vacuum initial data, gravitational lensing</p>
+<h5>Research Projects</h5>
+<p>Adding tidal, near-zone, and wave effects to BBH initial data; gravitational lensing</p>
+</div>
+{slider Vijay Varma|inactive}
+<div class="bio">
+<h3>Vijay Varma</h3>
+<h4>Advisor: Yanbei Chen</h4>
+<img src="images/people/vijay_varma.jpg" alt="vijay varma" />
+<div class="contact-info"><span class="phone"></span><span class="email">Email:vvarma@caltech.edu</span><br /><span class="address">Office Address:Cahill 360</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Numerical Relativity</p>
+<h5>Research Projects</h5>
+<h5>Biography</h5>
+<p>I'm a first year Physics graduate student at Caltech, my work so far has been in Gravitational waves and I'm now planning to work in Numerical Relativity. Before joining Caltech I did my undergrad in Physics and Mechanical Engineering at Birla Institute of Technology and Science, Pilani in Rajasthan, India and my Masters thesis at ICTS-TIFR, Bangalore, India. For my thesis I worked with Prof. P. Ajith on the effect of higher-order multipoles in the detection and parameter estimation of binary black holes using advanced gravitational wave detectors. Prior to this I worked with Prof. Bala Iyer on post-Newtonian templates for extreme mass ratio inspirals which typically comprise of solar mass compact objects spiraling into super massive black holes.</p>
+<h5>Selected Publications</h5>
+<p>&nbsp;</p>
+</div>
+{slider Trevor Vincent|inactive}
+<div class="bio">
+<h3>Trevor Vincent</h3>
+<h4>Advisor: Harald Pfeiffer</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="phone">Phone:Your_Phone_Number </span></div>
+<div class="contact-info"><span class="email">Email: tvincent@cita.utoronto.ca</span><br /><span class="address">Office Address:McLennan Physical Laboratories</span></div>
+<h5>Institution</h5>
+<p>Canadian Institute for Theoretical Astrophysics</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics</p>
+<h5>Research Projects</h5>
+<p><span style="color: #333333; font-family: 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 23.80000114440918px; background-color: #fefefe;">Discontinuous Galerkin Initial Data solver, BNS simulations&nbsp;</span><span style="color: #333333; font-family: 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 23.8000011444092px; background-color: #fefefe;">with post-merger neutrino transport.</span></p>
+<h5>Biography</h5>
+<p>&nbsp;</p>
+<h5>Selected Publications</h5>
+<p>&nbsp;</p>
+</div>
+{slider Catherine Woodford|inactive}
+<div class="bio">
+<h3>Catherine Woodford</h3>
+<h4>Advisor: Harald Pfeiffer</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="phone">Phone:</span></div>
+<div class="contact-info"><span class="phone"></span><span class="email">Email:woodford@cita.utoronto.ca</span><br /><span class="address">Office Address:</span></div>
+<h5>Institution</h5>
+<p>Canadian Institute for Theoretical Astrophysics</p>
+<h5>Specialty Areas</h5>
+<h5><span style="font-size: 0.83em;">Biography</span></h5>
+<p>Catherine Woodford has started in the PhD program in 2015.&nbsp;</p>
+<h5>Selected Publications</h5>
+<p>&nbsp;</p>
+</div>
+{/sliders} {tab Alumni|green} {slider Andy Bohn|inactive}
+<div class="bio">
+<h3>Andy Bohn</h3>
+<h4>Advisor: Professor Saul A. Teukolsky</h4>
+<img src="images/people/andy_bohn.jpg" alt="Andy Bohn" />
+<div class="contact-info"><span class="email">Email:adb228@cornell.edu</span><br /><span class="address">Office Address:619 Space Sciences Building<br /></span></div>
+<h5>Institution</h5>
+<p>Cornell University</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics</p>
+<h5>Research Projects</h5>
+<p>Event horizon finding:</p>
+<p>Numerical gravitational lensing:</p>
+<h5>Biography</h5>
+I received a bachelor's degree from Purdue University in 2010 with a major in physics and a major in math. &nbsp;In the summer of 2010, I worked with Julia Thom at Cornell, simulating 3-d pixel detector designs for S-LHC. &nbsp;I joined the SXS collaboration working with Saul Teukolsky in the following summer, 2011. &nbsp;An overview of my current work is in my research projects section. &nbsp;In 2013, I received my master's degree, and am working towards a PhD.</div>
+{slider Drew Clausen|inactive}
+<div class="bio">
+<h3>Drew Clausen</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/drew_clausen.jpg" alt="Drew Clausen" width="180" />
+<div class="contact-info"><span class="email">Email:dclausen@tapir.caltech.edu</span><br /><span class="address">Office Address:Cahill 320</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+<h5>Specialty Areas</h5>
+<p>Dynamical evolution in dense stellar systems, tidal disruption of stars by black holes, and binary star evolution</p>
+<h5>Research Projects</h5>
+<p>Modeling emission line light echoes following tidal disruption events<br />Production of black hole X-ray binaries in globular clusters</p>
+<h5>Biography</h5>
+<p>I went to college at the University of Colorado Boulder where I studied astronomy and film. After a brief stint as a video editor, I went to graduate school at Penn State. My Ph.D. advisors were Mike Eracleous and Steinn Sigurdsson.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>The Black Hole Formation Probability. Clausen, Drew, Piro, Anthony L., Ott, Christian D., 2015, ApJ, 799, 190 [arXiv:1406.4869]</li>
+<li>Black Hole-Neutron Star Merges in Globular Clusters. Clausen, Drew, Sigurdsson, Steinn, Chernoff, David F., 2013, MNRAS, 428, 3618 [arXiv:1210.8153]</li>
+</ul>
+</div>
+{slider Casey Handmer|inactive}
+<div class="bio">
+<h3>Casey Handmer</h3>
+<h4>Advisor: Yanbei Chen</h4>
+<img src="images/people/casey_handmer.jpg" alt="casey handmer" />
+<div class="contact-info"><span class="phone"></span><span class="email">Email:chandmer@caltech.edu</span><br /><span class="address">Office Address:Cahill 360</span></div>
+<h5>Institution</h5>
+<p>Caltech (Ph.D. 2015)</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics</p>
+<h5>Research Projects</h5>
+<p>Spectral Cauchy Characteristic Evolution, Extraction, and Matching</p>
+<h5>Biography</h5>
+<p>Casey Handmer earned his BSc (Hons 1m) in Optics at the University of Sydney in 2009, subsequently switching hemisphere and field to work on Numerical General Relativity at Caltech. Now in his fifth year studying gravitational wave propagation for gauge free waveforms, Casey has developed an extraction module within the Spectral Einstein Code (SpEC).</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Handmer, C J and B Szilagyi. Spectral Characteristic Evolution: A New Algorithm for Gravitational Wave Propagation. Accepted: Classical And Quantum Gravity (2014).&nbsp;<a href="http://arxiv.org/abs/1406.7029">http://arxiv.org/abs/1406.7029</a></li>
+<li>Handmer, C J et al. Stacked dielectric gratings for sub-wavelength surface ﬁeld synthesis. JOSA B, Vol. 27 Issue 12, pp. 2580-2594 (2010).</li>
+<li>Handmer, C J et al. Blazing evanescent grating orders: a spectral approach to beating the Rayleigh limit. Optics Letters, Vol. 35 Issue 17, pp. 2846-2848 (2010).</li>
+<li>Sukhorukov, Andrey A; Handmer, C J; de Sterke, C M; Steel, M J. Slow light with ﬂat or oﬀset band edges in few-mode ﬁber with two gratings. Optics Express, Vol. 15 Issue 26, pp.17954-17959 (2007).&nbsp;<a href="http://arxiv.org/abs/0711.1403">http://arxiv.org/abs/0711.1403</a></li>
+</ul>
+</div>
+{slider Daniel A. Hemberger|inactive}
+<div class="bio">
+<h3>Daniel A. Hemberger</h3>
+<h4>Postdoctoral Scholar</h4>
+<img src="images/people/daniel_hemberger.jpg" alt="daniel hemberger" />
+<div class="contact-info"><span class="email">Email:danh@tapir.caltech.edu</span><br /><span class="address">Office Address:334 Cahill</span></div>
+<h5>Institution</h5>
+<p>California Institute of Technology</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics and Numerical Relativity</p>
+<h5>Research Projects</h5>
+<p>Simulating binary black hole systems to aid gravitational-wave detection and parameter estimation.</p>
+<h5>Biography</h5>
+<p>I graduated from Oberlin College with a bachelor's degree in Physics. At Oberlin, I worked with Prof. Dan Stinebring on a project to improve pulsar timing by correcting for scattering in the interstellar medium. I received my Ph.D. in Astronomy from Cornell University, where I was advised by Prof. Saul Teukolsky and worked closely on topics in numerical relativity with research associates Lawrence Kidder and Geoffrey Lovelace. I am now a postdoctoral scholar at Caltech.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Final spin and radiated energy in numerical simulations of binary black holes with equal masses and equal, aligned or antialigned spins. D. Hemberger, G. Lovelace, T Loredo, L. Kidder, M. Scheel, B. Szilagyi, N. Taylor, S. Teukolsky. Phys. Rev., D 88, 064014 (2013). [<a href="http://arxiv.org/abs/1305.5991" target="_blank">http://arxiv.org/abs/1305.5991</a>]</li>
+<li>Dynamical Excision Boundaries in Spectral Evolutions of Binary Black Hole Spacetimes. D. Hemberger, M. Scheel, L. Kidder, B. Szilagyi, G. Lovelace, N. Taylor, S. Teukolsky. Class. Quant. Grav. 30(11), 115001 (2013). [<a href="http://arxiv.org/abs/1211.6079" target="_blank">http://arxiv.org/abs/1211.6079</a>]</li>
+</ul>
+</div>
+{slider Katherine Henriksson|inactive}
+<div class="bio">
+<h3>Katherine Henriksson</h3>
+<h4>Advisors: Prof. Saul A. Teukolsky &amp; Prof. Ira Wasserman</h4>
+<img src="images/people/placeholder.jpg" alt="placeholder" />
+<div class="contact-info"><span class="phone">Phone:607-255-6546 </span><span class="email">Email:kth48@cornell.edu</span><br /><span class="address">Office Address:619 Space Sciences Building<br /></span></div>
+<h5>Institution</h5>
+<p>Cornell University (Ph.D. 2015)</p>
+<h5>Specialty Areas</h5>
+<p>Numerical General Relativity, Neutron Star Physics</p>
+<h5>Research Projects</h5>
+<p>I'm not directly involved with any experiment. I am involved with the SXS collaboration, which is the larger collaboration that Saul Teukolsky's group is a part of.</p>
+<h5>Biography</h5>
+<p>I currently work on creating initial data for mergers of black holes and neutron stars with Prof. Saul Teukolsky. Large experiments such as LIGO hope to detect gravitational waves produced by mergers of compact objects like black holes and neutron stars, which are predicted by Einstein's theory of general relativity but have not yet be directly detected. In order to make such a detection, accurate predictions of observed waveforms must be made by simulations of general relativity.</p>
+<p>Prof. Teukolsky's group is a part of the SXS collaboration, which works to create such predictions through numerical simulations.</p>
+<p>The mathematical structure of general relativity is such that the problem of simulating general relativity falls to two parts: finding a self-consistent initial solution to Einstein's equations at one particular time, and then evolving that solution forward to later times. I work on the former part, specifically trying to allow our simulations to accommodate more compact neutron stars than we are currently able.</p>
+<p>I have also worked on modeling the internal magnetic field structure of neutron stars with Prof. Ira Wasserman. In this research, we looked at the consequences for the structure of the star of superconductivity in the core of the neutron star. This research, which integrates knowledge from both astrophysics and condensed matter physics, aims to better understand the effect on the stellar deformation of having an unusual state of matter in the interior. In this research I have been supported in the past by a New York state NASA space grant.</p>
+<p>Outside of research, I manage and run the departmental computer lab for the Physics department, which I also played a large role in setting up in its current incarnation. I also am a chair in the Cornell Expanding Your Horizons program, which every year hosts an all-day program for 200-300 middle school aged girls to encourage interest in the sciences. I serve on the Astronomy department computer committee, which provides planning guidance for the department in computer policy. In addition, I have much experience with teaching, and am currently in my ninth semester serving as a teaching assistant for an undergraduate course.</p>
+<h5>Selected Publications</h5>
+<ul>
+<li>Initial data for high-compactness black hole-neutron star binaries. K. Henriksson, F. Foucart, L. E. Kidder, S. A. Teukolsky. Phys. Rev. D (2014). [<a href="http://arxiv.org/abs/1409.7159" target="_blank">http://arxiv.org/abs/1409.7159</a>]</li>
+</ul>
+</div>
+{slider Jeff Kaplan|inactive}
+<div class="bio">
+<h3>Jeff Kaplan</h3>
+<h4>Advisor: Christian Ott</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+</div>
+{slider Curran D. Muhlberger|inactive}
+<div class="bio">
+<h3>Curran D. Muhlberger</h3>
+<h4>Advisor: Professor Saul A. Teukolsky</h4>
+<img src="images/people/curran_muhlberger.jpg" alt="Curran Muhlberger" />
+<div class="contact-info"><span class="phone">Phone:607.255.6456</span><span class="email">Email:cdm89@cornell.edu</span><br /><span class="address">Office Address:617 Space Sciences Building, Cornell University, Ithaca, NY 14853</span></div>
+<h5>Institution</h5>
+<p>Cornell University (Ph.D. 2014)</p>
+<h5>Biography</h5>
+<p>I arrived at Cornell in 2008 and have been working under the direction of Saul Teukolsky to simulate extreme spacetimes. Nearly a century ago, Albert Einstein predicted that massive objects moving very quickly could produce gravitational waves that would travel through space and deliver information about the distant cosmos to us on Earth. We will soon have the capacity to detect these waves with experiments like Advanced LIGO, and they will tell us much about astrophysical objects and events in far-off galaxies. But in order to understand these observations, scientists must compare them to simulations of likely events, such as the inspiral and merger of black holes and neutron stars.</p>
+<p>The SXS collaboration, consisting of researchers from Caltech, Cornell, CITA, and elsewhere, seeks to produce these simulations using some of the largest supercomputers on the planet. My role as a graduate student has been to improve our code and enable the simulation of new physical systems. Many of my efforts have gone towards implementing the equations of MHD, allowing us to study the effects of magnetic fields in neutron stars. An understanding of such effects will be crucial when interpreting future observations from the next generation of transient surveys and gravitational wave telescopes.</p>
+<p>My interests extend well beyond astrophysics, however. I am always trying to learn more about subjects like high-performance computing and cryptology, and I thoroughly enjoy teaching others about the joys of physics and mathematics. Within the Cornell community I have helped reduce campus energy usage through the “Lights Off Cornell!” program and have served as a committee chair for Expanding Your Horizons – a conference introducing middle school girls to the excitement of math and science. Away from academia, I take time to enjoy hiking, board games, photography, and British TV.</p>
+</div>
+{slider Evan O'Connor|inactive}
+<div class="bio">
+<h3>Evan O'Connor</h3>
+<h4>Advisor: Christian Ott</h4>
+<img src="images/people/placeholder.jpg" alt="Name" />
+<div class="contact-info"><span class="address">Office Address:Cahill</span></div>
+<h5>Institution</h5>
+<p>Caltech</p>
+</div>
+{slider Béla Szilágyi|inactive}
+<div class="bio">
+<h3>Béla Szilágyi</h3>
+<h4>Senior Research Fellow</h4>
+<img src="images/people/bela_szilagyi.jpg" alt="Béla Szilágyi" />
+<div class="contact-info"><span class="email">mail:<a href="mailto:szilagyi@tapir.caltech.edu">szilagyi@tapir.caltech.edu</a></span><br /><span class="address">Office Address: Cahill<br /></span></div>
+<h5>Institution</h5>
+<p>Caltech (TAPIR)</p>
+<h5>Specialty Areas</h5>
+<p>Theoretical Astrophysics</p>
+</div>
+{/sliders} {/tabs}

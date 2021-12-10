@@ -1,0 +1,1093 @@
+---
+layout: post
+title: SXS Papers
+joomla_id: 114
+joomla_url: sxs-papers
+date: 2013-04-16 01:37:02.000000000 +00:00
+---
+<p>{!glossary}</p>
+<p>Numerical Relativity papers published by members of the SXS Collaboration in reverse chronological order.</p>
+<p id="year_link"><a href="#2014">2014</a><a href="#2013">2013</a><a href="#2012">2012</a><a href="#2011">2011</a><a href="#2010">2010</a><a href="#2009">2009</a><a href="#2008">2008</a><a href="#2007">2007</a><a href="#2006">2006</a><a href="#2005">2005</a><a href="#2004">2004</a><a href="#2003">2003</a><a href="#2002">2002</a><a href="#2001">2001</a><a href="#2000">2000</a></p>
+<h3 id="2014" class="year">2014</h3>
+<!-- Start of Paper -->
+<div class="paper">
+<h4>Initial data for high-compactness black hole-neutron star binaries</h4>
+<p><strong>Author(s):&nbsp;</strong>Katherine Henriksson, François Foucart, Lawrence E. Kidder, Saul A. Teukolsky</p>
+<p><strong>Journal:&nbsp;</strong>Submitted to Phys. Rev. D</p>
+<p><strong>Date Published: </strong>2014</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/1409.7159" target="_blank">http://arxiv.org/abs/1409.7159</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>For highly compact neutron stars, constructing numerical initial data for black hole-neutron star binary evolutions is very difficult. We describe improvements to an earlier method that enable it to handle these more challenging cases. We examine the case of a 6:1 mass ratio system in inspiral close to merger, where the star is governed by a polytropic \(\Gamma=2\), an SLy, or an LS220 equation of state. In particular, we are able to obtain a solution with a realistic LS220 equation of state for a star with compactness 0.26 and mass 1.98 \(M_\odot\), which is representative of the highest reliably determined neutron star masses. For the SLy equation of state, we can obtain solutions with a comparable compactness of 0.25, while for a family of polytropic equations of state, we obtain solutions with compactness up to 0.21, the largest compactness that is stable in this family. These compactness values are significantly higher than any previously published results. We find that improvements in adapting the computational domain to the neutron star surface and in accounting for the center of mass drift of the system are the key ingredients allowing us to obtain these solutions.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2013" class="year">2013</h3>
+<!-- Start of Paper -->
+<div class="paper">
+<h4>Comparing gravitational waveform extrapolation to Cauchy-characteristic extraction in binary black hole simulations</h4>
+<p><strong>Author(s):&nbsp;</strong>Nicholas W. Taylor, Michael Boyle, Christian Reisswig, Mark A. Scheel, Tony Chu, Lawrence E. Kidder, and Béla Szilágyi</p>
+<p><strong>Journal:&nbsp;</strong>Phys. Rev. D 88, 124010 (2013)</p>
+<p><strong>Date Published:&nbsp;</strong>Dec 3, 2013</p>
+<p><strong>arXiv Address:&nbsp;</strong><a href="http://arxiv.org/abs/1309.3605" target="_blank">http://arxiv.org/abs/1309.3605</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We extract gravitational waveforms from numerical simulations of black hole binaries computed using the Spectral Einstein Code. We compare two extraction methods: direct construction of the Newman-Penrose (NP) scalar \(\Psi_4\) at a finite distance from the source and Cauchy-characteristic extraction (CCE). The direct NP approach is simpler than CCE, but NP waveforms can be contaminated by near-zone effects---unless the waves are extracted at several distances from the source and extrapolated to infinity. Even then, the resulting waveforms can in principle be contaminated by gauge effects. In contrast, CCE directly provides, by construction, gauge-invariant waveforms at future null infinity. We verify the gauge invariance of CCE by running the same physical simulation using two different gauge conditions. We find that these two gauge conditions produce the same CCE waveforms but show differences in extrapolated-\(\Psi_4\) waveforms. We examine data from several different binary configurations and measure the dominant sources of error in the extrapolated-\(\Psi_4\) and CCE waveforms. In some cases, we find that NP waveforms extrapolated to infinity agree with the corresponding CCE waveforms to within the estimated error bars. However, we find that in other cases extrapolated and CCE waveforms disagree, most notably for \(m=0\) "memory" modes.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of Paper -->
+<div class="paper">
+<h4>Joint approach for reducing eccentricity and spurious gravitational radiation in binary black hole initial data construction</h4>
+<p><strong>Author(s):&nbsp;</strong>Fan Zhang, Béla Szilágyi</p>
+<p><strong>Journal:&nbsp;</strong>Phys. Rev. D 88, 084033 (2013)</p>
+<p><strong>Date Published: </strong>Oct 22, 2013</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/1309.1141" target="_blank">http://arxiv.org/abs/1309.1141</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>At the beginning of binary black hole simulations, there is a pulse of spurious radiation (or junk radiation) resulting from the initial data not matching astrophysical quasi-equilibrium inspiral exactly. One traditionally waits for the junk radiation to exit the computational domain before taking physical readings, at the expense of throwing away a segment of the evolution, and with the hope that junk radiation exits cleanly. We argue that this hope does not necessarily pan out as junk radiation could excite long-lived constraint violation. Another complication with the initial data is that it contains orbital eccentricity that needs to be removed, usually by evolving the early part of the inspiral multiple times with gradually improved input parameters. We show that this procedure is also adversely impacted by junk radiation. In this paper, we do not attempt to eliminate junk radiation directly, but instead tackle the much simpler problem of ameliorating its long-lasting effects. We report on the success of a method that achieves this goal by combining the removal of junk radiation and eccentricity into a single "joint-elimination" procedure. This approach has the following benefits: (1) We do not have to contend with the influence of junk radiation on eccentricity measurements for later iterations of the eccentricity reduction procedure. (2) We re-enforce constraints periodically by invoking the initial data solver, removing the constraint violation excited by junk radiation previously. (3) The wasted simulation segment associated with the junk radiation's evolution is absorbed into the eccentricity reduction iterations. Furthermore, (1) and (2) together allow us to carry out our joint-elimination procedure at low resolution, even when the subsequent "production run" is intended as a high resolution simulation.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2012" class="year">2012</h3>
+<!-- Start of Paper -->
+<div class="paper">
+<h4>Precessing Binary Black Holes Simulations: Quasicircular Initial Data</h4>
+<p><strong>Author(s):&nbsp;</strong>Abdul H. Mroué, Harald P. Pfeiffer</p>
+<p><strong>Journal:&nbsp;</strong><a href="http://arxiv.org/abs/1210.2958">http://arxiv.org/abs/1210.2958</a></p>
+<p><strong>Date Published:&nbsp;</strong>Submitted on Oct 10, 2012</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/1210.2958" target="_blank">http://arxiv.org/abs/1210.2958</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>In numerical evolutions of binary black holes (BBH) it is desirable to easily control the orbital eccentricity of the BBH, and the number of orbits completed by the binary through merger. This paper presents fitting formulae that allow to choose initial-data parameters for generic precessing BBH resulting in an orbital eccentricity \(\sim 10^{-4}\), and that allow to predict the number of orbits to merger. We further demonstrate how these fits can be used to choose initial-data parameters of desired non-zero eccentricity. For both usage scenarios, no costly exploratory BBH evolutions are necessary, but both usage scenarios retain the freedom to refine the fitted parameters further based on the results of BBH evolutions. The presented fitting formulas are based on 729 BBH configurations which are iteratively reduced to eccentricity \(\lesssim 10^{-4}\), covering mass-ratios between 1 and 8 and spin-magnitude up to 0.5. 101 of these configurations are evolved through the BBH inspiral phase.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of Paper -->
+<div class="paper">
+<h4>Visualizing spacetime curvature via frame-drag vortexes and tidal tendexes. III. Quasinormal pulsations of Schwarzschild and Kerr black holes</h4>
+<p><strong>Author(s):&nbsp;</strong>David A. Nichols, Aaron Zimmerman, Yanbei Chen, Geoffrey Lovelace, Keith D. Matthews, Robert Owen, Fan Zhang, Kip S. Thorne</p>
+<p><strong>Journal:&nbsp;</strong>Phys. Rev. D 86, 104028 (2012)</p>
+<p><strong>Date Published: </strong>Nov 12, 2012</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/1208.3038" target="_blank">http://arxiv.org/abs/1208.3038</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>In recent papers, we and colleagues have introduced a way to visualize the full vacuum Riemann curvature tensor using frame-drag vortex lines and their vorticities, and tidal tendex lines and their tendicities. We have also introduced the concepts of horizon vortexes and tendexes and 3-D vortexes and tendexes (regions where vorticities or tendicities are large). Using these concepts, we discover a number of previously unknown features of quasinormal modes of Schwarzschild and Kerr black holes. These modes can be classified by mode indexes \((n,l,m)\), and parity, which can be electric \([(-1)^l]\) or magnetic \([(-1)^{l+1}]\). Among our discoveries are these: (i) There is a near duality between modes of the same \((n,l,m)\): a duality in which the tendex and vortex structures of electric-parity modes are interchanged with the vortex and tendex structures (respectively) of magnetic-parity modes. (ii) This near duality is perfect for the modes' complex eigenfrequencies (which are well known to be identical) and perfect on the horizon; it is slightly broken in the equatorial plane of a non-spinning hole, and the breaking becomes greater out of the equatorial plane, and greater as the hole is spun up; but even out of the plane for fast-spinning holes, the duality is surprisingly good. (iii) Electric-parity modes can be regarded as generated by 3-D tendexes that stick radially out of the horizon. As these "longitudinal," near-zone tendexes rotate or oscillate, they generate longitudinal-transverse near-zone vortexes and tendexes, and outgoing and ingoing gravitational waves. The ingoing waves act back on the longitudinal tendexes, driving them to slide off the horizon, which results in decay of the mode's strength. (iv) By duality, magnetic-parity modes are driven in this same manner by longitudinal, near-zone vortexes that stick out of the horizon. [Abstract abridged.]</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2011" class="year">2011</h3>
+<!-- Start of Paper -->
+<div class="paper">
+<h4>Geometric approach to the precession of compact binaries</h4>
+<p><strong>Author(s):&nbsp;</strong>Michael Boyle, Robert Owen, Harald P. Pfeiffer</p>
+<p><strong>Journal:&nbsp;</strong>Phys. Rev. D 84, 124011 (2011)</p>
+<p><strong>Date Published: </strong>Dec 2, 2011</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/1110.2965" target="_blank">http://arxiv.org/abs/1110.2965</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We discuss a geometrical method to define a preferred reference frame for precessing binary systems and the gravitational waves they emit. This minimal-rotation frame is aligned with the angular-momentum axis and fixes the rotation about that axis up to a constant angle, resulting in an essentially invariant frame. Gravitational waveforms decomposed in this frame are similarly invariant under rotations of the inertial frame and exhibit relatively smoothly varying phase. By contrast, earlier prescriptions for radiation-aligned frames induce extraneous features in the gravitational-wave phase which depend on the orientation of the inertial frame, leading to fluctuations in the frequency that may compound to many gravitational-wave cycles. We explore a simplified description of post-Newtonian approximations for precessing systems using the minimal-rotation frame, and describe the construction of analytical/numerical hybrid waveforms for such systems.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of Paper -->
+<div class="paper">
+<h4>Visualizing spacetime curvature via frame-drag vortexes and tidal tendexes: General theory and weak-gravity applications</h4>
+<p><strong>Author(s):&nbsp;</strong>David A. Nichols, Robert Owen, Fan Zhang, Aaron Zimmerman, Jeandrew Brink, Yanbei Chen, Jeffrey D. Kaplan, Geoffrey Lovelace, Keith D. Matthews, Mark A. Scheel, Kip S. Thorne</p>
+<p><strong>Journal: </strong>Phys. Rev. D 84, 124014 (2011)</p>
+<p><strong>Date Published: </strong>Dec 6, 2011</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/1108.5486" target="_blank">http://arxiv.org/abs/1108.5486</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>When one splits spacetime into space plus time, the Weyl curvature tensor (vacuum Riemann tensor) gets split into two spatial, symmetric, and trace-free (STF) tensors: (i) the Weyl tensor's so-called "electric" part or tidal field, and (ii) the Weyl tensor's so-called "magnetic" part or frame-drag field. Being STF, the tidal field and frame-drag field each have three orthogonal eigenvector fields which can be depicted by their integral curves. We call the integral curves of the tidal field's eigenvectors tendex lines, we call each tendex line's eigenvalue its tendicity, and we give the name tendex to a collection of tendex lines with large tendicity. The analogous quantities for the frame-drag field are vortex lines, their vorticities, and vortexes. We build up physical intuition into these concepts by applying them to a variety of weak-gravity phenomena: a spinning, gravitating point particle, two such particles side by side, a plane gravitational wave, a point particle with a dynamical current-quadrupole moment or dynamical mass-quadrupole moment, and a slow-motion binary system made of nonspinning point particles. [Abstract is abbreviated; full abstract also mentions additional results.]</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2010" class="year">2010</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Degeneracy measures for the algebraic classification of numerical spacetimes</h4>
+<p><strong>Author(s):</strong> Robert Owen</p>
+<p><strong>Journal:</strong> Phys. Rev. D 81, 124042 (2010)</p>
+<p><strong>Date Published:</strong> Jun 23, 2010</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/1004.3768" target="_blank">http://arxiv.org/abs/1004.3768</a></p>
+{slider <span class="icon-hand-up"> See Abstract</span>|inactive}
+<p>We study the issue of algebraic classification of the Weyl curvature tensor, with a particular focus on numerical relativity simulations. The spacetimes of interest in this context, binary black hole mergers, and the ringdowns that follow them, present subtleties in that they are generically, strictly speaking, type I, but in many regions approximately, in some sense, type D. To provide meaning to any claims of “approximate” Petrov class, one must define a measure of degeneracy on the space of null rays at a point. We will investigate such a measure, used recently to argue that certain binary black hole merger simulations ring down to the Kerr geometry, after hanging up for some time in Petrov type II. In particular, we argue that this hangup in Petrov type II is an artefact of the particular measure being used, and that a geometrically better-motivated measure shows a black hole merger produced by our group settling directly to Petrov type D.</p>
+{/sliders}</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Effective-one-body waveforms calibrated to numerical relativity simulations: Coalescence of nonprecessing, spinning, equal-mass black holes</h4>
+<p><strong>Author(s):</strong> Yi Pan, Alessandra Buonanno, Luisa T. Buchman, Tony Chu, Lawrence E. Kidder, Harald P. Pfeiffer, Mark A. Scheel</p>
+<p><strong>Journal:</strong> Phys. Rev. D 81, 084041 (2010)</p>
+<p><strong>Date Published:</strong> Apr 20, 2010</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0912.3466" target="_blank">http://arxiv.org/abs/0912.3466</a></p>
+{slider <span class="icon-hand-up"> See Abstract</span>|inactive}
+<p>We present the first attempt at calibrating the effective-one-body (EOB) model to accurate numerical-relativity simulations of spinning, non-precessing black-hole binaries. Aligning the EOB and numerical waveforms at low frequency over a time interval of 1000M, we first estimate the phase and amplitude errors in the numerical waveforms and then minimize the difference between numerical and EOB waveforms by calibrating a handful of EOB-adjustable parameters. In the equal-mass, spin aligned case, we find that phase and fractional amplitude differences between the numerical and EOB (2,2) mode can be reduced to 0.01 radians and 1%, respectively, over the entire inspiral waveforms. In the equal-mass, spin anti-aligned case, these differences can be reduced to 0.13 radians and 1% during inspiral and plunge, and to 0.4 radians and 10% during merger and ringdown. The waveform agreement is within numerical errors in the spin aligned case while slightly over numerical errors in the spin anti-aligned case. Using Enhanced LIGO and Advanced LIGO noise curves, we find that the overlap between the EOB and the numerical (2,2) mode, maximized over the initial phase and time of arrival, is larger than 0.999 for binaries with total mass 30M⊙-200M⊙. In addition to the leading (2,2) mode, we compare four subleading modes. We find good amplitude and frequency agreements between the EOB and numerical modes for both spin configurations considered, except for the (3,2) mode in the spin anti-aligned case. We believe that the larger difference in the (3,2) mode is due to the lack of knowledge of post-Newtonian spin effects in the higher modes.</p>
+{/sliders}</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2009" class="year">2009</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>High accuracy simulations of black hole binaries: spins anti-aligned with the orbital angular momentum</h4>
+<p><strong>Author(s):</strong> Tony Chu, Harald P. Pfeiffer, Mark A. Scheel</p>
+<p><strong>Journal:</strong> Phys. Rev. D 80, 124051 (2009)</p>
+<p><strong>Date Published:</strong> Dec 31, 2009</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0909.1313" target="_blank">http://arxiv.org/abs/0909.1313</a></p>
+{slider <span class="icon-hand-up"> See Abstract</span>|inactive}
+<p>High-accuracy binary black hole simulations are presented for black holes with spins anti-aligned with the orbital angular momentum. The particular case studied represents an equal-mass binary with spins of equal magnitude S/m2=0.437 57±0.000 01. The system has initial orbital eccentricity ∼4×10-5, and is evolved through 10.6 orbits plus merger and ringdown. The remnant mass and spin are Mf=(0.961 109±0.000 003)M and Sf/Mf2=0.547 81±0.000 01, respectively, where M is the mass during early inspiral. The gravitational waveforms have accumulated numerical phase errors of ≲0.1 radians without any time or phase shifts, and ≲0.01 radians when the waveforms are aligned with suitable time and phase shifts. The waveform is extrapolated to infinity using a procedure accurate to ≲0.01 radians in phase, and the extrapolated waveform differs by up to 0.13 radians in phase and about 1% in amplitude from the waveform extracted at finite radius r=350M. The simulations employ different choices for the constraint damping parameters in the wave zone; this greatly reduces the effects of junk radiation, allowing the extraction of a clean gravitational wave signal even very early in the simulation.</p>
+{/sliders}</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Black hole initial data on hyperboloidal slices</h4>
+<p><strong>Author(s):</strong> Luisa T. Buchman, Harald P. Pfeiffer, and James M. Bardeen</p>
+<p><strong>Journal:</strong> Phys. Rev. D 80, 084024 (2009)</p>
+<p><strong>Date Published:</strong> Oct 19, 2009</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0907.3163" target="_blank">http://arxiv.org/abs/0907.3163</a></p>
+{slider <span class="icon-hand-up"> See Abstract</span>|inactive}
+<p>We generalize Bowen-York black hole initial data to hyperboloidal constant mean curvature slices which extend to future null infinity. We solve this initial value problem numerically for several cases, including unequal mass binary black holes with spins and boosts. The singularity at null infinity in the Hamiltonian constraint associated with a constant mean curvature hypersurface does not pose any particular difficulties. The inner boundaries of our slices are minimal surfaces. Trumpet configurations are explored both analytically and numerically.</p>
+{/sliders}</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Final remnant of binary black hole mergers: Multipolar analysis</h4>
+<p><strong>Author(s):</strong> Robert Owen</p>
+<p><strong>Journal:</strong> Phys. Rev. D 80, 084012 (2009)</p>
+<p><strong>Date Published:</strong> Oct 12, 2009</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0907.0280" target="_blank">http://arxiv.org/abs/0907.0280</a></p>
+{slider <span class="icon-hand-up"> See Abstract</span>|inactive}
+<p>Methods are presented to define and compute source multipoles of dynamical horizons in numerical relativity codes, extending previous work in the isolated and dynamical horizon formalisms to allow for horizons that are not axisymmetric. These methods are then applied to a binary black hole merger simulation, providing evidence that the final remnant is a Kerr black hole, both through the (spatially) gauge-invariant recovery of the geometry of the apparent horizon, and through a detailed extraction of quasinormal ringing modes directly from the strong-field region.</p>
+{/sliders}</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Momentum flow in black-hole binaries: II. Numerical simulations of equal-mass, head-on mergers with antiparallel spins.</h4>
+<p><strong>Author(s):</strong> Geoffrey Lovelace, Yanbei Chen, Michael Cohen, Jeffrey D. Kaplan, Drew Keppel, Keith D. Matthews, David A. Nichols, Mark A. Scheel, and Ulrich Sperhake</p>
+<p><strong>Journal:</strong> Submitted to Phys. Rev. D (currently with referees)</p>
+<p><strong>Date Published:</strong> Jul 5, 2009</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0907.0869" target="_blank">http://arxiv.org/abs/0907.0869</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Research on extracting science from binary-black-hole (BBH) simulations has often adopted a "scattering matrix" perspective: given the binary's initial parameters, what are the final hole's parameters and the emitted gravitational waveform? In contrast, we are using BBH simulations to explore the nonlinear dynamics of curved spacetime. Focusing on the head-on plunge, merger, and ringdown of a BBH with transverse, antiparallel spins, we explore numerically the momentum flow between the holes and the surrounding spacetime. We use the Landau-Lifshitz field-theory-in-flat-spacetime formulation of general relativity to define and compute the density of field energy and field momentum outside horizons and the energy and momentum contained within horizons, and we define the effective velocity of each apparent and event horizon as the ratio of its enclosed momentum to its enclosed mass-energy. We find surprisingly good agreement between the horizons' effective and coordinate velocities. To investigate the gauge dependence of our results, we compare pseudospectral and moving-puncture evolutions of physically similar initial data; although spectral and puncture simulations use different gauge conditions, we find remarkably good agreement for our results in these two cases. We also compare our simulations with the post-Newtonian trajectories and near-field energy- momentum. [Abstract abbreviated; full abstract also mentions additional results.]</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Effective-one-body waveforms calibrated to numerical relativity simulations: Coalescence of nonspinning, equal-mass black holes</h4>
+<p><strong>Author(s):</strong> Alessandra Buonanno, Yi Pan, Harald P. Pfeiffer, Mark A. Scheel, Luisa T. Buchman, and Lawrence E. Kidder</p>
+<p><strong>Journal:</strong> Phys. Rev. D 79, 124028 (2009)</p>
+<p><strong>Date Published:</strong> Jun 17, 2009</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0902.0790" target="_blank">http://arxiv.org/abs/0902.0790</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We calibrate the effective-one-body (EOB) model to an accurate numerical simulation of an equal-mass, non-spinning binary black-hole coalescence produced by the Caltech-Cornell collaboration. Aligning the EOB and numerical waveforms at low frequency over a time interval of ~1000M, and taking into account the uncertainties in the numerical simulation, we investigate the significance and degeneracy of the EOB adjustable parameters during inspiral, plunge and merger, and determine the minimum number of EOB adjustable parameters that achieves phase and amplitude agreements on the order of the numerical error. We find that phase and fractional amplitude differences between the numerical and EOB values of the dominant gravitational wave mode h<sub>22</sub> can be reduced to 0.02 radians and 2%, respectively, until a time 26 M before merger, and to 0.1 radians and 10%, at a time 16M after merger (during ringdown), respectively. Using LIGO, Enhanced LIGO and Advanced LIGO noise curves, we find that the overlap between the EOB and the numerical h<sub>22</sub>, maximized only over the initial phase and time of arrival, is larger than 0.999 for equal-mass binary black holes with total mass 30-150 M⊙. In addition to the leading gravitational mode (2,2), we compare the dominant subleading modes (4,4) and (3,2) and find phase and amplitude differences on the order of the numerical error. We also determine the mass-ratio dependence of one of the EOB adjustable parameters by fitting to numerical <em>inspiral</em> waveforms for black-hole binaries with mass ratios 2:1 and 3:1. These results improve and extend recent successful attempts aimed at providing gravitational-wave data analysts the best analytical EOB model capable of interpolating accurate numerical simulations.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Reducing spurious gravitational radiation in binary-black-hole simulations by using conformally curved initial data</h4>
+<p><strong>Author(s):</strong> Geoffrey Lovelace</p>
+<p><strong>Journal:</strong> Class. Quantum Grav. 26, 114002 (2009)</p>
+<p><strong>Date Published:</strong> Jun 7, 2009</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0812.3132" target="_blank">http://arxiv.org/abs/0812.3132</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>At early times in numerical evolutions of binary black holes, current simulations contain an initial burst of spurious gravitational radiation (also called "junk radiation") which is not astrophysically realistic. The spurious radiation is a consequence of how the binary-black- hole initial data are constructed: the initial data are typically assumed to be conformally flat. In this paper, I adopt a curved conformal metric that is a superposition of two boosted, non- spinning black holes that are approximately 15 orbits from merger. I compare junk radiation of the superposed-boosted-Schwarzschild (SBS) initial data with the junk of corresponding conformally flat, maximally sliced (CFMS) initial data. The SBS junk is smaller in amplitude than the CFMS junk, with the junk's leading-order spectral modes typically being reduced by a factor of order two or more.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Implementation of higher-order absorbing boundary conditions for the Einstein equations</h4>
+<p><strong>Author(s):</strong> Oliver Rinne, Luisa T. Buchman, Mark A. Scheel and Harald P. Pfeiffer</p>
+<p><strong>Journal:</strong> Class. Quantum Grav. 26 (2009) 075009</p>
+<p><strong>Date Published:</strong> Mar 10, 2009</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0811.3593" target="_blank">http://arxiv.org/abs/0811.3593</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We present an implementation of absorbing boundary conditions for the Einstein equations based on the recent work of Buchman and Sarbach. In this paper, we assume that spacetime may be linearized about Minkowski space close to the outer boundary, which is taken to be a coordinate sphere. We reformulate the boundary conditions as conditions on the gauge-invariant Regge–Wheeler–Zerilli scalars. Higher-order radial derivatives are eliminated by rewriting the boundary conditions as a system of ODEs for a set of auxiliary variables intrinsic to the boundary. From these we construct boundary data for a set of well-posed constraint-preserving boundary conditions for the Einstein equations in a first-order generalized harmonic formulation. This construction has direct applications to outer boundary conditions in simulations of isolated systems (e.g., binary black holes) as well as to the problem of Cauchyperturbative matching. As a test problem for our numerical implementation, we consider linearized multipolar gravitational waves in TT gauge, with angular momentum numbers \(\ell = 2\) (Teukolsky waves), 3 and 4. We demonstrate that the perfectly absorbing boundary condition \(\mathcal{B}_L\) of order \(L = \ell\) yields no spurious reflections to linear order in perturbation theory. This is in contrast to the lower-order absorbing boundary conditions \(\mathcal{B}_L\) with \(L &lt; \ell\), which include the widely used freezing-\(\Psi_0\) boundary condition that imposes the vanishing of the Newman–Penrose scalar \(\Psi_0\).</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2008" class="year">2008</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Binary-black-hole initial data with nearly extremal spins</h4>
+<p><strong>Author(s):</strong> Geoffrey Lovelace, Robert Owen, Harald P. Pfeiffer, and Tony Chu</p>
+<p><strong>Journal:</strong> Phys. Rev. D 78, 084017</p>
+<p><strong>Date Published:</strong> Oct 10, 2008</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0805.4192" target="_blank">http://arxiv.org/abs/0805.4192</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>There is a significant possibility that astrophysical black holes with nearly-extremal spins exist. Numerical simulations of such systems require suitable initial data. In this paper, we examine three methods of constructing binary-black-hole initial data, focusing on their ability to generate black holes with nearly-extremal spins: (i) Bowen-York initial data, including standard puncture data (based on conformal flatness and Bowen-York extrinsic curvature), (ii) standard quasi-equilibrium initial data (based on the extended-conformal- thin-sandwich equations, conformal flatness, and maximal slicing), and (iii) quasi- equilibrium data based on the superposition of Kerr-Schild metrics. We find that the two conformally-flat methods (i) and (ii) perform similarly, with spins up to about 0.99 obtainable at the initial time. However, in an evolution, we expect the spin to quickly relax to a significantly smaller value around 0.93 as the initial geometry relaxes. For quasi- equilibrium superposed Kerr-Schild (SKS) data [method (iii)], we construct initial data with <em>initial</em> spins as large as 0.9997. We evolve SKS data sets with spins of 0.93 and 0.97 and find that the spin drops by only a few parts in 10<sup>4</sup> during the initial relaxation; therefore, we expect that SKS initial data will allow evolutions of binary black holes with relaxed spins above 0.99. [Abstract abbreviated; full abstract also mentions several secondary results.]</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Evolving black hole-neutron star binaries in general relativity using pseudospectral and finite difference methods</h4>
+<p><strong>Author(s):</strong> Matthew D. Duez, Francois Foucart, Lawrence E. Kidder, Harald P. Pfeiffer, Mark A. Scheel, Saul A. Teukolsky</p>
+<p><strong>Date Posted to the arXiv:</strong> Aug 29, 2008</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0809.0002" target="_blank">http://arxiv.org/abs/0809.0002</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We present a code for solving the coupled Einstein-hydrodynamics equations to evolve relativistic, self-gravitating fluids. The Einstein field equations are solved in generalized harmonic coordinates on one grid using pseudospectral methods, while the fluids are evolved on another grid using shock-capturing finite difference or finite volume techniques. We show that the code accurately evolves equilibrium stars and accretion flows. Then we simulate an equal-mass nonspinning black hole-neutron star binary, evolving through the final four orbits of inspiral, through the merger, to the final stationary black hole. The gravitational waveform can be reliably extracted from the simulation.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Ineffectiveness of Padé resummation techniques in post-Newtonian approximations</h4>
+<p><strong>Author(s):</strong> Abdul H. Mroué, Lawrence E. Kidder, Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Phys. Rev. D 78, 044004 (2008)</p>
+<p><strong>Date Published:</strong> May 15, 2008</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0805.2390" target="_blank">http://arxiv.org/abs/0805.2390</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We test the resummation techniques used in developing Padé and Effective One Body (EOB) waveforms for gravitational wave detection. Convergence tests show that Padé approximants of the gravitational wave energy flux do not accelerate the convergence of the standard Taylor approximants even in the test mass limit, and there is no reason why Padé transformations should help in estimating parameters better in data analysis. Moreover, adding a pole to the flux seems unnecessary in the construction of these Padé-approximated flux formulas. Padé approximants may be useful in suggesting the form of fitting formulas. We compare a 15-orbit numerical waveform of the Caltech-Cornell group to the suggested Padé waveforms of Damour et al. in the equal mass, nonspinning quasi-circular case. The comparison suggests that the Padé waveforms do not agree better with the numerical waveform than the standard Taylor based waveforms. Based on this result, we design a simple EOB model by modifiying the ET EOB model of Buonanno et al., using the Taylor series of the flux with an unknown parameter at the fourth post-Newtonian order that we fit for. This simple EOB model generates a waveform having a phase difference of only 0.002 radians with the numerical waveform, much smaller than 0.04 radians the phase uncertainty in the numerical data itself. An EOB Hamiltonian can make use of a Padé transformation in its construction, but this is the only place Padé transformations seem useful.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>High-accuracy numerical simulation of black-hole binaries: Computation of the gravitational-wave energy flux and comparisons with post-Newtonian approximants</h4>
+<p><strong>Author(s):</strong> Michael Boyle, Alessandra Buonanno, Lawrence E. Kidder, Abdul H. Mroué, Yi Pan, Harald P. Pfeiffer, Mark A. Scheel</p>
+<p><strong>Date Posted to the arXiv:</strong> Apr 25, 2008</p>
+<p><strong>arXiv Address:</strong>&nbsp;<a href="http://arxiv.org/abs/0804.4184" target="_blank">http://arxiv.org/abs/0804.4184</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Expressions for the gravitational wave (GW) energy flux and center-of-mass energy of a compact binary are integral building blocks of post-Newtonian (PN) waveforms. In this paper, we compute the GW energy flux and GW frequency derivative from a highly accurate numerical simulation of an equal-mass, non-spinning black hole binary. We also estimate the (derivative of the) center-of-mass energy from the simulation by assuming energy balance. We compare these quantities with the predictions of various PN approximants (adiabatic Taylor and Pade models; non-adiabatic effective-one-body (EOB) models). We find that Pade summation of the energy flux does not accelerate the convergence of the flux series; nevertheless, the Pade flux is markedly closer to the numerical result for the whole range of the simulation (about 30 GW cycles). Taylor and Pade models overestimate the increase in flux and frequency derivative close to merger, whereas EOB models reproduce more faithfully the shape of and are closer to the numerical flux, frequency derivative and derivative of energy. We also compare the GW phase of the numerical simulation with Pade and EOB models. Matching numerical and untuned 3.5 PN order waveforms, we find that the phase difference accumulated until \(M \omega = 0.1\) is -0.12 radians for Pade approximants, and 0.50 (-0.28) radians for an EOB approximant with Keplerian (non-Keplerian) flux. We fit free parameters within the EOB models to minimize the phase difference, and discover degeneracies among these parameters. By tuning pseudo 4PN order coefficients in the radial potential or in the flux, or, if present, the location of the pole in the flux, we find that the accumulated phase difference can be reduced - if desired - to much less than the estimated numerical phase error (0.04 radians).</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Initial data for black hole-neutron star binaries: a flexible, high-accuracy spectral method</h4>
+<p><strong>Author(s):</strong> Francois Foucart, Lawrence E. Kidder, Harald P. Pfeiffer, Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Phys. Rev. D 77, 124051 (2008)</p>
+<p><strong>Date Published:</strong> Apr 23, 2008</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0804.3787" target="_blank">http://arxiv.org/abs/0804.3787</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_16" class="folded">We present a new numerical scheme to solve the initial value problem for black hole-neutron star binaries. This method takes advantage of the flexibility and fast convergence of a multidomain spectral representation of the initial data to construct high-accuracy solutions at a relatively low computational cost. We provide convergence tests of the method for both isolated neutron stars and irrotational binaries. In the second case, we show that we can resolve the small inconsistencies that are part of the quasi-equilibrium formulation, and that these inconsistencies are significantly smaller than observed in previous works. The possibility of generating a wide variety of initial data is also demonstrated through two new configurations inspired by results from binary black holes. First, we show that choosing a modified Kerr-Schild conformal metric instead of a flat conformal metric allows for the construction of quasi-equilibrium binaries with a spinning black hole. Second, we construct binaries in low-eccentricity orbits, which are a better approximation to astrophysical binaries than quasi-equilibrium systems.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2007" class="year">2007</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>High-accuracy comparison of numerical relativity simulations with post-Newtonian expansions</h4>
+<p><strong>Author(s):</strong> Michael Boyle, Duncan A. Brown, Lawrence E. Kidder, Abdul H. Mroué, Harald P. Pfeiffer, Mark A. Scheel, Gregory B. Cook, and Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Phys. Rev. D 76, 124038 (2007)</p>
+<p><strong>Date Published:</strong> Dec 27, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0710.0158">http://arxiv.org/abs/0710.0158</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Numerical simulations of 15 orbits of an equal-mass binary black-hole system are presented. Gravitational waveforms from these simulations, covering more than 30 cycles and ending about 1.5 cycles before merger, are compared with those from quasicircular zero-spin post-Newtonian (PN) formulae. The cumulative phase uncertainty of these comparisons is about 0.05 radians, dominated by effects arising from the small residual spins of the black holes and the small residual orbital eccentricity in the simulations. Matching numerical results to PN waveforms early in the run yields excellent agreement (within 0.05 radians) over the first ~15 cycles, thus validating the numerical simulation and establishing a regime where PN theory is accurate. In the last 15 cycles to merger, however, generic time-domain Taylor approximants build up phase differences of several radians. But, apparently by coincidence, one specific post-Newtonian approximant, TaylorT4 at 3.5PN order, agrees much better with the numerical simulations, with accumulated phase differences of less than 0.05 radians over the 30-cycle waveform. Gravitational-wave amplitude comparisons are also done between numerical simulations and post-Newtonian, and the agreement depends on the post-Newtonian order of the amplitude expansion: the amplitude difference is about 6%–7% for zeroth order and becomes smaller for increasing order. A newly derived 3.0PN amplitude correction improves agreement significantly (&lt;1% amplitude difference throughout most of the run, increasing to 4% near merger) over the previously known 2.5PN amplitude terms.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>High accuracy simulations of Kerr tails: coordinate dependence and higher multipoles</h4>
+<p><strong>Author(s):</strong> Manuel Tiglio, Lawrence Kidder, Saul Teukolsky</p>
+<p><strong>Journal:</strong> Class. Quant. Grav. 25, 105022 (2008)</p>
+<p><strong>Date Published:</strong> Dec 16, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0712.2472" target="_blank">http://arxiv.org/abs/0712.2472</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We investigate the late time behavior of a scalar field on a fixed Kerr background using a 2+1 dimensional pseudospectral evolution code. We compare evolutions of pure axisymmetric multipoles in both Kerr-Schild and Boyer-Lindquist coordinates. We find that the late-time power-law decay rate depends upon the slicing of the background, confirming previous theoretical predictions for those decay rates. The accuracy of the numerical evolutions is sufficient to decide unambiguously between competing claims in the literature.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Gauge Drivers for the Generalized Harmonic Einstein Equations</h4>
+<p><strong>Author(s):</strong> Lee Lindblom, Keith D. Matthews, Oliver Rinne, and Mark A. Scheel</p>
+<p><strong>Date Posted to the arXiv:</strong> Nov 14, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0711.2084" target="_blank">http://arxiv.org/abs/0711.2084</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The generalized harmonic representation of Einstein's equation is manifestly hyperbolic for a large class of gauge conditions. Unfortunately most of the useful gauges developed over the past several decades by the numerical relativity community are incompatible with the hyperbolicity of the equations in this form. This paper presents a new method of imposing gauge conditions that preserves hyperbolicity for a much wider class of conditions, including as special cases many of the standard ones used in numerical relativity: e.g., K-freezing, Gamma-freezing, Bona-Masso slicing, conformal Gamma-drivers, etc. Analytical and numerical results are presented which test the stability and the effectiveness of this new gauge driver evolution system.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Using Full Information When Computing Modes of Post-Newtonian Waveforms From Inspiralling Compact Binaries in Circular Orbit</h4>
+<p><strong>Author(s):</strong> Lawrence E. Kidder</p>
+<p><strong>Journal:</strong> Phys. Rev. D 77, 044016 (2008)</p>
+<p><strong>Date Published:</strong> Oct 2, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0710.0614" target="_blank">http://arxiv.org/abs/0710.0614</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The increasing sophistication and accuracy of numerical simulations of compact binaries (especially binary black holes) presents the opportunity to test the regime in which post-Newtonian (PN) predictions for the emitted gravitational waves are accurate. In order to confront numerical results with those of post-Newtonian theory, it is convenient to compare multipolar decompositions of the two waveforms. It is pointed out here that the individual modes can be computed to higher post-Newtonian order by examining the radiative multipole moments of the system, rather than by decomposing the 2.5PN polarization waveforms. In particular, the dominant (l = 2, m = 2) mode can be computed to 3PN order. Individual modes are computed to as high a post-Newtonian order as possible given previous post-Newtonian results.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Estimating the final spin of a binary black hole coalescence</h4>
+<p><strong>Author(s):</strong> Alessandra Buonanno, Lawrence E. Kidder, and Luis Lehner</p>
+<p><strong>Journal:</strong> Phys. Rev. D 77, 026004 (2008)</p>
+<p><strong>Date Published:</strong> Sep 24, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0709.3839" target="_blank">http://arxiv.org/abs/0709.3839</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We present a straightforward approach for estimating the final black hole spin of a binary black hole coalescence with arbitrary initial masses and spins. Making some simple assumptions, we estimate the final angular momentum to be the sum of the individual spins plus the orbital angular momentum of a test particle orbiting at the last stable orbit around a Kerr black hole with a spin parameter of the final black hole. The formula we obtain is able to reproduce with reasonable accuracy the results from available numerical simulations, but, more importantly, it can be used to investigate what configurations might give rise to interesting dynamics. In particular, we discuss scenarios which might give rise to a "flip" in the direction of the total angular momentum of the system. By studying the dependence of the final spin upon the mass ratio and initial spins we find that our simple approach suggests that it is not possible to spin-up a black hole to extremal values through merger scenarios irrespective of the mass ratio of the objects involved.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Outer boundary conditions for Einstein's field equations in harmonic coordinates</h4>
+<p><strong>Author(s):</strong> Milton Ruiz, Oliver Rinne, and Olivier Sarbach</p>
+<p><strong>Date Posted to the arXiv:</strong> Jul 18, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0707.2797" target="_blank">http://arxiv.org/abs/0707.2797</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We analyze Einstein's vacuum field equations in generalized harmonic coordinates on a compact spatial domain with boundaries. We specify a class of boundary conditions which is constraint-preserving and sufficiently general to include recent proposals for reducing the amount of spurious reflections of gravitational radiation. In particular, our class comprises the boundary conditions recently proposed by Kreiss and Winicour, a geometric modification thereof, the freezing-\(\Psi_0\) boundary condition and the hierarchy of absorbing boundary conditions introduced by Buchman and Sarbach. Using the recent technique developed by Kreiss and Winicour based on an appropriate reduction to a pseudo-differential first order system, we prove well posedness of the resulting initial-boundary value problem in the frozen coefficient approximation. In view of the theory of pseudo-differential operators it is expected that the full nonlinear problem is also well posed. Furthermore, we implement some of our boundary conditions numerically and study their effectiveness in a test problem consisting of a perturbed Schwarzschild black hole.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Radiation reaction in the 2.5PN waveform from inspiralling binaries in circular orbits</h4>
+<p><strong>Author(s):</strong> Lawrence E. Kidder, Luc Blanchet, and Bala R. Iyer</p>
+<p><strong>Journal:</strong> Class. Quant. Grav. 24, 5307 (2007)</p>
+<p><strong>Date Published:</strong> Jun 5, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0706.0726" target="_blank">http://arxiv.org/abs/0706.0726</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>In this Comment we compute the contributions of the radiation reaction force in the 2.5 post-Newtonian (PN) gravitational wave polarizations for compact binaries in circular orbits. (i) We point out and correct an inconsistency in the derivation of Arun, Blanchet, Iyer, and Qusailah. (ii) We prove that all contributions from radiation reaction in the 2.5PN waveform are actually negligible since they can be absorbed into a modification of the orbital phase at the 5PN order.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Testing outer boundary treatments for the Einstein equations</h4>
+<p><strong>Author(s):</strong> Oliver Rinne, Lee Lindblom, and Mark A. Scheel</p>
+<p><strong>Journal:</strong> Class. Quantum Grav. 24 (2007) 4053--4078</p>
+<p><strong>Date Published:</strong> Apr 5, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/0704.0782" target="_blank">http://arxiv.org/abs/0704.0782</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Various methods of treating outer boundaries in numerical relativity are compared using a simple test problem: a Schwarzschild black hole with an outgoing gravitational wave perturbation. Numerical solutions computed using different boundary treatments are compared to a `reference' numerical solution obtained by placing the outer boundary at a very large radius. For each boundary treatment, the full solutions including constraint violations and extracted gravitational waves are compared to those of the reference solution, thereby assessing the reflections caused by the artificial boundary. These tests use a first-order generalized harmonic formulation of the Einstein equations. Constraint-preserving boundary conditions for this system are reviewed, and an improved boundary condition on the gauge degrees of freedom is presented. Alternate boundary conditions evaluated here include freezing the incoming characteristic fields, Sommerfeld boundary conditions, and the constraint-preserving boundary conditions of Kreiss and Winicour. Rather different approaches to boundary treatments, such as sponge layers and spatial compactification, are also tested. Overall the best treatment found here combines boundary conditions that preserve the constraints, freeze the Newman-Penrose scalar \(\Psi_0\), and control gauge reflections.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Constraint Damping in First-Order Evolution Systems for Numerical Relativity</h4>
+<p><strong>Author(s):</strong> Robert Owen</p>
+<p><strong>Date Posted to the arXiv:</strong> Mar 29, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0703145" target="_blank">http://arxiv.org/abs/gr-qc/0703145</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>A new constraint suppressing formulation of the Einstein evolution equations is presented, generalizing the five-parameter first-order system due to Kidder, Scheel and Teukolsky (KST). The auxiliary fields, introduced to make the KST system first-order, are given modified evolution equations designed to drive constraint violations toward zero. The algebraic structure of the new system is investigated, showing that the modifications preserve the hyperbolicity of the fundamental and constraint evolution equations. The evolution of the constraints for pertubations of flat spacetime is completely analyzed, and all finite-wavelength constraint modes are shown to decay exponentially when certain adjustable parameters satisfy appropriate inequalities. Numerical simulations of a single Schwarzschild black hole are presented, demonstrating the effectiveness of the new constraint-damping modifications.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Evolving relativistic fluid spacetimes using pseudospectral methods and finite differencing</h4>
+<p><strong>Author(s):</strong> Matthew D. Duez, Lawrence E. Kidder, Saul A. Teukolsky</p>
+<p><strong>Date Posted to the arXiv:</strong> Feb 25, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0702126" target="_blank">http://arxiv.org/abs/gr-qc/0702126</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_26" class="folded">We present a new code for solving the coupled Einstein-hydrodynamics equations to evolve relativistic, self-gravitating fluids. The Einstein field equations are solved on one grid using pseudospectral methods, while the fluids are evolved on another grid by finite differencing. We discuss implementation details, such as the communication between the grids and the treatment of stellar surfaces, and present code tests.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Reducing Orbital Eccentricity in Binary Black Hole Simulations</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer, Duncan A. Brown, Lawrence E. Kidder, Lee Lindblom, Geoffrey Lovelace, Mark A. Scheel</p>
+<p><strong>Journal:</strong> Class. Quant. Grav. 24, S59 (2007)</p>
+<p><strong>Date Published:</strong> Feb 20, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0702106" target="_blank">http://arxiv.org/abs/gr-qc/0702106</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Binary black hole simulations starting from quasi-circular (i.e., zero radial velocity) initial data have orbits with small but non-zero orbital eccentricities. In this paper the quasi-equilibrium initial-data method is extended to allow non-zero radial velocities to be specified in binary black hole initial data. New low-eccentricity initial data are obtained by adjusting the orbital frequency and radial velocities to minimize the orbital eccentricity, and the resulting (\(\sim 5\) orbit) evolutions are compared with those of quasi-circular initial data. Evolutions of the quasi-circular data clearly show eccentric orbits, with eccentricity that decays over time. The precise decay rate depends on the definition of eccentricity; if defined in terms of variations in the orbital frequency, the decay rate agrees well with the prediction of Peters (1964). The gravitational waveforms, which contain \(\sim 8\) cycles in the dominant \(l=m=2\) mode, are largely unaffected by the eccentricity of the quasi-circular initial data. The overlap between the dominant mode in the quasi-circular evolution and the same mode in the low-eccentricity evolution is about 0.99.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>The Einstein constraints: uniqueness and non-uniqueness in the conformal thin sandwich approach</h4>
+<p><strong>Author(s):</strong> Thomas W. Baumgarte, Niall Ó Murchadha, and Harald P. Pfeiffer</p>
+<p><strong>Journal:</strong> Phys. Rev. D75 044009 (2007)</p>
+<p><strong>Date Published:</strong> Feb 7, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0610120" target="_blank">http://arxiv.org/abs/gr-qc/0610120</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We study the appearance of multiple solutions to certain decompositions of Einstein's constraint equations. Pfeiffer and York recently reported the existence of two branches of solutions for identical background data in the extended conformal thin-sandwich decomposition. We show that the Hamiltonian constraint alone, when expressed in a certain way, admits two branches of solutions with properties very similar to those found by Pfeiffer and York. We construct these two branches analytically for a constant-density star in spherical symmetry, but argue that this behavior is more general. In the case of the Hamiltonian constraint this non-uniqueness is well known to be related to the sign of one particular term, and we argue that the extended conformal thin-sandwich equations contain a similar term that causes the breakdown of uniqueness.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Numerical implementation of isolated horizon boundary conditions</h4>
+<p><strong>Author(s):</strong> J.L. Jaramillo, M. Ansorg, and F. Limousin</p>
+<p><strong>Journal:</strong> Phys. Rev. D75 024019 (2007)</p>
+<p><strong>Date Published:</strong> Jan 12, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0610006" target="_blank">http://arxiv.org/abs/gr-qc/0610006</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We study the numerical implementation of a set of boundary conditions derived from the isolated horizon formalism, and which characterize a black hole whose horizon is in quasi-equilibrium. More precisely, we enforce these geometrical prescriptions as inner boundary conditions on an excised sphere, in the numerical resolution of the Conformal Thin Sandwich equations. As main results, we firstly establish the consistency of including in the set of boundary conditions a "constant surface gravity" prescription, interpretable as a lapse boundary condition, and secondly we assess how the prescriptions presented recently by Dain et al. for guaranteeing the well-posedness of the Conformal Transverse Traceless equations with quasi-equilibrium horizon conditions extend to the Conformal Thin Sandwich elliptic system. As a consequence of the latter analysis, we discuss the freedom of prescribing the expansion associated with the ingoing null normal at the horizon.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Testing the Accuracy and Stability of Spectral Methods in Numerical Relativity</h4>
+<p><strong>Author(s):</strong> Michael Boyle, Lee Lindblom, Harald Pfeiffer, Mark Scheel, Lawrence E. Kidder</p>
+<p><strong>Journal:</strong> Phys. Rev. D75 024006 (2007)</p>
+<p><strong>Date Published:</strong> Jan 5, 2007</p>
+<p><strong>arXiv Address: </strong><a href="http://www.arxiv.org/abs/gr-qc/0609047" target="_blank">http://www.arxiv.org/abs/gr-qc/0609047</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The accuracy and stability of the Caltech-Cornell pseudospectral code is evaluated using the KST representation of the Einstein evolution equations. The basic "Mexico City Tests" widely adopted by the numerical relativity community are adapted here for codes based on spectral methods. Exponential convergence of the spectral code is established, apparently limited only by numerical roundoff error. A general expression for the growth of errors due to finite machine precision is derived, and it is shown that this limit is achieved here for the linear plane-wave test. All of these tests are found to be stable, except for simulations of high amplitude gauge waves with nontrivial shift.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2006" class="year">2006</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Towards absorbing outer boundaries in General Relativity</h4>
+<p><strong>Author(s):</strong> Luisa T. Buchman, Olivier C. A. Sarbach</p>
+<p><strong>Journal:</strong> Class. Quant. Grav. 23, 6709-6744 (2006)</p>
+<p><strong>Date Published:</strong> Dec 7, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://www.arxiv.org/abs/gr-qc/0608051" target="_blank">http://www.arxiv.org/abs/gr-qc/0608051</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We construct exact solutions to the Bianchi equations on a flat spacetime background. When the constraints are satisfied, these solutions represent in- and outgoing linearized gravitational radiation. We then consider the Bianchi equations on a subset of flat spacetime of the form \([0,T] \times B_R\), where \(B_R\) is a ball of radius \(R\), and analyze different kinds of boundary conditions on \(\partial B_R\). Our main results are: i) We give an explicit analytic example showing that boundary conditions obtained from freezing the incoming characteristic fields to their initial values are not compatible with the constraints. ii) With the help of the exact solutions constructed, we determine the amount of artificial reflection of gravitational radiation from constraint-preserving boundary conditions which freeze the Weyl scalar \(\Psi_0\) to its initial value. For monochromatic radiation with wave number k and arbitrary angular momentum number \(\ell \geq 2\), the amount of reflection decays as \(1/(kR)^4\) for large \(kR\). iii) For each \(L \geq 2\), we construct new local constraint-preserving boundary conditions which perfectly absorb linearized radiation with \(\ell \leq L\). (iv) We generalize our analysis to a weakly curved background of mass \(M\), and compute first order corrections in M/R to the reflection coefficients for quadrupolar odd-parity radiation. For our new boundary condition with \(L=2\), the reflection coefficient is smaller than the one for the freezing \(\Psi_0\) boundary condition by a factor of \(M/R\) for \(kR &gt; 1.04\). Implications of these results for numerical simulations of binary black holes on finite domains are discussed.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Solving Einstein's Equations With Dual Coordinate Frames</h4>
+<p><strong>Author(s):</strong> Mark A. Scheel, Harald P. Pfeiffer, Lee Lindblom, Lawrence E. Kidder, Oliver Rinne, and Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Physical Review D, 74 104006 (2006)</p>
+<p><strong>Date Published:</strong> Nov 15, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0607056" target="_blank">http://arxiv.org/abs/gr-qc/0607056</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>A method is introduced for solving Einstein's equations using two distinct coordinate systems. The coordinate basis vectors associated with one system are used to project out components of the metric and other fields, in analogy with the way fields are projected onto an orthonormal tetrad basis. These field components are then determined as functions of a second independent coordinate system. The transformation to the second coordinate system can be thought of as a mapping from the original "inertial" coordinate system to the computational domain. This dual-coordinate method is used to perform stable numerical evolutions of a black-hole spacetime using the generalized harmonic form of Einstein's equations in coordinates that rotate with respect to the inertial frame at infinity; such evolutions are found to be generically unstable using a single rotating coordinate frame. The dual-coordinate method is also used here to evolve binary black-hole spacetimes for several orbits. The great flexibility of this method allows comoving coordinates to be adjusted with a feedback control system that keeps the excision boundaries of the holes within their respective apparent horizons.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Self-Renormalization of the Classical Quasilocal Energy</h4>
+<p><strong>Author(s):</strong> Andrew P. Lundgren, Bjoern S. Schmekel, James W. York Jr</p>
+<p><strong>Journal:</strong> Phys. Rev. D 75, 084026 (2007)</p>
+<p><strong>Date Published:</strong> Oct 18, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0610088" target="_blank">http://arxiv.org/abs/gr-qc/0610088</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Pointlike objects cause many of the divergences that afflict physical theories. For instance, the gravitational binding energy of a point particle in Newtonian mechanics is infinite. In general relativity, the analog of a point particle is a black hole and the notion of binding energy must be replaced by quasilocal energy. The quasilocal energy (QLE) derived by York, and elaborated by Brown and York, is finite outside the horizon but it was not considered how to evaluate it inside the horizon. We present a prescription for finding the QLE inside a horizon, and show that it is finite at the singularity for a variety of types of black hole. The energy is typically concentrated just inside the horizon, not at the central singularity.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Adaptive Mesh Refinement for Coupled Elliptic-Hyperbolic Systems</h4>
+<p><strong>Author(s):</strong> Frans Pretorius, Matthew W. Choptuik</p>
+<p><strong>Journal:</strong> J. Comput. Phys. 218, 246-274 (2006)</p>
+<p><strong>Date Published:</strong> Oct 10, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0508110" target="_blank">http://arxiv.org/abs/gr-qc/0508110</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We present a modification to the Berger and Oliger adaptive mesh refinement algorithm designed to solve systems of coupled, non-linear, hyperbolic and elliptic partial differential equations. Such systems typically arise during constrained evolution of the field equations of general relativity. The novel aspect of this algorithm is a technique of "extrapolation and delayed solution" used to deal with the non-local nature of the solution of the elliptic equations, driven by dynamical sources, within the usual Berger and Oliger time-stepping framework. We show empirical results demonstrating the effectiveness of this technique in axisymmetric gravitational collapse simulations. We also describe several other details of the code, including truncation error estimation using a self-shadow hierarchy, and the refinement-boundary interpolation operators that are used to help suppress spurious high-frequency solution components ("noise").</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Approximate initial data for binary black holes</h4>
+<p><strong>Author(s):</strong> Kenneth A. Dennison, Thomas W. Baumgarte, Harald P. Pfeiffer</p>
+<p><strong>Journal:</strong> Phys. Rev. D74 064016 (2006)</p>
+<p><strong>Date Published:</strong> Sep 13, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0606037" target="_blank">http://arxiv.org/abs/gr-qc/0606037</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We construct approximate analytical solutions to the constraint equations of general relativity for binary black holes of arbitrary mass ratio in quasicircular orbit. We adopt the puncture method of Brandt and Bruegmann to solve the constraint equations in the transverse-traceless decomposition and consider perturbations of Schwarzschild black holes caused by boosts and the presence of a binary companion. A superposition of these two perturbations then yields approximate, but fully analytic binary black hole initial data that are accurate to first order in the inverse of the binary separation and the square of the black holes' momenta. Even close to the innermost stable circular orbit, the perturbative treatment introduces errors that are remarkably small and only somewhat larger than the errors caused by the underlying assumptions of puncture data.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Circular orbits and spin in black-hole initial data</h4>
+<p><strong>Author(s):</strong> Matthew Caudill, Gregory B. Cook, Jason D. Grigsby, Harald P. Pfeiffer</p>
+<p><strong>Journal:</strong> Phys. Rev. D74 064011 (2006)</p>
+<p><strong>Date Published:</strong> Sep 11, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0605053" target="_blank">http://arxiv.org/abs/gr-qc/0605053</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The construction of initial data for black-hole binaries usually involves the choice of free parameters that define the spins of the black holes and essentially the eccentricity of the orbit. Such parameters must be chosen carefully to yield initial data with the desired physical properties. In this paper, we examine these choices in detail for the quasiequilibrium method coupled to apparent-horizon/quasiequilibrium boundary conditions. First, we compare two independent criteria for choosing the orbital frequency, the "Komar-mass condition" and the "effective-potential method," and find excellent agreement. Second, we implement quasi-local measures of the spin of the individual holes, calibrate these with corotating binaries, and revisit the construction of non-spinning black hole binaries. Higher-order effects, beyond those considered in earlier work, turn out to be important. Without those, supposedly non-spinning black holes have appreciable quasi-local spin; furthermore, the Komar-mass condition and effective potential method agree only when these higher-order effects are taken into account. We compute a new sequence of quasi-circular orbits for non-spinning black-hole binaries, and determine the innermost stable circular orbit of this sequence.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>A New Generalized Harmonic Evolution System</h4>
+<p><strong>Author(s):</strong> Lee Lindblom, Mark A. Scheel, Lawrence E. Kidder, Robert Owen and Oliver Rinne</p>
+<p><strong>Journal:</strong> Class. Quant. Grav. 23, S447-S462 (2006)</p>
+<p><strong>Date Published:</strong> Aug 21, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0512093" target="_blank">http://arxiv.org/abs/gr-qc/0512093</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_37" class="folded">A new representation of the Einstein evolution equations is presented that is first order, linearly degenerate, and symmetric hyperbolic. This new system uses the generalized harmonic method to specify the coordinates, and exponentially suppresses all small short-wavelength constraint violations. Physical and constraint-preserving boundary conditions are derived for this system, and numerical tests that demonstrate the effectiveness of the constraint suppression properties and the constraint-preserving boundary conditions are presented.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>A minimization problem for the lapse and the initial-boundary value problem for Einstein's field equations</h4>
+<p><strong>Author(s):</strong> Gabriel Nagy, Olivier Sarbach</p>
+<p><strong>Journal:</strong> Class. Quant. Grav. 23, S477-S504 (2006)</p>
+<p><strong>Date Published:</strong> Aug 21, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://www.arxiv.org/abs/gr-qc/0601124" target="_blank">http://www.arxiv.org/abs/gr-qc/0601124</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_38" class="folded">We discuss the initial-boundary value problem of General Relativity. Previous considerations for a toy model problem in electrodynamics motivate the introduction of a variational principle for the lapse with several attractive properties. In particular, it is argued that the resulting elliptic gauge condition for the lapse together with a suitable condition for the shift and constraint-preserving boundary conditions controlling the Weyl scalar \(\Psi_0\) are expected to yield a well posed initial-boundary value problem for metric formulations of Einstein's field equations which are commonly used in numerical relativity. To present a simple and explicit example we consider the 3+1 decomposition introduced by York of the field equations on a cubic domain with two periodic directions and prove in the weak field limit that our gauge condition for the lapse and our boundary conditions lead to a well posed problem. The method discussed here is quite general and should also yield well posed problems for different ways of writing the evolution equations, including first order symmetric hyperbolic or mixed first-order second-order formulations. Well posed initial-boundary value formulations for the linearization about arbitrary stationary configurations will be presented elsewhere.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Stable radiation-controlling boundary conditions for the generalized harmonic Einstein equations</h4>
+<p><strong>Author(s):</strong> Oliver Rinne</p>
+<p><strong>Journal:</strong> Class. Quantum Grav. 23(22), 6275-6300 (2006)</p>
+<p><strong>Date Published:</strong> Jun 12, 2006</p>
+<p><strong>arXiv Address:</strong><a href="http://arxiv.org/abs/gr-qc/0606053" target="_blank">http://arxiv.org/abs/gr-qc/0606053</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_39" class="folded">This paper is concerned with the initial-boundary value problem for the Einstein equations in a first-order generalized harmonic formulation. We impose boundary conditions that preserve the constraints and control the incoming gravitational radiation by prescribing data for the incoming fields of the Weyl tensor. High-frequency perturbations about any given spacetime (including a shift vector with subluminal normal component) are analyzed using the Fourier-Laplace technique. We show that the system is boundary-stable. In addition, we develop a criterion that can be used to detect weak instabilities with polynomial time dependence, and we show that our system does not suffer from such instabilities. A numerical robust stability test supports our claim that the initial-boundary value problem is most likely to be well-posed even if nonzero initial and source data are included.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>New Minimal Distortion Shift Gauge</h4>
+<p><strong>Author(s):</strong> Robert T. Jantzen, James W. York, Jr</p>
+<p><strong>Journal:</strong> Phys. Rev. D73, 104008 (2006)</p>
+<p><strong>Date Published:</strong> May 5, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0603069" target="_blank">http://arxiv.org/abs/gr-qc/0603069</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_40" class="folded">Based on the recent understanding of the role of the densitized lapse function in Einstein's equations and of the proper way to pose the thin sandwich problem, a slight readjustment of the minimal distortion shift gauge in the 3+1 approach to the dynamics of general relativity allows this shift vector to serve as the vector potential for the longitudinal part of the extrinsic curvature tensor in the new approach to the initial value problem, thus extending the initial value decomposition of gravitational variables to play a role in the evolution as well. The new shift vector globally minimizes the changes in the conformal 3-metric with respect to the spacetime measure rather than the spatial measure on the time coordinate hypersurfaces, as the old shift vector did.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Recent analytical and numerical techniques applied to the Einstein equations</h4>
+<p><strong>Author(s):</strong> Dave Neilsen, Luis Lehner, Olivier Sarbach, Manuel Tiglio</p>
+<p><strong>Journal:</strong> Lect.Notes Phys. 692, 223-249 (2006)</p>
+<p><strong>Date Published:</strong> Jan 1, 2006</p>
+<p><strong>arXiv Address: </strong><a href="http://www.arxiv.org/abs/gr-qc/0412062" target="_blank">http://www.arxiv.org/abs/gr-qc/0412062</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Combining deeper insight of Einstein's equations with sophisticated numerical techniques promises the ability to construct accurate numerical implementations of these equations. We illustrate this in two examples, the numerical evolution of "bubble" and single black hole spacetimes. The former is chosen to demonstrate how accurate numerical solutions can answer open questions and even reveal unexpected phenomena. The latter illustrates some of the difficulties encountered in three-dimensional black hole simulations, and presents some possible remedies.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2005" class="year">2005</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Multi-block simulations in general relativity: high order discretizations, numerical stability, and applications</h4>
+<p><strong>Author(s):</strong> Luis Lehner, Oscar Reula, Manuel Tiglio</p>
+<p><strong>Journal:</strong> Class.Quant.Grav. 22, 5283-5322 (2005)</p>
+<p><strong>Date Published:</strong> Dec 21, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0507004" target="_blank">http://arxiv.org/abs/gr-qc/0507004</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The need to smoothly cover a computational domain of interest generically requires the adoption of several grids. To solve the problem of interest under this grid-structure one must ensure the suitable transfer of information among the different grids involved. In this work we discuss a technique that allows one to construct finite difference schemes of arbitrary high order which are guaranteed to satisfy linear numerical and strict stability. The technique relies on the use of difference operators satisfying summation by parts and <em>penalty techniques</em> to transfer information between the grids. This allows the derivation of semidiscrete energy estimates for problems admitting such estimates at the continuum. We analyze several aspects of this technique when used in conjuction with high order schemes and illustrate its use in one, two and three dimensional numerical relativity model problems with non-trivial topologies, including truly spherical black hole excision.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Schwarzschild Tests of the Wahlquist-Estabrook-Buchman-Bardeen Tetrad Formulation for Numerical Relativity</h4>
+<p><strong>Author(s):</strong> L. T. Buchman and J. M. Bardeen</p>
+<p><strong>Journal:</strong> Phys. Rev. D72, 124014 (2005)</p>
+<p><strong>Date Published:</strong> Dec 15, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0508111" target="_blank">http://arxiv.org/abs/gr-qc/0508111</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>A first order symmetric hyperbolic tetrad formulation of the Einstein equations developed by Estabrook and Wahlquist and put into a form suitable for numerical relativity by Buchman and Bardeen (the WEBB formulation) is adapted to explicit spherical symmetry and tested for accuracy and stability in the evolution of spherically symmetric black holes (the Schwarzschild geometry). The lapse and shift which specify the evolution of the coordinates relative to the tetrad congruence are reset at frequent time intervals to keep the constant-time hypersurfaces nearly orthogonal to the tetrad congruence and the spatial coordinate satisfying a kind of minimal rate of strain condition. By arranging through initial conditions that the constant-time hypersurfaces are asymptotically hyperbolic, we simplify the boundary value problem and improve stability of the evolution. Results are obtained for both tetrad gauges ("Nester" and "Lorentz") of the WEBB formalism using finite difference numerical methods. We are able to obtain stable unconstrained evolution with the Nester gauge for certain initial conditions, but not with the Lorentz gauge.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Boundary conditions for Einstein's field equations: Analytical and numerical analysis</h4>
+<p><strong>Author(s):</strong> Olivier Sarbach, Manuel Tiglio</p>
+<p><strong>Journal:</strong> J. Hyperbolic Differential Eqs. 2, 839-883 (2005)</p>
+<p><strong>Date Published:</strong> Dec 1, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://www.arxiv.org/abs/gr-qc/0412115" target="_blank">http://www.arxiv.org/abs/gr-qc/0412115</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Outer boundary conditions for strongly and symmetric hyperbolic formulations of 3D Einstein's field equations with a live gauge condition are discussed. The boundary conditions have the property that they ensure constraint propagation and control in a sense made precise in this article the physical degrees of freedom at the boundary. We use Fourier-Laplace transformation techniques to find necessary conditions for the well posedness of the resulting initial-boundary value problem and integrate the resulting three-dimensional nonlinear equations using a finite-differencing code. We obtain a set of constraint-preserving boundary conditions which pass a robust numerical stability test. We explicitly compare these new boundary conditions to standard, maximally dissipative ones through Brill wave evolutions. Our numerical results explicitly show that in the latter case the constraint variables, describing the violation of the constraints, do not converge to zero when resolution is increased while for the new boundary conditions, the constraint variables do decrease as resolution is increased. As an application, we inject pulses of "gravitational radiation" through the boundaries of an initially flat spacetime domain, with enough amplitude to generate strong fields and induce large curvature scalars, showing that our boundary conditions are robust enough to handle nonlinear dynamics. We expect our boundary conditions to be useful for improving the accuracy and stability of current binary black hole and binary neutron star simulations, for a successful implementation of characteristic or perturbative matching techniques, and other applications. We also discuss limitations of our approach and possible future directions.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Einstein Bianchi equations with sources</h4>
+<p><strong>Author(s):</strong> Yvonne Choquet-Bruhat, James W. York</p>
+<p><strong>Date Poster to the arXiv:</strong> Nov 7, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0511032" target="_blank">http://arxiv.org/abs/gr-qc/0511032</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_45" class="folded">In this article, dedicated to one of the best specialist of the FOSH systems, we couple the Bianchi equations with the equations satisfied by the dynamical acceleration of a charged fluid and the derivatives of the associated Maxwell field.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>The geometry of a naked singularity created by standing waves near a Schwarzschild horizon, and its application to the binary black hole problem</h4>
+<p><strong>Author(s):</strong> Ilya Mandel</p>
+<p><strong>Journal:</strong> Phys.Rev. D72, 084025 (2005)</p>
+<p><strong>Date Published:</strong> Oct 25, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://www.arxiv.org/abs/gr-qc/0505149" target="_blank">http://www.arxiv.org/abs/gr-qc/0505149</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The most promising way to compute the gravitational waves emitted by binary black holes (BBHs) in their last dozen orbits, where post-Newtonian techniques fail, is a quasistationary approximation introduced by Detweiler and being pursued by Price and others. In this approximation the outgoing gravitational waves at infinity and downgoing gravitational waves at the holes' horizons are replaced by standing waves so as to guarantee that the spacetime has a helical Killing vector field. Because the horizon generators will not, in general, be tidally locked to the holes' orbital motion, the standing waves will destroy the horizons, converting the black holes into naked singularities that resemble black holes down to near the horizon radius. This paper uses a spherically symmetric, scalar-field model problem to explore in detail the following BBH issues: (i) The destruction of a horizon by the standing waves. (ii) The accuracy with which the resulting naked singularity resembles a black hole. (iii) The conversion of the standing-wave spacetime (with a destroyed horizon) into a spacetime with downgoing waves by the addition of a "radiation-reaction field". (iv) The accuracy with which the resulting downgoing waves agree with the downgoing waves of a true black-hole spacetime (with horizon). The model problem used to study these issues consists of a Schwarzschild black hole endowed with spherical standing waves of a scalar field. It is found that the spacetime metric of the singular, standing-wave spacetime, and its radiation-reaction-field-constructed downgoing waves are quite close to those for a Schwarzschild black hole with downgoing waves -- sufficiently close to make the BBH quasistationary approximation look promising for non-tidally-locked black holes.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Evolution of Binary Black Hole Spacetimes</h4>
+<p><strong>Author(s):</strong> Frans Pretorius</p>
+<p><strong>Journal:</strong> Phys.Rev.Lett. 95, 121101 (2005)</p>
+<p><strong>Date Published:</strong> Sep 14, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0507014" target="_blank">http://arxiv.org/abs/gr-qc/0507014</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We describe early success in the evolution of binary black hole spacetimes with a numerical code based on a generalization of harmonic coordinates. Indications are that with sufficient resolution this scheme is capable of evolving binary systems for enough time to extract information about the orbit, merger and gravitational waves emitted during the event. As an example we show results from the evolution of a binary composed of two equal mass, non-spinning black holes, through a single plunge-orbit, merger and ring down. The resultant black hole is estimated to be a Kerr black hole with angular momentum parameter a~0.70. At present, lack of resolution far from the binary prevents an accurate estimate of the energy emitted, though a rough calculation suggests on the order of 5% of the initial rest mass of the system is radiated as gravitational waves during the final orbit and ringdown.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Axisymmetric Numerical Relativity</h4>
+<p><strong>Author(s):</strong> Oliver Rinne</p>
+<p><strong>Journal:</strong> PhD thesis, University of Cambridge</p>
+<p><strong>Date Published:</strong> Sep 13, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0601064" target="_blank">http://arxiv.org/abs/gr-qc/0601064</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>This thesis is concerned with formulations of the Einstein equations in axisymmetric spacetimes which are suitable for numerical evolutions. We develop two evolution systems based on the (2+1)+1 formalism. The first is a (partially) constrained scheme with elliptic gauge conditions arising from maximal slicing and conformal flatness. The second is a strongly hyperbolic first-order formulation obtained by combining the (2+1)+1 formalism with the Z4 formalism. A careful study of the behaviour of regular axisymmetric tensor fields enables us to cast the equations in a form that is well-behaved on the axis. Further topics include (non)uniqueness of solutions to the elliptic equations arising in constrained schemes, and comparisons between various boundary conditions used in numerical relativity. The numerical implementation is applied to adaptive evolutions of nonlinear Brill waves, including twist.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Uniqueness and Non-uniqueness in the Einstein Constraints</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer and James W. York</p>
+<p><strong>Journal:</strong> Phys.Rev.Lett. 95, 091101 (2005)</p>
+<p><strong>Date Published:</strong> Aug 26, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0504142" target="_blank">http://arxiv.org/abs/gr-qc/0504142</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The conformal thin sandwich (CTS) equations are a set of four of the Einstein equations, which generalize the Laplace-Poisson equation of Newton's theory. We examine numerically solutions of the CTS equations describing perturbed Minkowski space, and find only one solution. However, we find <em>two</em> distinct solutions, one even containing a black hole, when the lapse is determined by a fifth elliptic equation through specification of the mean curvature. While the relationship of the two systems and their solutions is a fundamental property of general relativity, this fairly simple example of an elliptic system with non-unique solutions is also of broader interest.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>The initial value problem in numerical relativity</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer</p>
+<p><strong>Journal:</strong> J. Hyperbolic Differential Eqs., 2, 497-520 (2005)</p>
+<p><strong>Date Published:</strong> Jun 1, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0412002" target="_blank">http://arxiv.org/abs/gr-qc/0412002</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The conformal method for constructing initial data for Einstein's equations is presented in both the Hamiltonian and Lagrangian picture (extrinsic curvature decomposition and conformal thin sandwich formalism, respectively), and advantages due to the recent introduction of a weight-function in the extrinsic curvature decomposition are discussed. I then describe recent progress in numerical techniques to solve the resulting elliptic equations, and explore innovative approaches toward the construction of astrophysically realistic initial data for binary black hole simulations.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>A model problem for the initial-boundary value formulation of Einstein's field equations</h4>
+<p><strong>Author(s):</strong> Oscar Reula, Olivier Sarbach</p>
+<p><strong>Journal:</strong> J. Hyperbolic Differential Eqs. 2, 397-435 (2005)</p>
+<p><strong>Date Published:</strong> Jun 1, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://www.arxiv.org/abs/gr-qc/0409027" target="_blank">http://www.arxiv.org/abs/gr-qc/0409027</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_51" class="folded">In many numerical implementations of the Cauchy formulation of Einstein's field equations one encounters artificial boundaries which raises the issue of specifying boundary conditions. Such conditions have to be chosen carefully. In particular, they should be compatible with the constraints, yield a well posed initial-boundary value formulation and incorporate some physically desirable properties like, for instance, minimizing reflections of gravitational radiation. Motivated by the problem in General Relativity, we analyze a model problem, consisting of a formulation of Maxwell's equations on a spatially compact region of spacetime with timelike boundaries. The form in which the equations are written is such that their structure is very similar to the Einstein-Christoffel symmetric hyperbolic formulations of Einstein's field equations. For this model problem, we specify a family of Sommerfeld-type constraint-preserving boundary conditions and show that the resulting initial-boundary value formulations are well posed. We expect that these results can be generalized to the Einstein-Christoffel formulations of General Relativity, at least in the case of linearizations about a stationary background.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>The periodic standing-wave approximation: nonlinear scalar fields, adapted coordinates, and the eigenspectral method</h4>
+<p><strong>Author(s):</strong> Benjamin Bromley, Robert Owen, Richard H. Price</p>
+<p><strong>Journal:</strong> Phys. Rev. D 71, 104017 (2005)</p>
+<p><strong>Date Published:</strong> May 13, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0502034" target="_blank">http://arxiv.org/abs/gr-qc/0502034</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_52" class="folded">The periodic standing wave (PSW) method for the binary inspiral of black holes and neutron stars computes exact numerical solutions for periodic standing wave spacetimes and then extracts approximate solutions of the physical problem, with outgoing waves. The method requires solution of a boundary value problem with a mixed (hyperbolic and elliptic) character. We present here a new numerical method for such problems, based on three innovations: (i) a coordinate system adapted to the geometry of the problem, (ii) an expansion in multipole moments of these coordinates and a filtering out of higher moments, and (iii) the replacement of the continuum multipole moments with their analogs for a discrete grid. We illustrate the efficiency and accuracy of this method with nonlinear scalar model problems. Finally, we take advantage of the ability of this method to handle highly nonlinear models to demonstrate that the outgoing approximations extracted from the standing wave solutions are highly accurate even in the presence of strong nonlinearities.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>A strongly hyperbolic and regular reduction of Einstein's equations for axisymmetric spacetimes</h4>
+<p><strong>Author(s):</strong> Oliver Rinne and John M. Stewart</p>
+<p><strong>Journal:</strong> Class. Quantum Grav. 22(6) 1143-1166 (2005)</p>
+<p><strong>Date Published:</strong> Mar 21, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://www.arxiv.org/abs/gr-qc/0502037" target="_blank">http://www.arxiv.org/abs/gr-qc/0502037</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_53" class="folded">This paper is concerned exclusively with axisymmetric spacetimes. We want to develop reductions of Einstein's equations which are suitable for numerical evolutions. We first make a Kaluza-Klein type dimensional reduction followed by an ADM reduction on the Lorentzian 3-space, the (2+1)+1 formalism. We include also the Z4 extension of Einstein's equations adapted to this formalism. Our gauge choice is based on a generalized harmonic gauge condition. We consider vacuum and perfect fluid sources. We use these ingredients to construct a strongly hyperbolic first-order evolution system and exhibit its characteristic structure. This enables us to construct constraint-preserving stable outer boundary conditions. We use cylindrical polar coordinates and so we provide a careful discussion of the coordinate singularity on axis. By choosing our dependent variables appropriately we are able to produce an evolution system in which each and every term is manifestly regular on axis.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Boundary Conditions for the Einstein Evolution System</h4>
+<p><strong>Author(s):</strong> Lawrence E. Kidder, Lee Lindblom, Mark A. Scheel, Luisa T. Buchman, Harald P. Pfeiffer</p>
+<p><strong>Journal:</strong> Phys. Rev. D71 (2005) 064020</p>
+<p><strong>Date Published:</strong> Mar 15, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0412116" target="_blank">http://arxiv.org/abs/gr-qc/0412116</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>New boundary conditions are constructed and tested numerically for a general first-order form of the Einstein evolution system. These conditions prevent constraint violations from entering the computational domain through timelike boundaries, allow the simulation of isolated systems by preventing physical gravitational waves from entering the computational domain, and are designed to be compatible with the fixed-gauge evolutions used here. These new boundary conditions are shown to be effective in limiting the growth of constraints in 3D nonlinear numerical evolutions of dynamical black-hole spacetimes.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>A numerical examination of an evolving black string horizon</h4>
+<p><strong>Author(s):</strong> D. Garfinkle, L. Lehner, F. Pretorius</p>
+<p><strong>Journal:</strong> Phys. Rev. D 71, 064009 (2005)</p>
+<p><strong>Date Published:</strong> Mar 11, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0412014" target="_blank">http://arxiv.org/abs/gr-qc/0412014</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_55" class="folded">We use the numerical solution describing the evolution of a perturbed black string presented in Choptuik et al. (2003) to elucidate the intrinsic behavior of the horizon. It is found that by the end of the simulation, the affine parameter on the horizon has become very large and the expansion and shear of the horizon in turn very small. This suggests the possibility that the horizon might pinch off in infinite affine parameter.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>The intermediate problem for binary black hole inspiral and the periodic standing wave approximation</h4>
+<p><strong>Author(s):</strong> Benjamin Bromley, Robert Owen, Richard H.Price</p>
+<p><strong>Date Posted to the arXiv:</strong> Feb 28, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0502121" target="_blank">http://arxiv.org/abs/gr-qc/0502121</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>In calculations of the inspiral of binary black holes an intermediate approximation is needed that can bridge the post-Newtonian methods of the early inspiral and the numerical relativity computations of the final plunge. We describe here the periodic standing wave approximation: A numerical solution is found to the problem of a periodic rotating binary with helically symmetric standing wave fields, and from this solution an approximation is extracted for the physically relevant problem of inspiral with outgoing waves. The approximation underlying this approach has been recently confirmed with innovative numerical methods applied to nonlinear model problems.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Numerical Relativity Using a Generalized Harmonic Decomposition</h4>
+<p><strong>Author(s):</strong> Frans Pretorius</p>
+<p><strong>Journal:</strong> Class.Quant.Grav. 22, 425-452 (2005)</p>
+<p><strong>Date Published:</strong> Jan 21, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0407110" target="_blank">http://arxiv.org/abs/gr-qc/0407110</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>A new numerical scheme to solve the Einstein field equations based upon the generalized harmonic decomposition of the Ricci tensor is introduced. The source functions driving the wave equations that define generalized harmonic coordinates are treated as independent functions, and encode the coordinate freedom of solutions. Techniques are discussed to impose particular gauge conditions through a specification of the source functions. A 3D, free evolution, finite difference code implementing this system of equations with a scalar field matter source is described. The second-order-in-space-and-time partial differential equations are discretized directly without the use first order auxiliary terms, limiting the number of independent functions to fifteen--ten metric quantities, four source functions and the scalar field. This also limits the number of constraint equations, which can only be enforced to within truncation error in a numerical free evolution, to four. The coordinate system is compactified to spatial infinity in order to impose physically motivated, constraint-preserving outer boundary conditions. A variant of the Cartoon method for efficiently simulating axisymmetric spacetimes with a Cartesian code is described that does not use interpolation, and is easier to incorporate into existing adaptive mesh refinement packages. Preliminary test simulations of vacuum black hole evolution and black hole formation via scalar field collapse are described, suggesting that this method may be useful for studying many spacetimes of interest.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Initial data for Einstein's equations with superposed gravitational waves</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer, Lawrence E. Kidder, Mark A. Scheel, Deirdre Shoemaker</p>
+<p><strong>Journal:</strong> Phys. Rev. D71, 024020 (2005)</p>
+<p><strong>Date Published:</strong> Jan 20, 2005</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0410016" target="_blank">http://arxiv.org/abs/gr-qc/0410016</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>A method is presented to construct initial data for Einstein's equations as a superposition of a gravitational wave perturbation on an arbitrary stationary background spacetime. The method combines the conformal thin sandwich formalism with linear gravitational waves, and allows detailed control over characteristics of the superposed gravitational wave like shape, location and propagation direction. It is furthermore fully covariant with respect to spatial coordinate changes and allows for very large amplitude of the gravitational wave.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2004" class="year">2004</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Nonlinear Development of the Secular Bar-mode Instability in Rotating Neutron Stars</h4>
+<p><strong>Author(s):</strong> Shangli Ou, Joel E. Tohline, Lee Lindblom</p>
+<p><strong>Journal:</strong> Astrophys.J. 617, 490-499 (2004)</p>
+<p><strong>Date Published:</strong> Dec 10, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/astro-ph/0406037" target="_blank">http://arxiv.org/abs/astro-ph/0406037</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We have modelled the nonlinear development of the secular bar-mode instability that is driven by gravitational radiation-reaction (GRR) forces in rotating neutron stars. In the absence of any competing viscous effects, an initially uniformly rotating, axisymmetric n=1/2 polytropic star with a ratio of rotational to gravitational potential energy T/|W| = 0.181 is driven by GRR forces to a bar-like structure, as predicted by linear theory. The pattern frequency of the bar slows to nearly zero, that is, the bar becomes almost stationary as viewed from an inertial frame of reference as GRR removes energy and angular momentum from the star. In this "Dedekind-like" state, rotational energy is stored as motion of the fluid in highly noncircular orbits inside the bar. However, in less than 10 dynamical times after its formation, the bar loses its initially coherent structure as the ordered flow inside the bar is disrupted by what appears to be a purely hydrodynamical, short-wavelength, "shearing" type instability. The gravitational waveforms generated by such an event are determined, and an estimate of the detectability of these waves is presented.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Velocities and Momenta in an Extended Elliptic Form of the Initial Value Conditions</h4>
+<p><strong>Author(s):</strong> James W. York Jr</p>
+<p><strong>Journal:</strong> Nuovo Cim. B119, 823-837 (2004)</p>
+<p><strong>Date Published:</strong> Nov 17, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0409102" target="_blank">http://arxiv.org/abs/gr-qc/0409102</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The complete form of the constraints following from their conformal structure is extended so as to include constant mean curvature and other mean curvature foliations. This step is demonstrated using the momentum phase space approach. This approach yields equations of exactly the same form as the extended conformal thin sandwich approach. In solving the equations, it is never necessary actually to perform a tensor decomposition.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Excision boundary conditions for black hole initial data</h4>
+<p><strong>Author(s):</strong> Gregory B. Cook, Harald P. Pfeiffer</p>
+<p><strong>Journal:</strong> Phys.Rev. D70, 104016 (2004)</p>
+<p><strong>Date Published:</strong> Nov 12, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0407078" target="_blank">http://arxiv.org/abs/gr-qc/0407078</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_61" class="folded">We define and extensively test a set of boundary conditions that can be applied at black hole excision surfaces when the Hamiltonian and momentum constraints of general relativity are solved within the conformal thin-sandwich formalism. These boundary conditions have been designed to result in black holes that are in quasiequilibrium and are completely general in the sense that they can be applied with any conformal three-geometry and slicing condition. Furthermore, we show that they retain precisely the freedom to specify an arbitrary spin on each black hole. Interestingly, we have been unable to find a boundary condition on the lapse that can be derived from a quasiequilibrium condition. Rather, we find evidence that the lapse boundary condition is part of the initial temporal gauge choice. To test these boundary conditions, we have extensively explored the case of a single black hole and the case of a binary system of equal-mass black holes, including the computation of quasi-circular orbits and the determination of the inner-most stable circular orbit. Our tests show that the boundary conditions work well.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Optimal Constraint Projection for Hyperbolic Evolution Systems</h4>
+<p><strong>Author(s):</strong> Michael Holst, Lee Lindblom, Robert Owen, Harald P. Pfeiffer, Mark A. Scheel, Lawrence E. Kidder</p>
+<p><strong>Journal:</strong> Phys. Rev. D 70, 084017 (2004)</p>
+<p><strong>Date Published:</strong> Oct 13, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0407011" target="_blank">http://arxiv.org/abs/gr-qc/0407011</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Techniques are developed for projecting the solutions of symmetric hyperbolic evolution systems onto the constraint submanifold (the constraint-satisfying subset of the dynamical field space). These optimal projections map a field configuration to the "nearest" configuration in the constraint submanifold, where distances between configurations are measured with the natural metric on the space of dynamical fields. The construction and use of these projections is illustrated for a new representation of the scalar field equation that exhibits both bulk and boundary generated constraint violations. Numerical simulations on a black-hole background show that bulk constraint violations cannot be controlled by constraint-preserving boundary conditions alone, but are effectively controlled by constraint projection. Simulations also show that constraint violations entering through boundaries cannot be controlled by constraint projection alone, but are controlled by constraint-preserving boundary conditions. Numerical solutions to the pathological scalar field system are shown to converge to solutions of a standard representation of the scalar field equation when constraint projection and constraint-preserving boundary conditions are used together.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Critical Collapse of a Complex Scalar Field with Angular Momentum</h4>
+<p><strong>Author(s):</strong> M.W. Choptuik, E.W. Hirschmann, S.L. Liebling, F. Pretorius</p>
+<p><strong>Journal:</strong> Phys.Rev.Lett. 93, 131101 (2004)</p>
+<p><strong>Date Published:</strong> Sep 21, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0405101" target="_blank">http://arxiv.org/abs/gr-qc/0405101</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We report a new critical solution found at the threshold of axisymmetric gravitational collapse of a complex scalar field with angular momentum. To carry angular momentum the scalar field cannot be axisymmetric; however, its azimuthal dependence is defined so that the resulting stress energy tensor and spacetime metric are axisymmetric. The critical solution found is non-spherical, discretely self-similar with an echoing exponent of 0.42 (± 4%), and exhibits a scaling exponent of 0.11 (± 10%) in near critical collapse. Our simulations suggest that the solution is universal (within the imposed symmetry class), modulo a family-dependent constant phase in the complex plane.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Adaptive Mesh Refinement for Characteristic Codes</h4>
+<p><strong>Author(s):</strong> Frans Pretorius, Luis Lehner</p>
+<p><strong>Journal:</strong> J.Comput.Phys. 198, 10-34 (2004)</p>
+<p><strong>Date Published:</strong> Jul 20, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0302003" target="_blank">http://arxiv.org/abs/gr-qc/0302003</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The use of adaptive mesh refinement (AMR) techniques is crucial for accurate and efficient simulation of higher dimensional spacetimes. In this work we develop an adaptive algorithm tailored to the integration of finite difference discretizations of wave-like equations using characteristic coordinates. We demonstrate the algorithm by constructing a code implementing the Einstein-Klein-Gordon system of equations in spherical symmetry. We discuss how the algorithm can trivially be generalized to higher dimensional systems, and suggest a method that can be used to parallelize a characteristic code.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Controlling the Growth of Constraints in Hyperbolic Evolution Systems</h4>
+<p><strong>Author(s):</strong> Lee Lindblom, Mark A. Scheel, Lawrence E. Kidder, Harald P. Pfeiffer, Deirdre Shoemaker, Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Phys.Rev. D69, 124025 (2004)</p>
+<p><strong>Date Published:</strong> Jun 28, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0402027" target="_blank">http://arxiv.org/abs/gr-qc/0402027</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Motivated by the need to control the exponential growth of constraint violations in numerical solutions of the Einstein evolution equations, two methods are studied here for controlling this growth in general hyperbolic evolution systems. The first method adjusts the evolution equations dynamically, by adding multiples of the constraints, in a way designed to minimize this growth. The second method imposes special constraint preserving boundary conditions on the incoming components of the dynamical fields. The efficacy of these methods is tested by using them to control the growth of constraints in fully dynamical 3D numerical solutions of a particular representation of the Maxwell equations that is subject to constraint violations. The constraint preserving boundary conditions are found to be much more effective than active constraint control in the case of this Maxwell system.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>The Initial Value Problem Using Metric and Extrinsic Curvature</h4>
+<p><strong>Author(s):</strong> James W. York</p>
+<p><strong>Date Posted to the arXiv:</strong> May 1, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0405005" target="_blank">http://arxiv.org/abs/gr-qc/0405005</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The initial value problem is introduced after a thorough review of the essential geometry. The initial value equations are put into elliptic form using both conformal transformations and a treatment of the extrinsic curvature introduced recently. This use of the metric and the extrinsic curvature is manifestly equivalent to the author's conformal thin sandwich formulation. Therefore, the reformulation of the constraints as an elliptic system by use of conformal techniques is complete.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>3D simulations of linearized scalar fields in Kerr spacetime</h4>
+<p><strong>Author(s):</strong> Mark A. Scheel, Adrienne L. Erickcek, Lior M. Burko, Lawrence E. Kidder, Harald P. Pfeiffer, Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Phys.Rev. D69, 104006 (2004)</p>
+<p><strong>Date Published:</strong> Mar 12, 2004</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0305027" target="_blank">http://arxiv.org/abs/gr-qc/0305027</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We investigate the behavior of a dynamical scalar field on a fixed Kerr background in Kerr-Schild coordinates using a 3+1 dimensional spectral evolution code, and we measure the power-law tail decay that occurs at late times. We compare evolutions of initial data proportional to \(f(r) Y_{\ell m}(\theta,\phi)\) where \(Y_{\ell m}\) is a spherical harmonic and \((r,\theta,\phi)\) are Kerr-Schild coordinates, to that of initial data proportional to \(f(r_{BL}) Y_{\ell m}(\theta_{BL},\phi)\), where \((r_{BL},\theta_{BL})\) are Boyer-Lindquist coordinates. We find that although these two cases are initially almost identical, the evolution can be quite different at intermediate times; however, at late times the power-law decay rates are equal.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2003" class="year">2003</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Critical Collapse of the Massless Scalar Field in Axisymmetry</h4>
+<p><strong>Author(s):</strong> M.W. Choptuik, E.W. Hirschmann, S.L. Liebling, F.Pretorius</p>
+<p><strong>Journal:</strong> Phys.Rev. D68, 044007 (2003)</p>
+<p><strong>Date Published:</strong> Aug 7, 2003</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0305003" target="_blank">http://arxiv.org/abs/gr-qc/0305003</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_68" class="folded">We present results from a numerical study of critical gravitational collapse of axisymmetric distributions of massless scalar field energy. We find threshold behavior that can be described by the spherically symmetric critical solution with axisymmetric perturbations. However, we see indications of a growing, non-spherical mode about the spherically symmetric critical solution. The effect of this instability is that the small asymmetry present in what would otherwise be a spherically symmetric self-similar solution grows. This growth continues until a bifurcation occurs and two distinct regions form on the axis, each resembling the spherically symmetric self-similar solution. The existence of a non-spherical unstable mode is in conflict with previous perturbative results, and we therefore discuss whether such a mode exists in the continuum limit, or whether we are instead seeing a marginally stable mode that is rendered unstable by numerical approximation.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Towards the Final Fate of an Unstable Black String</h4>
+<p><strong>Author(s):</strong> M.W. Choptuik, L. Lehner, I. Olabarrieta, R. Petryk, F. Pretorius, H. Villegas</p>
+<p><strong>Journal:</strong> Phys.Rev. D68, 044001 (2003)</p>
+<p><strong>Date Published:</strong> Aug 1, 2003</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0304085" target="_blank">http://arxiv.org/abs/gr-qc/0304085</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Black strings, one class of higher dimensional analogues of black holes, were shown to be unstable to long wavelength perturbations by Gregory and Laflamme in 1992, via a linear analysis. We revisit the problem through numerical solution of the full equations of motion, and focus on trying to determine the end-state of a perturbed, unstable black string. Our preliminary results show that such a spacetime tends towards a solution resembling a sequence of spherical black holes connected by thin black strings, at least at intermediate times. However, our code fails then, primarily due to large gradients that develop in metric functions, as the coordinate system we use is not well adapted to the nature of the unfolding solution. We are thus unable to determine how close the solution we see is to the final end-state, though we do observe rich dynamical behavior of the system in the intermediate stages.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Initial data for black hole evolutions</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer</p>
+<p><strong>Journal:</strong> Ph.D. thesis, Cornell University, 2003</p>
+<p><strong>Date Published:</strong> Aug 1, 2003</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0510016" target="_blank">http://arxiv.org/abs/gr-qc/0510016</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We discuss the initial value problem of general relativity in its recently unified Lagrangian and Hamiltonian pictures and present a multi-domain pseudo-spectral collocation method to solve the resulting coupled nonlinear partial differential equations. Using this code, we explore several approaches to construct initial data sets containing one or two black holes: We compute quasi-circular orbits for spinning equal mass black holes and unequal mass (nonspinning) black holes using the effective potential method with Bowen-York extrinsic curvature. We compare initial data sets resulting from different decompositions, and from different choices of the conformal metric with each other. Furthermore, we use the quasi-equilibrium method to construct initial data for single black holes and for binary black holes in quasi-circular orbits. We investigate these binary black hole data sets and examine the limits of large mass-ratio and wide separation. Finally, we propose a new method for constructing spacetimes with superposed gravitational waves of possibly very large amplitude.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Dynamical Gauge Conditions for the Einstein Evolution Equations</h4>
+<p><strong>Author(s):</strong> Lee Lindblom and Mark Scheel</p>
+<p><strong>Journal:</strong> Phys. Rev. D67, 124005 (2003)</p>
+<p><strong>Date Published:</strong> Jun 4, 2003</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0301120" target="_blank">http://arxiv.org/abs/gr-qc/0301120</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The Einstein evolution equations have been written in a number of symmetric hyperbolic forms when the gauge fields--the densitized lapse and the shift--are taken to be fixed functions of the coordinates. Extended systems of evolution equations are constructed here by adding the gauge degrees of freedom to the set of dynamical fields, thus forming symmetric hyperbolic systems for the combined evolution of the gravitational and the gauge fields. The associated characteristic speeds can be made causal (i.e. less than or equal to the speed of light) by adjusting 14 free parameters in these new systems. And 21 additional free parameters are available, for example to optimize the stability of numerical evolutions. The gauge evolution equations in these systems are generalizations of the "K-driver" and "Gamma-driver" conditions that have been used with some success in numerical black hole evolutions.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>A multidomain spectral method for solving elliptic equations</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer, Lawrence E. Kidder, Mark A. Scheel, Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Comput.Phys.Commun. 152, 253-273 (2003)</p>
+<p><strong>Date Published:</strong> May 15, 2003</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0202096" target="_blank">http://arxiv.org/abs/gr-qc/0202096</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We present a new solver for coupled nonlinear elliptic partial differential equations (PDEs). The solver is based on pseudo-spectral collocation with domain decomposition and can handle one- to three-dimensional problems. It has three distinct features. First, the combined problem of solving the PDE, satisfying the boundary conditions, and matching between different subdomains is cast into one set of equations readily accessible to standard linear and nonlinear solvers. Second, touching as well as overlapping subdomains are supported; both rectangular blocks with Chebyshev basis functions as well as spherical shells with an expansion in spherical harmonics are implemented. Third, the code is very flexible: The domain decomposition as well as the distribution of collocation points in each domain can be chosen at run time, and the solver is easily adaptable to new PDEs. The code has been used to solve the equations of the initial value problem of general relativity and should be useful in many other problems. We compare the new method to finite difference codes and find it superior in both runtime and accuracy, at least for the smooth problems considered here.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>An Axisymmetric Gravitational Collapse Code</h4>
+<p><strong>Author(s):</strong> M.W. Choptuik, E.W. Hirschmann, S.L. Liebling, F. Pretorius</p>
+<p><strong>Journal:</strong> Class.Quant.Grav. 20, 1857-1878 (2003)</p>
+<p><strong>Date Published:</strong> Apr 15, 2003</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0301006" target="_blank">http://arxiv.org/abs/gr-qc/0301006</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_73" class="folded">We present a new numerical code designed to solve the Einstein field equations for axisymmetric spacetimes. The long term goal of this project is to construct a code that will be capable of studying many problems of interest in axisymmetry, including gravitational collapse, critical phenomena, investigations of cosmic censorship, and head-on black hole collisions. Our objective here is to detail the (2+1)+1 formalism we use to arrive at the corresponding system of equations and the numerical methods we use to solve them. We are able to obtain stable evolution, despite the singular nature of the coordinate system on the axis, by enforcing appropriate regularity conditions on all variables and by adding numerical dissipation to hyperbolic equations.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Extrinsic Curvature and the Einstein Constraints</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer, James W. York</p>
+<p><strong>Journal:</strong> Phys.Rev. D67, 044022 (2003)</p>
+<p><strong>Date Published:</strong> Feb 26, 2003</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0207095" target="_blank">http://arxiv.org/abs/gr-qc/0207095</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The Einstein initial-value equations in the extrinsic curvature (Hamiltonian) representation and conformal thin sandwich (Lagrangian) representation are brought into complete conformity by the use of a decomposition of symmetric tensors which involves a weight function. In stationary spacetimes, there is a natural choice of the weight function such that the transverse traceless part of the extrinsic curvature (or canonical momentum) vanishes.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<h3 id="2002" class="year">2002</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Toward stable 3D numerical evolutions of black-hole spacetimes</h4>
+<p><strong>Author(s):</strong> Mark A. Scheel, Lawrence E. Kidder, Lee Lindblom, Harald P. Pfeiffer, and Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Phys. Rev. D 66, 124005 (2002)</p>
+<p><strong>Date Published:</strong> Dec 17, 2002</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0209115" target="_blank">http://arxiv.org/abs/gr-qc/0209115</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Three dimensional (3D) numerical evolutions of static black holes with excision are presented. These evolutions extend to about 8000M, where M is the mass of the black hole. This degree of stability is achieved by using growth-rate estimates to guide the fine tuning of the parameters in a multiparameter family of symmetric hyperbolic representations of the Einstein evolution equations. These evolutions were performed using a fixed gauge in order to separate the intrinsic stability of the evolution equations from the effects of stability-enhancing gauge choices.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Energy Norms and the Stability of the Einstein Evolution Equations</h4>
+<p><strong>Author(s):</strong> Lee Lindblom, Mark A. Scheel</p>
+<p><strong>Journal:</strong> Phys.Rev. D66, 084014 (2002)</p>
+<p><strong>Date Published:</strong> Oct 28, 2002</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0206035" target="_blank">http://arxiv.org/abs/gr-qc/0206035</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>The Einstein evolution equations may be written in a variety of equivalent analytical forms, but numerical solutions of these different formulations display a wide range of growth rates for constraint violations. For symmetric hyperbolic formulations of the equations, an exact expression for the growth rate is derived using an energy norm. This expression agrees with the growth rate determined by numerical solution of the equations. An approximate method for estimating the growth rate is also derived. This estimate can be evaluated algebraically from the initial data, and is shown to exhibit qualitatively the same dependence as the numerically-determined rate on the parameters that specify the formulation of the equations. This simple rate estimate therefore provides a useful tool for finding the most well-behaved forms of the evolution equations.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>First-order symmetrizable hyperbolic formulations of Einstein's equations including lapse and shift as dynamical fields</h4>
+<p><strong>Author(s):</strong> Kashif Alvi</p>
+<p><strong>Journal:</strong> Class.Quant.Grav. 19, 5153-5162 (2002)</p>
+<p><strong>Date Published:</strong> Oct 21, 2002</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0204068" target="_blank">http://arxiv.org/abs/gr-qc/0204068</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_77" class="folded">First-order hyperbolic systems are promising as a basis for numerical integration of Einstein's equations. In previous work, the lapse and shift have typically not been considered part of the hyperbolic system and have been prescribed independently. This can be expensive computationally, especially if the prescription involves solving elliptic equations. Therefore, including the lapse and shift in the hyperbolic system could be advantageous for numerical work. In this paper, two first-order symmetrizable hyperbolic systems are presented that include the lapse and shift as dynamical fields and have only physical characteristic speeds.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Comparing initial-data sets for binary black holes</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer, Gregory B. Cook, Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Phys.Rev. D66, 024047 (2002)</p>
+<p><strong>Date Published:</strong> Jul 31, 2002</p>
+<p><strong>arXiv Address:</strong><a href="http://arxiv.org/abs/gr-qc/0203085" target="_blank">http://arxiv.org/abs/gr-qc/0203085</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_78" class="folded">We compare the results of constructing binary black hole initial data with three different decompositions of the constraint equations of general relativity. For each decomposition we compute the initial data using a superposition of two Kerr-Schild black holes to fix the freely specifiable data. We find that these initial-data sets differ significantly, with the ADM energy varying by as much as 5% of the total mass. We find that all initial-data sets currently used for evolutions might contain unphysical gravitational radiation of the order of several percent of the total mass. This is comparable to the amount of gravitational-wave energy observed during the evolved collision. More astrophysically realistic initial data will require more careful choices of the freely specifiable data and boundary conditions for both the metric and extrinsic curvature. However, we find that the choice of extrinsic curvature affects the resulting data sets more strongly than the choice of conformal metric.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Bianchi - Euler system for relativistice fluids and Bel - Robinson type energy</h4>
+<p><strong>Author(s):</strong> Yvonne Choquet-Bruhat, James W. York</p>
+<p><strong>Journal:</strong> Comptes Rendus Mathematique, Volume 335, Number 8, 15 October 2002, pp. 711-716(6)</p>
+<p><strong>Date Published:</strong> Jun 29, 2002</p>
+<p><strong>arXiv Address:</strong><a href="http://arxiv.org/abs/gr-qc/0207002" target="_blank">http://arxiv.org/abs/gr-qc/0207002</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We write a first order symmetric hyperbolic system coupling the Riemann with the dynamical acceleration of a relativistic fluid. W determine the associated, coupled, Bel - Robinson energy, and the integral equality that it satisfies.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Numerical evolutions of nonlinear r-modes in neutron stars</h4>
+<p><strong>Author(s):</strong> Lee Lindblom, Joel E. Tohline, Michele Vallisneri</p>
+<p><strong>Journal:</strong> Phys.Rev. D65, 084039 (2002)</p>
+<p><strong>Date Published:</strong> Apr 9, 2002</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/astro-ph/0109352" target="_blank">http://arxiv.org/abs/astro-ph/0109352</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Nonlinear evolution of the gravitational radiation (GR) driven instability in the r-modes of neutron stars is studied by full numerical 3D hydrodynamical simulations. The growth of the r-mode instability is found to be limited by the formation of shocks and breaking waves when the dimensionless amplitude of the mode grows to about three in value. This maximum mode amplitude is shown by numerical tests to be rather insensitive to the strength of the GR driving force. Upper limits on the strengths of possible nonlinear mode--mode coupling are inferred. Previously unpublished details of the numerical techniques used are presented, and the results of numerous calibration runs are discussed.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2001" class="year">2001</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Extending the lifetime of 3D black hole computations with a new hyperbolic system of evolution equations</h4>
+<p><strong>Author(s):</strong> Lawrence E. Kidder, Mark A. Scheel and Saul A. Teukolsky</p>
+<p><strong>Journal:</strong> Phys. Rev. D64, 064017 (2001)</p>
+<p><strong>Date Published:</strong> Aug 27, 2001</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0105031" target="_blank">http://arxiv.org/abs/gr-qc/0105031</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>We present a new many-parameter family of hyperbolic representations of Einstein's equations, which we obtain by a straightforward generalization of previously known systems. We solve the resulting evolution equations numerically for a Schwarzschild black hole in three spatial dimensions, and find that the stability of the simulation is strongly dependent on the form of the equations (i.e. the choice of parameters of the hyperbolic system), independent of the numerics. For an appropriate range of parameters we can evolve a single 3D black hole to \(t \simeq 600 M\) -- \(1300 M\), and are apparently limited by constraint-violating solutions of the evolution equations. We expect that our method should result in comparable times for evolutions of a binary black hole system.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Non-Linear Evolution of the r-Modes in Neutron Stars</h4>
+<p><strong>Author(s):</strong> Lee Lindblom, Joel E. Tohline, Michele Vallisneri</p>
+<p><strong>Journal:</strong> Phys.Rev.Lett. 86, 1152-1155 (2001)</p>
+<p><strong>Date Published:</strong> Feb 7, 2001</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/astro-ph/0010653" target="_blank">http://arxiv.org/abs/astro-ph/0010653</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<div id="folded_82" class="folded">The evolution of a neutron-star r-mode driven unstable by gravitational radiation (GR) is studied here using numerical solutions of the full non-linear fluid equations. The amplitude of the mode grows to order unity before strong shocks develop which quickly damp the mode. In this simulation the star loses about 40% of its initial angular momentum and 50% of its rotational kinetic energy before the mode is damped. The non-linear evolution causes the fluid to develop strong differential rotation which is concentrated near the surface and especially near the poles of the star.</div>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->
+<h3 id="2000" class="year">2000</h3>
+<!-- Start of a New Paper -->
+<div class="paper">
+<h4>Quasi-circular Orbits for Spinning Binary Black Holes</h4>
+<p><strong>Author(s):</strong> Harald P. Pfeiffer, Saul A. Teukolsky, Gregory B. Cook</p>
+<p><strong>Journal:</strong> Phys.Rev. D62, 104018 (2000)</p>
+<p><strong>Date Published:</strong> Oct 19, 2000</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0006084" target="_blank">http://arxiv.org/abs/gr-qc/0006084</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Using an effective potential method we examine binary black holes where the individual holes carry spin. We trace out sequences of quasi-circular orbits and locate the innermost stable circular orbit as a function of spin. At large separations, the sequences of quasi-circular orbits match well with post-Newtonian expansions, although a clear signature of the simplifying assumption of conformal flatness is seen. The position of the ISCO is found to be strongly dependent on the magnitude of the spin on each black hole. At close separations of the holes, the effective potential method breaks down. In all cases where an ISCO could be determined, we found that an apparent horizon encompassing both holes forms for separations well inside the ISCO. Nevertheless, we argue that the formation of a common horizon is still associated with the breakdown of the effective potential method.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper --> <!-- Start of a New Paper -->
+<div class="paper">
+<h4>Black hole evolution by spectral methods</h4>
+<p><strong>Author(s):</strong> Lawrence E. Kidder, Mark A. Scheel, Saul A. Teukolsky, Eric D. Carlson, Gregory B. Cook</p>
+<p><strong>Journal:</strong> Phys.Rev. D62, 084032 (2000)</p>
+<p><strong>Date Published:</strong> Sep 26, 2000</p>
+<p><strong>arXiv Address: </strong><a href="http://arxiv.org/abs/gr-qc/0005056" target="_blank">http://arxiv.org/abs/gr-qc/0005056</a></p>
+<p>{slider <span class="icon-hand-up"> See Abstract</span>|inactive}</p>
+<p>Current methods of evolving a spacetime containing one or more black holes are plagued by instabilities that prohibit long-term evolution. Some of these instabilities may be due to the numerical method used, traditionally finite differencing. In this paper, we explore the use of a pseudospectral collocation (PSC) method for the evolution of a spherically symmetric black hole spacetime in one dimension using a hyperbolic formulation of Einstein's equations. We demonstrate that our PSC method is able to evolve a spherically symmetric black hole spacetime forever without enforcing constraints, even if we add dynamics via a Klein-Gordon scalar field. We find that, in contrast to finite-differencing methods, black hole excision is a trivial operation using PSC applied to a hyperbolic formulation of Einstein's equations. We discuss the extension of this method to three spatial dimensions.</p>
+<p>{/sliders}</p>
+</div>
+<p><a href="#rt-mainbody" class="to-top"></a><a href="#rt-mainbody" class="to-top">Back to Top</a></p>
+<!-- End of Paper -->

@@ -1,0 +1,29 @@
+---
+layout: post
+title: Gravitational Lensing (backup)
+joomla_id: 177
+joomla_url: lensing-2
+date: 2014-11-05 14:50:52.000000000 +00:00
+---
+<img style="float: right; padding: 5px;" alt="LightDeflection" src="images/lensing/LightDeflection.jpg" height="187" width="301" />
+<p style="text-align: left;">An interesting prediction of general relativity is that light does not just travel in a straight line, but its path is bent by gravity. Gravitational lensing is the name for the bending of light by gravity, as the source of gravity (e.g. a galaxy) acts as a physical lens which bends the light. There is ample observational evidence of these deflections of light by massive bodies, including measuring the deflection of starlight passing near the Sun. The largest observed deflection of light is around 11 arc seconds, or around 0.003 degrees.</p>
+<p style="text-align: left;">&nbsp;</p>
+<div>
+<p style="text-align: left;">The SXS Lensing group is interested in much more eXtreme deflections of light. &nbsp;Near black holes, the most compact objects in the universe, light can be so strongly bent by gravity that it can orbit many times around the black hole before making it to your eye. &nbsp;In theory, there is no limit to the number of times a light ray can orbit the black hole. &nbsp;Even though black holes emit no light themselves, their effect on light passing nearby leads to some stunning visual and mathematical results!</p>
+<h3 style="text-align: left;"><span style="font-size: 1.17em;">Single black hole</span></h3>
+<p style="text-align: left;">We have written code to produce images of stars from a star catalog, such as the&nbsp;<a href="http://www.ipac.caltech.edu/2mass/">2MASS catalog</a>. &nbsp;We take each star's location and its&nbsp;<a href="http://en.wikipedia.org/wiki/Photometric_system">magnitude in different color bands</a>&nbsp;from the catalog. &nbsp;To generate the image, we need to know from where light enters each pixel of the camera as well as the redshift of the light. &nbsp;More details are provided in <a href="http://arxiv.org/abs/1410.7775">our paper</a>. &nbsp;Below is an image showing the Milky Way using our star rendering code.&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span style="text-align: center;">{source}</span><span style="text-align: center; font-family: 'courier new', courier, monospace;"><br />&lt;a href="images/lensing/ParaFlat.png"&gt;&lt;img src="images/lensing/ParaFlat.png" width="300" height="300" /&gt;&lt;/a&gt;<br /></span><span style="text-align: center;">{/source}</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;With our camera pointing in the same direction as the previous image, we now see how a black hole affects light from these stars. &nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">{source}&lt;a href="images/lensing/ParaSchwarzschild.png"&gt;&lt;img src="images/lensing/ParaSchwarzschild.png" width="300" height="300" /&gt;&lt;/a&gt;{/source}</p>
+<p style="text-align: center;">&nbsp;</p>
+<h3>Binary black hole</h3>
+<p style="text-align: left;"><br class="Apple-interchange-newline" />While lensing by a single black hole has been studied for quite a long time, no one had previously known what astrophysically interesting binary black holes would actually look like. &nbsp;The problem is complicated significantly by having to solve what happens to two black holes orbiting each other. &nbsp;The SXS collaboration uses the Spectral Einstein Code (SpEC) to simulate these kinds of compact object mergers, be it with black holes or neutron stars with high accuracy. &nbsp;With SpEC, the SXS Lensing group is in a unique position to explore what a binary black hole would look like.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;">{youtube}Qg6PwRI2uS8{/youtube}</p>
+<p>&nbsp;&nbsp;</p>
+<p style="text-align: center;"><span style="text-align: center;">{source}</span><span style="text-align: center; font-family: 'courier new', courier, monospace;"><br /><span style="font-family: 'courier new', courier, monospace; text-align: center;">&lt;a href="images/lensing/PerpFlat.png"&gt;</span>&lt;img src="images/lensing/PerpFlat.png" width="300" height="300" /&gt;&lt;/a&gt;<br /></span><span style="text-align: center;">{/source}&nbsp;</span></p>
+<p style="text-align: center;">{youtube}ENd8Sz0AFOk{/youtube}</p>
+</div>
