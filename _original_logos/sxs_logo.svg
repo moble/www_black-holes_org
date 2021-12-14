@@ -1,0 +1,89 @@
+<svg width="50%" viewBox="-101.5 -167 203 334" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="gradient-inner" cx="50%" cy="50%">
+      <stop stop-color="#E68E73" offset="0%"/><!-- FCC780FF -->
+      <stop stop-color="#FFF1D9" offset="75%"/><!-- F08C33FF -->
+    </radialGradient>
+    <radialGradient id="gradient-outer" cx="50%" cy="50%">
+      <stop stop-color="#ed8c33" offset="0%"/><!-- F08C33FF -->
+      <stop stop-color="#ed822d" offset="1%"/>
+      <stop stop-color="#f38a36" offset="10%"/>
+      <stop stop-color="#f8903d" offset="16%"/>
+      <stop stop-color="#fa9442" offset="24%"/>
+      <stop stop-color="#fa9c4b" offset="32%"/>
+      <stop stop-color="#faa353" offset="40%"/>
+      <stop stop-color="#faab5b" offset="48%"/>
+      <stop stop-color="#fab264" offset="56%"/>
+      <stop stop-color="#fab96c" offset="64%"/>
+      <stop stop-color="#fac175" offset="72%"/>
+      <stop stop-color="#FCC780" offset="100%"/><!-- FCC780FF -->
+    </radialGradient>
+
+    <!-- Time's arrow -->
+    <path id="arrow" d="M 0,-166.5  c -1 5 -9 17.75 -11.25 18.75  c 4 0 8 -2 9.25 -2.5  l 0 289.5  c -2 3 -4 4 -7 6  l 0 21  c 5 -1 8 -5 9 -9  c 1 4 4 8 9 9  l 0 -21  c -3 -2 -5 -3 -7 -6  l 0 -289.5  c 1.25 0.5 5.25 2.5 9.25 2.5  c -2.25 -1 -10.25 -13.75 -11.25 -18.75" />
+
+    <!-- Letters making up "SXS" -->
+    <polygon id="letter-x-half" points="0,0 37.5,37.5 45.5,29.5 16,0 45.5,-29.5, 37.5,-37.5" />
+    <path id="steelfish-rg-S" transform="scale(0.088) translate(-155, -439.5)" d="M207 607q0 -19 -1 -31t-4 -21t-8 -16.5t-12 -16.5q-32 -39 -69 -74t-59 -63q-9 -12 -14.5 -22.5t-8.5 -22.5t-3.5 -26.5t-0.5 -35.5v-123q0 -136 131 -136q67 0 94.5 33.5t27.5 102.5v150h-71v-140q0 -31 -10.5 -50t-41.5 -19q-53 0 -53 59v122q0 26 3.5 38t14.5 26 q13 18 30 35.5t34.5 34.5t33 33t27.5 31q10 13 17 25t11 26.5t6 33.5t2 46v118q0 66 -29 101t-98 35q-68 0 -98.5 -34.5t-30.5 -101.5v-175h73v164q0 33 11.5 52.5t43.5 19.5q28 0 40 -16t12 -45v-117z" />
+    <polygon id="steelfish-rg-X" transform="scale(0.088) translate(-169.5,-439.5)" points="252,851 167,494 83,851 5,851 125,412 23,28 104,28 170,323 237,28 316,28 212,410 334,851" />
+
+    <!-- Ring around the light cone -->
+    <ellipse id="cone-ring" rx="100" ry="20" />
+
+    <!-- Cone edges that will be tangent to the ring when its center is moved to y=±100 -->
+    <!-- x=±98.2523106133524 y=±96.27718676730986 (100-3.72281323269014) -->
+    <line id="cone-edge" x1="-98.2523" y1="-96.2772" x2="98.2523" y2="96.2772" />
+    <polygon id="cone-body" points="0,0 -98.2523,-96.2772 98.2523,-96.2772" />
+
+    <!-- These will clip the two arcs of the cone-ring after meeting its tangent lines -->
+    <clipPath id="cone-ring-clip-large">
+      <polygon points="94.60433694814269,100 105,89.39107280986568 105,125 -105,125 -105,89.39107280986568 -94.60433694814269,100" />
+    </clipPath>
+    <clipPath id="cone-ring-clip-small">
+      <polygon points="94.60433694814269,100 105,89.39107280986568 105,75 -105,75 -105,89.39107280986568 -94.60433694814269,100" />
+    </clipPath>
+
+    <!-- This mask lets us fill exactly the forward portion of the cone's apparent surface -->
+    <mask id="cone-mask">
+      <circle r="150" fill="black" />
+      <use fill="white" href="#cone-body" />
+      <use fill="white" href="#cone-body" transform="scale(1,-1)" />
+      <use fill="white" href="#cone-ring" y="100" />
+      <use fill="black" href="#cone-ring" y="-100" />
+    </mask>
+
+  </defs>
+
+  <!-- The actual letters "SXS" -->
+  <g style="fill: #D53706;">
+    <use href="#letter-x-half" />
+    <use href="#letter-x-half" transform="scale(-1,1)" />
+    <use href="#steelfish-rg-S" transform="translate(80.5)" />
+    <use href="#steelfish-rg-S" transform="translate(-80.5)" />
+  </g>
+
+  <!-- This makes up the inner surface of the cone -->
+  <g transform="scale(1,-1)">
+    <circle r="145" cx="0" cy="0" fill="url(#gradient-inner)" mask="url(#cone-mask)" />
+  </g>
+  <g clip-path="url(#cone-ring-clip-small)">
+    <use href="#cone-ring" style="stroke:#957866; stroke-width:3; fill:none;" y="100" />
+  </g>
+
+  <!-- Time's arrow -->
+  <use href="#arrow" fill="#A08471" /> <!-- #957866 -->
+
+  <!-- This makes up the outer surface of the cone -->
+  <circle r="145" cx="0" cy="0" fill="url(#gradient-outer)" mask="url(#cone-mask)" opacity="90%" />
+
+  <!-- Outline of the cone -->
+  <g style="stroke:#957866; stroke-width:3; fill:none;">
+    <use href="#cone-ring" y="-100" />
+    <g clip-path="url(#cone-ring-clip-large)">
+      <use href="#cone-ring" y="100" />
+    </g>
+    <use href="#cone-edge" stroke-linecap="round" />
+    <use href="#cone-edge" stroke-linecap="round" transform="scale(-1,1)" />
+  </g>
+  
+</svg>
