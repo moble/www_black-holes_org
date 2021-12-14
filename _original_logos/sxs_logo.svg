@@ -66,8 +66,15 @@
   <g transform="scale(1,-1)">
     <circle r="145" cx="0" cy="0" fill="url(#gradient-inner)" mask="url(#cone-mask)" />
   </g>
-  <g clip-path="url(#cone-ring-clip-small)">
-    <use href="#cone-ring" style="stroke:#957866; stroke-width:3; fill:none;" y="100" />
+  <g style="stroke:#957866; stroke-width:3; fill:none;">
+    <g clip-path="url(#cone-ring-clip-small)">
+      <use href="#cone-ring" y="100" />
+    </g>
+    <g transform="scale(1,-1)">
+      <g clip-path="url(#cone-ring-clip-large)">
+        <use href="#cone-ring" y="100" />
+      </g>
+    </g>
   </g>
 
   <!-- Time's arrow -->
@@ -78,7 +85,12 @@
 
   <!-- Outline of the cone -->
   <g style="stroke:#957866; stroke-width:3; fill:none;">
-    <use href="#cone-ring" y="-100" />
+    <!-- <use href="#cone-ring" y="-100" /> -->
+    <g transform="scale(1,-1)">
+      <g clip-path="url(#cone-ring-clip-small)">
+        <use href="#cone-ring" y="100" />
+      </g>
+    </g>
     <g clip-path="url(#cone-ring-clip-large)">
       <use href="#cone-ring" y="100" />
     </g>
