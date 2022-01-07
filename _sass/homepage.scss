@@ -177,18 +177,28 @@
 
     .title {
         color: $darkgrey;
-        font-family: 'Times New Roman',Georgia,serif;
+        font-family: "Times New Roman", Georgia, serif;
         text-shadow: $greyish 1.4px 1.4px 0;
         text-align: center;
         letter-spacing: 3px;
         font-size: 30px;
+        margin-bottom: 0;
 
         h1 {
+            font-family: "Times New Roman", Georgia, serif;
+            margin-top: 5px;
             height: 53px;
         }
 
         h2 {
+            font-family: "Times New Roman", Georgia, serif;
+            color: $lightgrey;
+            font-size: 16px;
+            font-style: italic;
+            text-shadow: none;
+            letter-spacing: 2px;
             height: 17px;
+            padding-top: 5px;
         }
 
         strong {
@@ -197,14 +207,6 @@
             font-weight: 700;
         }
 
-        small {
-            color: $lightgrey;
-            font-size: 16px;
-            font-style: italic;
-            text-shadow: none;
-            letter-spacing: 2px;
-            padding-top: -50px;
-        }
     }
 
     // The "coins" are the circular things that flip.  We'll style them below, using these variables.
