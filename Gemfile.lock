@@ -275,6 +275,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 219)
   jekyll-feed (~> 0.12)
+  jekyll-optional-front-matter
+  jekyll-titles-from-headings
   json (= 2.6.1)
   minima (~> 2.5)
   tzinfo (~> 1.2)
