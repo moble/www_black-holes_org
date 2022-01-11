@@ -7,6 +7,8 @@ automatically does this rendering for us because it detects jekyll files in the 
 though it would also be possible to render manually via github actions if we need to use features
 github doesn't enable by default.
 
+See the rendered site [here](https://moble.github.io/bh_jekyll).
+
 
 ## Writing your own posts
 
@@ -15,37 +17,73 @@ about their research for the site.  The two most recent entries show up on the h
 "Recent Research", along with brief synopses and links to the full description.
 
 To write your own entry, just create a Pull Request on this repo, with a file as described below.
+This file should be [standard markdown](https://github.github.com/gfm/), but you need to remember a
+few points to get it published:
 
-1. To get published, you *must*
-   a. put the file in the `_posts` directory, and you *must*
-   b. name the file starting with the date as `YYYY-MM-DD-awesome_file_name.md` (where you get to
-      pick the awesome part of the name)
+1. You *must* put the file in the `_posts` directory
 
-2. You also *must* add a section at the very start of the page that looks like this:
-```yaml
----
-layout: post
-title:  "The title of my awesome research"
----
-```
-Again, you get to pick the title.  Try to keep it very short, to fit in its place on the homepage,
-and maybe not so technical so that the public have a chance of understanding it.
+2. You *must* name the file starting with the date as `YYYY-MM-DD-awesome_file_name.md` (where you
+   get to pick the awesome name)
 
-3. After that top section, everything else is pretty much [standard
-   markdown](https://github.github.com/gfm/).
+3. You *must* start the file with your title — something like this:
+    ```
+    # The title of my awesome research
+    ```
+    Again, you get to pick the title, but nothing other than whitespace should appear in the file
+    before this line (unless you're getting fancy with adding YAML front matter...).  Try to keep
+    the title quite short so that it fits in its place on the homepage, and maybe not so technical
+    so that the public have a chance of understanding it.
 
 4. The first paragraph will be used on the homepage to advertise this post, so think of this part as
    your [elevator pitch](https://en.wikipedia.org/wiki/Elevator_pitch).  Try to limit the jargon in
    this part, since it's the part that most non-scientists will see.  Try to keep it brief, but also
    include a little motivation and the most important conclusions.
 
-5. The rest of the post can be as long as you like — though remember that this isn't the paper;
-   long technical details should go in a paper.
+5. The rest of the post can be as long as you like — though remember that this isn't the paper.
+   Long technical details should go in a paper; this is for communicating your results to people who
+   are mostly science literate, but not as technically knowledgeable as you.
 
-6. If you need to include figures, PNG is best.  The files should be placed 
+6. If you need to include figures, you'll want to use PNG; PDFs do not embed well, and JPGs get
+   fuzzy too easily.  The files should be placed in `images/posts/YYYY-MM-DD-other-file-name.png`,
+   and you can add them to your page with code like
+   ```
+   Here's the picture: ![Description of image]({{ site.baseurl }}/images/posts/YYYY-MM-DD-other-file-name.png)
+   ```
+   If you want to adjust attributes of the image like width and height, you can use [span inline
+   attribute lists](https://kramdown.gettalong.org/syntax.html#span-ials): *immediately* after the
+   image code above (with no whitespace in between), add something like this:
+   ```
+   {:height="313px" width="600px"}
+   ```
 
+
+## Embedding Youtube videos
+
+[This very clever tip](http://www.beingy.net/blog/embed-youtube-video-in-jekyll/) allows us to
+simply use code in our pages like this:
+```
+{% include youtube-embed.html id="Zt8Z_uzG71o" %}
+```
+Basically, all the hassle of writing the HTML for embedding youtube videos has been offloaded to the
+single file `_includes/youtube-embed.html`, and we just specify the ID of the video as a parameter
+on the page we're writing.
 
 
 ## To Do
 
-1. Create menu automatically
+1. Create menu automatically from pages
+2. Fix menu on mobile devices
+3. Add navigation coins in the sidebar
+4. Add explore and quote to homepage
+5. Randomly select a sidebar quote for pages that don't have one specified
+6. Add Prev/Next buttons in the main pages
+7. Add page collecting all research posts
+8. "Featured Video" in sidebar?
+9. Breadcrumbs and/or sub-navigation in sidebar for main pages
+10. Streamline CSS, so that only the necessary elements get served: one for homepage, another for
+    everything else
+11. Switch to the SVG logo, using
+    [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text=IMULATING%20ETREME%20PACETIMES&preview.text_type=custom&query=ubuntu)
+    for the title and
+    [Yellowtail](https://fonts.google.com/specimen/Yellowtail?category=Handwriting&preview.text=Black%20holes,%20neutron%20stars,%20and%20beyond%E2%80%A6&preview.text_type=custom&slant=8&subset=latin)
+    or something for the extras
