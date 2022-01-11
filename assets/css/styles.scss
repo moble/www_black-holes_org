@@ -9,6 +9,7 @@ $img: {{ site.baseurl }}/assets/images;
 
 //// Set our colors (named by closest match to XKCD survey https://gist.github.com/tremby/578775aaf6330f5f47c9fc6a0c705da5)
 $darkgrey: #423934;
+$purplebrown: #552B2B;
 $mediumgrey: #6E6E6E;
 $brownishgrey: #797465;
 $greyish: #A39B8A;
@@ -22,6 +23,7 @@ $terracotta: #DB6C3C; // #D55B2F;
 $clay: #A8573E;
 $earth: #A65B3B;
 $waterblue: #0088CC;
+$bluegreen: #437874;
 
 
 //// Update Bulma's variables
@@ -89,4 +91,5 @@ $footer-color: $offwhite;
 @import "header";
 @import "main";
 @import "homepage";
+@import "article";
 @import "footer";

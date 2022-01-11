@@ -35,6 +35,8 @@ github_username:  sxs-collaboration
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
 
 # Exclude from processing.
 # The following items will not be processed, by default.

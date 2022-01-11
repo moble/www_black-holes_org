@@ -20,6 +20,8 @@ gem "github-pages", "~> 219", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "json", "2.6.1"  # https://github.com/jekyll/jekyll/issues/5423#issuecomment-250254752
+  gem "jekyll-optional-front-matter"
+  gem "jekyll-titles-from-headings"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data

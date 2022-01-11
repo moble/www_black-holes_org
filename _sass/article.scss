@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+article {
+    //// Default to centering these things; note that kramdown allows you to append attribute lists:
+    //// https://kramdown.gettalong.org/syntax.html#inline-attribute-lists
+    img, iframe {
+        display: block;
+        margin: 10px auto;
+    }
+
+    header {
+        background: initial;
+    }
+
+    h1 {
+        font-size: 36px;
+        color: $terracotta;
+        text-shadow: $brownishgrey 0px 1px 0;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+        color: $purplebrown;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        color: $bluegreen;
+    }
+
+    p {
+        margin: 1rem 0;
+    }
+}
+
+
+aside {
+    h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    blockquote {
+        padding-left: 25px;
+        font-family: Georgia,'Times New Roman',serif;
+        font-style: italic;
+        font-size: 17px;
+
+        &::before {  /* Open Quote Mark */
+            content: "“ ";
+	    font-family: Oswald, Helvetica, arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            line-height: 20px;
+            color: $terracotta;
+            position: absolute;
+            top: 12px;
+            left: 0px;
+	    font-style: normal;
+        }
+
+        &::after {  /* Close Quote Mark */
+            content: " ”";
+	    font-family: Oswald, Helvetica, arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            line-height: 20px;
+            color: $terracotta;
+            position: absolute;
+            bottom: -2px;
+	    font-style: normal;
+        }
+    }
+
+    .sidebar-quote-attribution {
+        text-align: right;
+        font-size: 90%;
+    }
+}

@@ -5,20 +5,26 @@
         <div class="columns">
 
             <div class="column is-three-quarters">
-                <article>
-                    {{ content }}
-                </article>
+                {{ content }}
             </div>
 
             <div class="column">
                 <aside>
-                    Here is the side text, which contains more navigation, some media, and quotes.
+                    {% if page.sidebar_quote %}
+                    <div class="sidebar-quote">
+                        <h1>Inspiration</h1>
+                        <div style="position: relative;">
+                            <blockquote class="sidebar-quote-content">{{ page.sidebar_quote | newline_to_br }}</blockquote>
+                        </div>
+                        {% if page.sidebar_quote_attribution %}
+                        <div class="sidebar-quote-attribution">{{ page.sidebar_quote_attribution }}</div>
+                        {% endif %}
+                    </div>
+                    {% endif %}
                 </aside>
             </div>
 
         </div>
-        <!-- {% if page.show_sidebar %}
-             {% endif %} -->
 
     </div>
 
