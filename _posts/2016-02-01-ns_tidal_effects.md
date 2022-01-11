@@ -1,7 +1,7 @@
 ---
 ---
 
-# Tidal effects in neutron star-compact object binaries
+# Tidal effects in binaries involving neutron stars
 
 To detect and characterize gravitational waves from neutron star binaries, LIGO needs good models of
 all possible signals.  Numerical relativity can't practically be used for every case, but it is
