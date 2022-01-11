@@ -68,3 +68,10 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   blanklines: false
+
+# Note that we have to set `collections` to `true` to process posts correctly; usually their titles
+# are created based on the filename alone, which is ugly.
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
