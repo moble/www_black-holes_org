@@ -58,6 +58,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - _original_pages
   - _original_logos
 
