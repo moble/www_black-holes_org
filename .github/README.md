@@ -24,7 +24,7 @@ points to get it published:
 1. You *must* put the file in the `_posts` directory
 
 2. You *must* name the file starting with the date as `YYYY-MM-DD-awesome_file_name.md` (where you
-   get to pick the awesome name)
+   get to pick the awesome name, but the date should be its actual value)
 
 3. You *must* start the file with your title — something like this:
     ```
@@ -56,6 +56,8 @@ points to get it published:
    ```
    {:height="313px" width="600px"}
    ```
+
+7. Remember to link to the *free* (presumably arXiv) version of your paper.
 
 
 ## Embedding Youtube videos

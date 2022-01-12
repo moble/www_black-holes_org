@@ -91,16 +91,19 @@
 
     <div class="hero research">
         <div class="container is-max-widescreen py-5">
-            <h1 class="title is-3" style="color: #6E6E6E;">Recent Research</h1>
+            <h1 class="title is-3" style="color: #6E6E6E;">Active Research</h1>
             <div class="columns">
                 {% for post in site.posts limit:2 %}
                     <div class="column">
                         <h2 class="title is-5">{{ post.title }}</h2>
                         <p class="dt-published">Created on {{ post.date | date: "%B %-d, %Y" }}</p>
                         <div class="latest-research">{{ post.excerpt }}</div>
-                        <p class="readmore"><a href="{{ site.baseurl }}{{ post.url }}">Read more…</a></p>
+                        <p><a href="{{ site.baseurl }}{{ post.url }}">Read more…</a></p>
                     </div>
                 {% endfor %}
+            </div>
+            <div class="has-text-centered">
+                <h2 class="title is-5"><a href="{{ site.baseurl }}/research.html">See older research</a></h2>
             </div>
         </div>
     </div>
