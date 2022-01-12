@@ -91,3 +91,16 @@ on the page we're writing.
       for the title and
       [Yellowtail](https://fonts.google.com/specimen/Yellowtail?category=Handwriting&preview.text=Black%20holes,%20neutron%20stars,%20and%20beyond%E2%80%A6&preview.text_type=custom&slant=8&subset=latin)
       or similar for the extras
+
+
+## Fonts used on the SXS website
+
+[The following is from the style guide written by our original web developer, Yvonne Tang.]
+ 
+We made use of high quality free webfonts available through the [Google Font API]("https://www.google.com/fonts"). This allows everyone to be able to experience the website in the font we specified, even though the font might not be installed on the person's own computer/device.
+
+[Open Sans]("https://www.google.com/fonts/specimen/Open+Sans") - The font we use for body text, eg, this current line you are reading. This is also the font we use for Heading 3 and Heading 5.
+
+[Oswald]("https://www.google.com/fonts/specimen/Oswald") - This font we use for Heading 2 (eg, the title of this article), top level navigation of the Main Menu, titles of the modules on the sidebar and footer.
+
+**Georgia** - This is not a Google Font, but a common serif font that is installed on most computers. This font is used for Heading 4, as well as blockquotes ("Inspiration" on the sidebar, and some quotes on the Science pages).
