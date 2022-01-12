@@ -98,7 +98,7 @@
                         <h2 class="title is-5">{{ post.title }}</h2>
                         <p class="dt-published">Created on {{ post.date | date: "%B %-d, %Y" }}</p>
                         <div class="latest-research">{{ post.excerpt }}</div>
-                        <p class="readmore"><a href="{{ post.url }}">Read more…</a></p>
+                        <p class="readmore"><a href="{{ site.baseurl }}{{ post.url }}">Read more…</a></p>
                     </div>
                 {% endfor %}
             </div>
