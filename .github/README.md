@@ -17,8 +17,9 @@ about their research for the site.  The two most recent entries show up on the h
 "Recent Research", along with brief synopses and links to the full description.
 
 To write your own entry, just create a Pull Request on this repo, with a file as described below.
-This file should be [standard markdown](https://github.github.com/gfm/), but you need to remember a
-few points to get it published:
+This file should be [github-flavored markdown](https://github.github.com/gfm/) (basically [standard
+markdown](https://www.markdownguide.org/) with a few extensions), but you need to remember a few
+points to get it published:
 
 1. You *must* put the file in the `_posts` directory
 
