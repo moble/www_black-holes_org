@@ -44,6 +44,8 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
 
+# Don't add the output extension (.html) to the url of posts
+permalink: /:categories/:year/:month/:day/:title
 
 ### Exclude from processing.
 # The following items will not be processed, by default.

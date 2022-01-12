@@ -32,6 +32,11 @@ h1, h3 {
     font-family: Oswald, Helvetica, arial, sans-serif;
 }
 
+hr {
+    margin: 40px 75px;
+    border: 1px solid $brownishgrey;
+}
+
 .dt-published {
     font-size: 80%;
 }

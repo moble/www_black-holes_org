@@ -91,20 +91,68 @@
 
     <div class="hero research">
         <div class="container is-max-widescreen py-5">
+
             <h1 class="title is-3" style="color: #6E6E6E;">Active Research</h1>
+
             <div class="columns">
                 {% for post in site.posts limit:2 %}
                     <div class="column">
-                        <h2 class="title is-5">{{ post.title }}</h2>
+                        <h2 class="title is-4">{{ post.title }}</h2>
                         <p class="dt-published">Created on {{ post.date | date: "%B %-d, %Y" }}</p>
                         <div class="latest-research">{{ post.excerpt }}</div>
                         <p><a href="{{ site.baseurl }}{{ post.url }}">Read more…</a></p>
                     </div>
                 {% endfor %}
             </div>
+
             <div class="has-text-centered">
-                <h2 class="title is-5"><a href="{{ site.baseurl }}/research.html">See older research</a></h2>
+                <h2 class="title is-4"><a href="{{ site.baseurl }}/research">See previous updates</a></h2>
             </div>
+
+            <hr>
+
+            <div class="columns">
+
+                <div class="column">
+                    <h2 class="title is-4">Explore the Science of SXS</h2>
+                    <div>
+                        <p class="honeycomb">
+                            <a href="{{ site.baseurl }}/explore/movies" class="movies" title="Videos">
+                                <img alt="Videos" src="{{ site.baseurl }}/assets/images/site/homepage_explore_videos.png">
+                            </a>
+                            <a href="{{ site.baseurl }}/explore/sounds" class="sounds" title="Sounds">
+                                <img alt="Sounds" src="{{ site.baseurl }}/assets/images/site/homepage_explore_sounds.png">
+                            </a>
+                            <a href="{{ site.baseurl }}/explore/glossary" class="glossary" title="Glossary">
+                                <img alt="Glossary" src="{{ site.baseurl }}/assets/images/site/homepage_explore_glossary.png">
+                            </a>
+                            <a href="{{ site.baseurl }}/explore/faq" class="faq" title="FAQ">
+                                <img alt="FAQ" src="{{ site.baseurl }}/assets/images/site/homepage_explore_faq.png">
+                            </a>
+                            <a href="{{ site.baseurl }}/explore/downloads" class="downloads" title="Downloads">
+                                <img alt="Downloads" src="{{ site.baseurl }}/assets/images/site/homepage_explore_downloads.png">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column bh-quote">
+                    <blockquote>
+                        <p class="quote">
+                            Come, you lost Atoms, to your Centre draw,<br>
+                            And be the Eternal Mirror that you saw:<br>
+                            Rays that have wander'd into Darkness wide,<br>
+                            Return and back into your Sun subside.
+                        </p>
+                        <p class="source">
+                            From Farid al-Din Attar's twelfth-century masterpiece<br>
+                            <em>The Conference of the Birds</em>
+                        </p>
+                    </blockquote>
+                </div>
+
+            </div>
+
         </div>
     </div>
     
