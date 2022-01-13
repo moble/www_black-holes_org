@@ -74,9 +74,9 @@ on the page we're writing.
 
 ## To Do
 
-- [ ] Move `assets` to root; we don't have many JS or CSS things anyway, and the extra characters are
+- [X] Move `assets` to root; we don't have many JS or CSS things anyway, and the extra characters are
       annoying
-- [ ] Add page collecting all research posts
+- [X] Add page collecting all research posts
 - [ ] Create menu automatically from pages
 - [ ] Fix menu on mobile devices
 - [ ] Fix navigation coins on homepage, so that they're in rows of 4, 2, or 1
