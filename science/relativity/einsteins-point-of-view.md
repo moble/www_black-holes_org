@@ -5,7 +5,7 @@ date: 2013-01-30
 sidebar_quote: |-
   Time writes no wrinkle on thine azure brow;
   Such as creation's dawn beheld, thou rollest now.
-sidebar_quote_attribution: "Childe Harold's Pilgrimage, Canto IV, Stanza 182"
+sidebar_quote_attribution: "Childe Harold's Pilgrimage (IV, 182)"
 ---
 
 We've seen that changing our viewpoint in the Solar System might make certain problems simpler, but
