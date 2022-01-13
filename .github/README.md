@@ -74,18 +74,18 @@ on the page we're writing.
 
 ## To Do
 
-- [X] Move `assets` to root; we don't have many JS or CSS things anyway, and the extra characters are
+- [x] Move `assets` to root; we don't have many JS or CSS things anyway, and the extra characters are
       annoying
-- [X] Add page collecting all research posts
+- [x] Add page collecting all research posts
 - [ ] Create menu automatically from pages
 - [ ] Fix menu on mobile devices
 - [ ] Fix navigation coins on homepage, so that they're in rows of 4, 2, or 1
 - [ ] Add navigation coins in the sidebar for articles
-- [ ] Add "Explore" and quote to homepage
+- [x] Add "Explore" and quote to homepage
 - [ ] Randomly select a sidebar quote for pages that don't have one specified
-- [ ] Add Prev/Next buttons in the main pages
+- [x] Add Prev/Next buttons in the main pages
 - [ ] "Featured Video" in sidebar?
-- [ ] Breadcrumbs and/or sub-navigation in sidebar for main pages
+- [x] Breadcrumbs and/or sub-navigation in sidebar for main pages
 - [ ] Streamline CSS, so that only the necessary elements get served: one for homepage, another for
       everything else; maybe get rid of Bulma?
 - [ ] Switch to the SVG logo, using

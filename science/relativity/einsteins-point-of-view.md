@@ -1,6 +1,7 @@
 ---
+order: 1
 title: Einstein's Point of View
-subtitle: The Struggle Lost, Einstein Pushes Further
+subtitle: The struggle lost, Einstein pushes further
 date: 2013-01-30
 sidebar_quote: |-
   Time writes no wrinkle on thine azure brow;
@@ -26,7 +27,7 @@ interesting question, though. Speed is measured by comparing something that is m
 that is standing still. What is chosen as the thing that is standing still?
 
 <aside markdown="1">
-We can understand the Michelson-Morley experiment somewhat better if we make an analogy with
+We can understand the Michelson-Morley experiment a little better if we make an analogy with
 sound. We know that sound waves are carried by air, with a particular speed. That air does give us a
 definite standard of rest—the one in which the air isn't moving. Imagine two friends shouting to
 each other from some distance. They can measure how quickly the sound of their shouts travels

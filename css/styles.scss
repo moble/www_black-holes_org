@@ -53,6 +53,8 @@ $navbar-dropdown-item-hover-background-color: $terracotta;
 $navbar-dropdown-arrow: $offwhite;
 $navbar-font-family: Oswald, Impact, sans-serif;
 
+$border-hover: $mediumgrey;
+
 $input-color: $offwhite;
 $input-background-color: $palepeach;
 $input-border-color: $clay;
@@ -78,6 +80,8 @@ $footer-color: $offwhite;
 
 //// Import specific pieces
 @import "bulma/sass/components/navbar.sass";
+@import "bulma/sass/components/breadcrumb.sass";
+@import "bulma/sass/components/pagination.sass";
 @import "bulma/sass/elements/container.sass";
 @import "bulma/sass/elements/title.sass";
 @import "bulma/sass/grid/columns.sass";

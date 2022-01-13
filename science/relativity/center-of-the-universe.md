@@ -1,6 +1,7 @@
 ---
+order: 0
 title: The Disputed Center of the Universe
-subtitle: An Ancient Struggle to Exalt the Earth
+subtitle: An ancient struggle to exalt the earth
 date: 2013-01-30
 sidebar_quote: |-
   The fault, dear Brutus, is not in our stars,

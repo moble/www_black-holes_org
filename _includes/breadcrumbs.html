@@ -1,6 +1,6 @@
 <!-- Inspired by https://jekyllcodex.org/without-plugin/breadcrumbs/ and https://bulma.io/documentation/components/breadcrumb/ -->
 <nav class="breadcrumb" aria-label="breadcrumbs">
-    {% assign crumbs = page.url | remove:'/index.html' | remove:'/index' | split: '/' %}
+    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
     <ul>
         <li><a href="/">Home</a></li>
         {% for crumb in crumbs offset: 1 %}
