@@ -35,6 +35,31 @@ article {
     p {
         margin: 1rem 0;
     }
+
+    figure {
+        img {
+            margin: 5px 0 10px 0;
+            padding: 4px;
+            background-color: #fff;
+            border: #ddd solid 1px!important;
+        }
+        &.right {
+            width: 50%;
+            float: right;
+            margin-left: 20px;
+        }
+        &.left {
+            width: 50%;
+            float: left;
+            margin-right: 20px;
+        }
+    }
+
+    figcaption {
+        margin: 0;
+        font-size: 81%;
+        line-height: 123%;
+    }
 }
 
 
