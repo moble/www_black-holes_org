@@ -46,6 +46,11 @@ article {
         margin: 1rem 0;
     }
 
+    ol, ul {
+        padding-left: 20px;
+        list-style-position: inside;
+    }
+
     figure {
         &.right {
             width: 50%;
@@ -85,10 +90,14 @@ article {
             margin: 0 0 1rem 0;
         }
     }
+
+    .equation {
+        text-align: center !important;
+    }
 }
 
 
-// This is the sidebar — an aside subsidiary to `main`, but coequal to `article`
+// This is for the sidebar — an aside subsidiary to `main`, but coequal to `article`
 aside {
     h1 {
         font-size: 25px;
