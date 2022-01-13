@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.breadcrumb {
+    font-size: 90%;
+}
+
 article {
     //// Default to centering these things; note that kramdown allows you to append attribute lists:
     //// https://kramdown.gettalong.org/syntax.html#inline-attribute-lists
