@@ -3,7 +3,7 @@ title: Einstein's Point of View
 subtitle: The Struggle Lost, Einstein Pushes Further
 date: 2013-01-30
 sidebar_quote: |-
-  Time writes no wrinkle on thine azure brow—
+  Time writes no wrinkle on thine azure brow;
   Such as creation's dawn beheld, thou rollest now.
 sidebar_quote_attribution: "Childe Harold's Pilgrimage, Canto IV, Stanza 182"
 ---
