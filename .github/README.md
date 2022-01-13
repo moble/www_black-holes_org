@@ -87,12 +87,13 @@ on the page we're writing.
 - [ ] "Featured Video" in sidebar?
 - [ ] Breadcrumbs and/or sub-navigation in sidebar for main pages
 - [ ] Streamline CSS, so that only the necessary elements get served: one for homepage, another for
-      everything else
+      everything else; maybe get rid of Bulma?
 - [ ] Switch to the SVG logo, using
       [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text=IMULATING%20ETREME%20PACETIMES&preview.text_type=custom&query=ubuntu)
       for the title and
       [Yellowtail](https://fonts.google.com/specimen/Yellowtail?category=Handwriting&preview.text=Black%20holes,%20neutron%20stars,%20and%20beyond%E2%80%A6&preview.text_type=custom&slant=8&subset=latin)
       or similar for the extras
+- [ ] Glossary something-or-other
 
 
 ## Fonts used on the SXS website

@@ -17,7 +17,7 @@
                             <blockquote class="sidebar-quote-content">{{ page.sidebar_quote | newline_to_br }}</blockquote>
                         </div>
                         {% if page.sidebar_quote_attribution %}
-                        <div class="sidebar-quote-attribution">{{ page.sidebar_quote_attribution }}</div>
+                        <div class="sidebar-quote-attribution">{{ page.sidebar_quote_attribution | markdownify }}</div>
                         {% endif %}
                     </div>
                     {% endif %}

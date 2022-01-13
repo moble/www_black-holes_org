@@ -16,6 +16,12 @@ article {
         font-size: 36px;
         color: $terracotta;
         text-shadow: $brownishgrey 0px 1px 0;
+        .post-subtitle {
+            font-family: "Open Sans", "Helvetica Neue", sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+            color: $purplebrown;
+        }
     }
 
     h2 {
@@ -59,9 +65,26 @@ article {
             line-height: 123%;
         }
     }
+
+    // This is for an aside subsidiary to (and specifically *within*) `article`
+    aside {
+        width: 35%;
+        float: right;
+        margin: 5px 0 15px 15px;
+        padding: 20px 15px 10px;
+        font-size: 81%;
+        line-height: 162%;
+        background: $palepeach;
+        border: $lightgrey solid 3px;
+        border-radius: 12px;
+        p {
+            margin: 0 0 1rem 0;
+        }
+    }
 }
 
 
+// This is the sidebar — an aside subsidiary to `main`, but coequal to `article`
 aside {
     h1 {
         font-size: 25px;
