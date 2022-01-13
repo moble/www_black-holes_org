@@ -37,12 +37,6 @@ article {
     }
 
     figure {
-        img {
-            margin: 5px 0 10px 0;
-            padding: 4px;
-            background-color: #fff;
-            border: #ddd solid 1px!important;
-        }
         &.right {
             width: 50%;
             float: right;
@@ -53,12 +47,17 @@ article {
             float: left;
             margin-right: 20px;
         }
-    }
-
-    figcaption {
-        margin: 0;
-        font-size: 81%;
-        line-height: 123%;
+        img {
+            margin: 5px 0 10px 0;
+            padding: 4px;
+            background-color: #fff;
+            border: #ddd solid 1px!important;
+        }
+        figcaption {
+            margin: 0;
+            font-size: 81%;
+            line-height: 123%;
+        }
     }
 }
 
