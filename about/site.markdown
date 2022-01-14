@@ -18,7 +18,7 @@ date: 2013-02-01 06:54:39.000000000 +00:00
 </ul>
 <h4>Copyright</h4>
 <p>Except for materials credited to other sources, all content on this site is licensed under a Creative Commons Attribution, Non-Commercial license. You may use, copy and distribute the contents of this website for non-commercial uses, provided that the <a href="http://www.caltech.edu/" target="_blank" title="California Institute of Technology">California Institute of Technology</a> and <a href="http://www.cornell.edu" target="_blank" title="Cornell University">Cornell University</a> are credited as the source and, when possible, by a link to this website. For full terms and conditions, click the icon below.</p>
-<p><a href="https://creativecommons.org/licenses/by-nc/2.5/" target="_blank" title="Some Rights Reserved"><img alt="somerights20" src="/assets/images/icons/somerights20.png" /></a></p>
+<p><a href="https://creativecommons.org/licenses/by-nc/2.5/" target="_blank" title="Some Rights Reserved"><img alt="somerights20" src="/images/icons/somerights20.png" /></a></p>
 <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc/2.5/" target="_blank" rel="license">Creative Commons Attribution Non-Commercial 2.5 License</a>.</p>
 <p>The design of the current version of the website and some of the graphics are copyright of <a href="http://www.siliconian.com" target="_blank" title="Siliconian">Siliconian</a>.</p>
 <h4>Credits</h4>

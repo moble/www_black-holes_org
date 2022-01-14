@@ -8,8 +8,8 @@
     <h4>{{ member.position }}</h4>
     {%- endif -%}
 
-    <img src="/assets/images/people/{{ member.path | replace: '_people/', '' | replace: 'markdown', 'jpg' }}" alt="{{ member.name }}"
-         onerror='if (this.src != "/assets/images/people/placeholder.jpg") { this.src="/assets/images/people/placeholder.jpg" }' />
+    <img src="{{ site.baseurl }}/images/people/{{ member.path | replace: '_people/', '' | replace: 'markdown', 'jpg' }}" alt="{{ member.name }}"
+         onerror='if (this.src != "{{ site.baseurl }}/images/people/placeholder.jpg") { this.src="{{ site.baseurl }}/images/people/placeholder.jpg" }' />
 
     <div class="contact-info">
         {%- if member.address -%}
