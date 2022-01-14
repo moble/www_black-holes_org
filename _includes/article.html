@@ -2,42 +2,46 @@
 
     <div class="container is-max-widescreen">
 
-        {%- capture quote_keys -%}
-        {%- for quote in site.data.quotes -%}{{ quote[0] }} {% endfor -%}
-        {%- endcapture -%}
-
-        {%- if page.sidebar_quote -%}
-        {%- assign quote=site.data.quotes[page.sidebar_quote] -%}
-        {%- else -%}
-        {%- assign random_quote=quote_keys | split:" " | sample -%}
-        {%- assign quote=site.data.quotes[random_quote] -%}
-        {%- endif -%}
-
         <div class="columns">
 
             <div class="column is-three-quarters">
-                {% include breadcrumbs.html %}
+                {%- if page.url != '/404' -%}
+                    {% include breadcrumbs.html %}
+                {%- endif -%}
 
                 {{ content }}
 
                 {% include next-prev.html %}
             </div>
 
-            <div class="column">
-                <aside>
-                    <div class="sidebar-quote">
-                        <h1>Inspiration</h1>
-                        <div style="position: relative;">
-                            <blockquote class="sidebar-quote-content">
-                                {{- quote.sidebar_quote | newline_to_br -}}
-                            </blockquote>
+            {%- if page.url != '/404' -%}
+                {%- capture quote_keys -%}
+                    {%- for quote in site.data.quotes -%}{{ quote[0] }} {% endfor -%}
+                {%- endcapture -%}
+
+                {%- if page.sidebar_quote -%}
+                    {%- assign quote=site.data.quotes[page.sidebar_quote] -%}
+                {%- else -%}
+                    {%- assign random_quote=quote_keys | split:" " | sample -%}
+                    {%- assign quote=site.data.quotes[random_quote] -%}
+                {%- endif -%}
+
+                <div class="column">
+                    <aside>
+                        <div class="sidebar-quote">
+                            <h1>Inspiration</h1>
+                            <div style="position: relative;">
+                                <blockquote class="sidebar-quote-content">
+                                    {{- quote.sidebar_quote | newline_to_br -}}
+                                </blockquote>
+                            </div>
+                            <div class="sidebar-quote-attribution">
+                                {{- quote.sidebar_quote_attribution | markdownify -}}
+                            </div>
                         </div>
-                        <div class="sidebar-quote-attribution">
-                            {{- quote.sidebar_quote_attribution | markdownify -}}
-                        </div>
-                    </div>
-                </aside>
-            </div>
+                    </aside>
+                </div>
+            {%- endif -%}
 
         </div>
 
