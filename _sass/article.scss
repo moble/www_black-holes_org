@@ -52,6 +52,17 @@ article {
     }
 
     figure {
+        &.small-right {
+            float: right;
+            margin-left: 10px;
+            figcaption {
+                display: none;
+            }
+            img {
+                width: 158px;
+                height: 158px;
+            }
+        }
         &.right {
             width: 50%;
             float: right;

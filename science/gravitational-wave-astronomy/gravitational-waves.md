@@ -4,8 +4,9 @@ title: Gravitational Waves
 subtitle: Ripples in the fabric of spacetime
 date: 2013-01-30
 sidebar_quote: |-
-  …
-sidebar_quote_attribution: ''
+  One who asks is a fool for five minutes;
+  One who does not ask remains a fool forever.
+sidebar_quote_attribution: 'Chinese proverb'
 previous: /science/relativity/warped-point-of-view
 ---
 
@@ -22,13 +23,16 @@ spacetime so that gravitational waves travel out across spacetime.
 
  
 ### Reshaping Space
- 
-![Tall distorted by waves](images/gravitational-wave-astronomy/TallShipWaving2.gif)
-![Tall ship rocking on waves](images/gravitational-wave-astronomy/TallShipRocking.gif)
+
+{% include image.html class="small-right" url="/images/gravitational-wave-astronomy/TallShipWaving.gif"
+   description="Tall ship distorted by head-on gravitational waves" %}
+{% include image.html class="small-right" url="/images/gravitational-wave-astronomy/TallShipRocking.gif"
+   description="Tall ship rocking on water waves" %}
+
 We can better understand what a gravitational wave is by looking at how it affects anything it
-passes through. Imagine a ship on water. As a water wave passes from right to left, the ship will
-rock up and down. If a gravitational wave passes in the same direction, on the other hand, the ship
-grows taller, then shorter — it waves.
+passes through. Imagine a ship on water. As a water wave passes from stem to stern (right to left in
+the picture), the ship will rock up and down. If a gravitational wave passes in the same direction,
+on the other hand, the ship grows taller, then shorter — the ship itself waves.
 
 These waves have some important features. We are familiar with the idea of the speed of a wave on
 water—this is just how far the crest of a wave moves per unit time (miles per hour, or meters per
@@ -39,17 +43,19 @@ of light. (The gravitational wave is slowed down in these pictures, because it w
 see otherwise.) Another important aspect of these waves is their wavelength. This is just the
 distance between wave crests.
 
-!["images/gravitational_waves/TallShipStretching.gif"]("TallShipStretching")
-!["images/gravitational_waves/TallShipUpDown.gif"]("TallShipUpDown")
-We can turn our boat a little to see the waves from a second perspective. Imagine the waves
-broadsiding the boat. For a water wave, this will just raise and lower the boat, as it rides on the
-crest and then in the trough of the wave. For a gravitational wave, the ship will be pulled and then
-pinched, as we see in the pictures.
+{% include image.html class="small-right" url="/images/gravitational-wave-astronomy/TallShipStretching.gif"
+   description="Tall ship distorted by transverse gravitational waves" %}
+{% include image.html class="small-right" url="/images/gravitational-wave-astronomy/TallShipUpDown.gif"
+   description="Tall ship bobbing on water waves" %}
+We can turn our boat athwart the waves to study them from a second perspective. Imagine the waves
+broadsiding the boat (going into the screen in the picture). For a water wave, this will just raise
+and lower the boat, as it rides on the crest and then in the trough of the wave. For a gravitational
+wave, the ship will be pulled and then pinched, as we see in the pictures.
 
 These pictures show one more interesting feature of the waves — their amplitude, or size. For the
 water wave, this is the distance the ship moves up or down from its center position. For the
-gravitational wave, this is the percentage of squeeze or stretch by which the wave distorts the
-ship.
+gravitational wave, this is the fraction of squeeze or stretch by which the wave distorts the ship.
+This fraction is an important quantity in gravitational-wave astronomy: called the "strain".
 
  
 ### The Sound of a Gravitational Wave
