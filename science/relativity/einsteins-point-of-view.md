@@ -3,7 +3,7 @@ order: 1
 title: Einstein's Point of View
 subtitle: The struggle lost, Einstein pushes further
 date: 2013-01-30
-sidebar_quote: childe_harold_182
+sidebar_quote: einstein_experiment
 ---
 
 We've seen that changing our viewpoint in the Solar System might make certain problems simpler, but

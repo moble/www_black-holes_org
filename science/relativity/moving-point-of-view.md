@@ -3,7 +3,7 @@ order: 2
 title: The Moving Point of View
 subtitle: Where "now" depends on how fast you're moving
 date: 2013-01-30
-sidebar_quote: einstein_experiment
+sidebar_quote: looking_glass
 ---
 
 Einstein's revolutionary solution to the problems we've just seen starts out with a very simple

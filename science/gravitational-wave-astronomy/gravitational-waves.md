@@ -3,10 +3,7 @@ order: 0
 title: Gravitational Waves
 subtitle: Ripples in the fabric of spacetime
 date: 2013-01-30
-sidebar_quote: |-
-  One who asks is a fool for five minutes;
-  One who does not ask remains a fool forever.
-sidebar_quote_attribution: 'Chinese proverb'
+sidebar_quote: childe_harold_182
 previous: /science/relativity/warped-point-of-view
 ---
 

@@ -3,7 +3,7 @@ order: 5
 title: The Warped Point of View
 subtitle: Where "now" depends on how heavy you are
 date: 2013-01-30
-sidebar_quote: wondrous_creature
+sidebar_quote: hamlet
 next: /science/gravitational-wave-astronomy/gravitational-waves
 ---
 
