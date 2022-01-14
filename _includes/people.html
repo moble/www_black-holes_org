@@ -1,0 +1,37 @@
+{%- assign sorted = (site.people | sort: 'lastname') -%}
+{%- for member in sorted -%}
+{%- if member.group == include.groups -%}
+<div class="bio">
+    <h3>{{ member.name }}</h3>
+
+    {%- if member.position -%}
+    <h4>{{ member.position }}</h4>
+    {%- endif -%}
+
+    <img src="/assets/images/people/{{ member.path | replace: '_people/', '' | replace: 'markdown', 'jpg' }}" alt="{{ member.name }}"
+         onerror='if (this.src != "/assets/images/people/placeholder.jpg") { this.src="/assets/images/people/placeholder.jpg" }' />
+
+    <div class="contact-info">
+        {%- if member.address -%}
+        <p class="address">{{ member.address }}</p>
+        {%- endif -%}
+        {%- if member.institution -%}
+        <p class="address">{{ member.institution }}</p>
+        {%- endif -%}
+        {%- if member.email -%}
+        <p class="email">{{ member.email }}</p>
+        {%- endif -%}
+        {%- if member.phone -%}
+        <p class="phone">{{ member.phone }}</p>
+        {%- endif -%}
+    </div>
+
+    {%- if member.advisor -%}
+    <p>Advisor: {{ member.advisor }}</p>
+    {%- endif -%}
+
+    {{ member.content }}
+</div>
+<div style="clear:both;"></div>
+{%- endif -%}
+{%- endfor -%}

@@ -1,0 +1,41 @@
+<div>
+    {%- if site.data.menu[0] -%}
+    <ul>
+        {%- for item0 in site.data.menu -%}
+        <li>
+            <a href="{{ item0.url }}">{{ item0.title }}</a>
+            {%- if item0.subitems[0] -%}
+            <ul>
+                {%- for item1 in item0.subitems -%}
+                {%- capture item1_url -%}{{ item0.url}}{{item1.url }}{%- endcapture -%}
+                <li>
+                    <a href="{{ item1_url }}">{{ item1.title }}</a>
+                    {%- if item1.subitems[0] -%}
+                    <ul>
+                        {%- for item2 in item1.subitems -%}
+                        {%- capture item2_url -%}{{ item1_url}}{{item2.url }}{%- endcapture -%}
+                        <li>
+                            <a href="{{ item2_url }}">{{ item2.title }}</a>
+                            {%- if item2.subitems[0] -%}
+                            <ul>
+                                {%- for item3 in item2.subitems -%}
+                                {%- capture item3_url -%}{{ item2_url}}{{item3.url }}{%- endcapture -%}
+                                <li>
+                                    <a href="{{ item3_url }}">{{ item3.title }}</a>
+                                </li>
+                                {%- endfor -%}
+                            </ul>
+                            {%- endif -%}
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                    {%- endif -%}
+                </li>
+                {%- endfor -%}
+            </ul>
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+</div>

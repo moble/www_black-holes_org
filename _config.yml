@@ -33,6 +33,10 @@ twitter_username: SXSProject
 github_username:  sxs-collaboration
 
 
+collections:
+  - people
+  - glossary
+
 ### Build settings
 
 # See the basic theme at <https://github.com/jekyll/minima>; it gets overridden by our own layouts
