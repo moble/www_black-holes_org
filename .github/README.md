@@ -95,7 +95,8 @@ on the page we're writing.
       or similar for the extras
 - [ ] Glossary something-or-other
 - [ ] Add `index.md` files in every relevant directory
-
+- [ ] Add redirects for old ugly pages with
+      [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from), which is allowed on github
 
 ## Fonts used on the SXS website
 
