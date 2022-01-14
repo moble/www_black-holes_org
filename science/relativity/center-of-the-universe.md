@@ -3,10 +3,7 @@ order: 0
 title: The Disputed Center of the Universe
 subtitle: An ancient struggle to exalt the earth
 date: 2013-01-30
-sidebar_quote: |-
-  The fault, dear Brutus, is not in our stars,
-  But in ourselves…
-sidebar_quote_attribution: 'Julius Caesar (I, ii, 140–141)'
+sidebar_quote: caesar
 ---
 
 Occasionally, in trying to understand something, we can be our own worst enemy. We may start off
@@ -42,7 +39,6 @@ around the Sun. The problem of retrograde motion was instantly explained. The ci
 stretched slightly into ellipses, which eliminated epicycles and gave a highly accurate description
 of motions around the Sun. By changing his perspective a little, Copernicus made the problem became
 much easier to deal with.
-
 
 {% include image.html class="left" url="/images/relativity/copernican_system.jpg"
 description="Copernicus's heliocentric model of the Solar System.  The Earth is found in the third

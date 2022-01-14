@@ -1,0 +1,64 @@
+looking_glass:
+  sidebar_quote: |-
+    Now, here, you see, it takes all the running you can do, to keep in the same place. If you want to get somewhere else, you must run twice as fast as that.
+  sidebar_quote_attribution: 'Through the Looking Glass'
+
+guest_star:
+  sidebar_quote: |-
+    In the 1st year of the period Chih-ho, the 5th moon, the day chi-ch'ou, a guest star appeared…
+  sidebar_quote_attribution: "Yang Wei-T'e, Imperial Astronomer of the Sung Dynasty, 1054 A.D."
+
+hamlet:
+  sidebar_quote: |-
+    There are more things in heaven and earth, Horatio,
+    Than are dreamt of in your philosophy.
+  sidebar_quote_attribution: 'Hamlet (I, v, 166–167)'
+
+chinese_proverb:
+  sidebar_quote: |-
+    One who asks is a fool for five minutes;
+    One who does not ask remains a fool forever.
+  sidebar_quote_attribution: 'Chinese proverb'
+
+einstein_experiment:
+  sidebar_quote: |-
+    No amount of experimentation can ever prove me right; a single experiment can prove me wrong.
+  sidebar_quote_attribution: 'Albert Einstein'
+
+machado:
+  sidebar_quote: |-
+    Traveler, there is no path.
+    Paths are made by walking.
+  sidebar_quote_attribution: 'Antonio Machado'
+
+childe_harold_182:
+  sidebar_quote: |-
+    Time writes no wrinkle on thine azure brow;
+    Such as creation's dawn beheld, thou rollest now.
+  sidebar_quote_attribution: "Childe Harold's Pilgrimage (IV, 182)"
+
+childe_harold_183:
+  sidebar_quote: |-
+    Dark-heaving — boundless,
+    endless, and sublime,
+    The image of eternity —
+    the Throne of the Invisible…
+  sidebar_quote_attribution: "Childe Harold's Pilgrimage (IV, 183)"
+
+caesar:
+  sidebar_quote: |-
+    The fault, dear Brutus, is not in our stars,
+    But in ourselves…
+  sidebar_quote_attribution: 'Julius Caesar (I, ii, 140–141)'
+
+wondrous_creature:
+  sidebar_quote: |-
+    Go, wond'rous creature!
+    Mount where Science guides,
+    Go, measure earth, weigh air,
+    &nbsp;&nbsp;&nbsp;&nbsp;and state the tides;
+    Instruct the planets in
+    &nbsp;&nbsp;&nbsp;&nbsp;what orbs to run,
+    Correct old Time,
+    &nbsp;&nbsp;&nbsp;&nbsp;and regulate the Sun.
+  sidebar_quote_attribution: 'An Essay on Man'

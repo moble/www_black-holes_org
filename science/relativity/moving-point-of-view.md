@@ -3,9 +3,7 @@ order: 2
 title: The Moving Point of View
 subtitle: Where "now" depends on how fast you're moving
 date: 2013-01-30
-sidebar_quote: |-
-  No amount of experimentation can ever prove me right; a single experiment can prove me wrong.
-sidebar_quote_attribution: 'Albert Einstein'
+sidebar_quote: einstein_experiment
 ---
 
 Einstein's revolutionary solution to the problems we've just seen starts out with a very simple

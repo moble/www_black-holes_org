@@ -3,12 +3,7 @@ order: 3
 title: Curving Space and Time
 subtitle: Warping slices of reality
 date: 2013-01-30
-sidebar_quote: |-
-  Dark-heaving — boundless,
-  endless, and sublime,
-  The image of eternity —
-  the Throne of the Invisible…
-sidebar_quote_attribution: "Childe Harold's Pilgrimage (IV, 183)"
+sidebar_quote: childe_harold_183
 ---
 
 For his first revolution, Einstein unified space and time, and showed that a given observer just

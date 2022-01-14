@@ -3,10 +3,7 @@ order: 4
 title: Geodesics
 subtitle: The straightest lines in curved space
 date: 2013-01-30
-sidebar_quote: |-
-  Traveler, there is no path.
-  Paths are made by walking.
-sidebar_quote_attribution: 'Antonio Machado'
+sidebar_quote: machado
 ---
 
 One of the most important duties of Physics is to predict how things move. Newton wrote his First

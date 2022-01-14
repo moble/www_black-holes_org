@@ -3,16 +3,7 @@ order: 5
 title: The Warped Point of View
 subtitle: Where "now" depends on how heavy you are
 date: 2013-01-30
-sidebar_quote: |-
-  Go, wond'rous creature!
-  Mount where Science guides,
-  Go, measure earth, weigh air,
-  &nbsp;&nbsp;&nbsp;&nbsp;and state the tides;
-  Instruct the planets in
-  &nbsp;&nbsp;&nbsp;&nbsp;what orbs to run,
-  Correct old Time,
-  &nbsp;&nbsp;&nbsp;&nbsp;and regulate the Sun.
-sidebar_quote_attribution: 'An Essay on Man'
+sidebar_quote: wondrous_creature
 next: /science/gravitational-wave-astronomy/gravitational-waves
 ---
 

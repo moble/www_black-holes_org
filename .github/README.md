@@ -80,11 +80,11 @@ on the page we're writing.
       annoying
 - [x] Breadcrumbs and/or sub-navigation in sidebar for main pages
 - [x] Add Prev/Next buttons in the main pages
+- [x] Randomly select a sidebar quote for pages that don't have one specified
 - [ ] Create menu automatically from pages
 - [ ] Fix menu on mobile devices
 - [ ] Fix navigation coins on homepage, so that they're in rows of 4, 2, or 1
 - [ ] Add navigation coins in the sidebar for articles
-- [ ] Randomly select a sidebar quote for pages that don't have one specified
 - [ ] "Featured Video" in sidebar?
 - [ ] Streamline CSS, so that only the necessary elements get served: one for homepage, another for
       everything else; maybe get rid of Bulma?
@@ -94,6 +94,7 @@ on the page we're writing.
       [Yellowtail](https://fonts.google.com/specimen/Yellowtail?category=Handwriting&preview.text=Black%20holes,%20neutron%20stars,%20and%20beyond%E2%80%A6&preview.text_type=custom&slant=8&subset=latin)
       or similar for the extras
 - [ ] Glossary something-or-other
+- [ ] Add `index.md` files in every relevant directory
 
 
 ## Fonts used on the SXS website

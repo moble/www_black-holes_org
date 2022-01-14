@@ -74,6 +74,8 @@ would have to move the ship's flag up and down at least twenty times per second.
 were strong enough to be heard, you would probably have other problems. Nonetheless, you could
 amplify the sounds if you had a microphone that was sensitive enough.
 
+You can listen to some of these sounds [here]({{ site.baseurl }}/explore/sounds).
+
 One question is whether anything in Nature makes these sounds at the right pitch, and loud enough,
 for humans to hear. Astrophysicists have found many sources for sounds that we actually could hear,
 with a good enough microphone. The next sections will take us through a set of possible sources of

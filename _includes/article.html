@@ -2,10 +2,20 @@
 
     <div class="container is-max-widescreen">
 
+        {%- capture quote_keys -%}
+        {%- for quote in site.data.quotes -%}{{ quote[0] }} {% endfor -%}
+        {%- endcapture -%}
+
+        {%- if page.sidebar_quote -%}
+        {%- assign quote=site.data.quotes[page.sidebar_quote] -%}
+        {%- else -%}
+        {%- assign random_quote=quote_keys | split:" " | sample -%}
+        {%- assign quote=site.data.quotes[random_quote] -%}
+        {%- endif -%}
+
         <div class="columns">
 
             <div class="column is-three-quarters">
-
                 {% include breadcrumbs.html %}
 
                 {{ content }}
@@ -15,17 +25,17 @@
 
             <div class="column">
                 <aside>
-                    {% if page.sidebar_quote %}
                     <div class="sidebar-quote">
                         <h1>Inspiration</h1>
                         <div style="position: relative;">
-                            <blockquote class="sidebar-quote-content">{{ page.sidebar_quote | newline_to_br }}</blockquote>
+                            <blockquote class="sidebar-quote-content">
+                                {{- quote.sidebar_quote | newline_to_br -}}
+                            </blockquote>
                         </div>
-                        {% if page.sidebar_quote_attribution %}
-                        <div class="sidebar-quote-attribution">{{ page.sidebar_quote_attribution | markdownify }}</div>
-                        {% endif %}
+                        <div class="sidebar-quote-attribution">
+                            {{- quote.sidebar_quote_attribution | markdownify -}}
+                        </div>
                     </div>
-                    {% endif %}
                 </aside>
             </div>
 
