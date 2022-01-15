@@ -28,7 +28,7 @@ description: >-
     exotic objects in the distant cosmos.
 baseurl: "/bh_jekyll" # the subpath of your site, e.g. /blog
 domain: "moble.github.io"
-# url: "" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://www.black-holes.org" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: SXSProject
 github_username:  sxs-collaboration
 
@@ -47,6 +47,7 @@ plugins:
   - jekyll-feed
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
+  - jekyll-sitemap
 
 # Don't add the output extension (.html) to the url of posts
 permalink: /:categories/:year/:month/:day/:title
