@@ -49,6 +49,9 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-sitemap
 
+sass:
+  style: compressed
+
 # Don't add the output extension (.html) to the url of posts
 permalink: /:categories/:year/:month/:day/:title
 
