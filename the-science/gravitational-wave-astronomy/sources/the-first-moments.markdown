@@ -1,11 +1,9 @@
 ---
-layout: post
+order: 1
 title: The First Moments
-joomla_id: 128
-joomla_url: the-first-moments
-date: 2013-11-23 03:47:42.000000000 +00:00
+subtitle: "The birth of the universe: the most violent explosion ever"
 ---
-<h3>The Birth of the Universe; The Most Violent Explosion Ever</h3>
+
 <blockquote class="animated fadeInDown">
 <p class="quote">Time writes no wrinkle<br />&nbsp;&nbsp;&nbsp; on thine azure brow,<br />Such as creation's dawn<br />&nbsp;&nbsp; beheld, thou rollest now.</p>
 <p class="source">From Lord Byron's<br /><em>Childe Harold's Pilgrimage</em>,<br />Canto IV, Stanza 182</p>

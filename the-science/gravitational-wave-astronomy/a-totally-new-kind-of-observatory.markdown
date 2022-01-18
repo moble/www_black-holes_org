@@ -1,11 +1,9 @@
 ---
-layout: post
+order: 3
 title: A Totally New Kind of Observatory
-joomla_id: 37
-joomla_url: a-totally-new-kind-of-observatory
-date: 2013-04-15 06:25:21.000000000 +00:00
+subtitle: Measuring the tiniest of fluctuations in spacetime
 ---
-<h3>Measuring the Tiniest of Fluctuations in Spacetime</h3>
+
 <p>From Galileo's first telescope to today's most sensitive neutrino telescopes, astronomers have been developing new eyes with which to see the night sky, allowing them to discover new worlds while better understanding our own. Now, for the first time, astronomers are creating new <em>ears</em> with which to <em>hear</em> the Universe around us.</p>
 <p>The sounds we hear in our ears are carried through the air around us. Anything giving off sound gives the air more pressure, then less pressure. These changes in pressure travel as waves, until they reach our ears and push on our eardrums. The waves don't move our heads very much, but they move our eardrums, which allows the delicate mechanisms in our ears to pick up these movements relative to our heads.</p>
 <p>Since sound needs air (or some other matter) to compress, sound can't travel through empty space. Gravitational waves, on the other hand, don't need air to travel; they just need spacetime. They travel across the Universe from its deepest reaches, never stopping or slowing down — regardless of the presence or absence of air. Nonetheless, they have a similar effect on our ears. As a gravitational wave passes through your head, the positions of your eardrums change relative to the position of your head. Again, the delicate mechanisms in your ears would pick up these movements, and your brain would turn them into sounds. But why aren't we kept up at night with the noise from black holes everywhere falling into each other?</p>

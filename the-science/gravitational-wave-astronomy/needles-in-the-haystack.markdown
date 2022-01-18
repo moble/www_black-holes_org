@@ -1,11 +1,9 @@
 ---
-layout: post
+order: 4
 title: Needles in the Haystack
-joomla_id: 36
-joomla_url: needles-in-the-haystack
-date: 2013-04-15 06:01:20.000000000 +00:00
+subtitle: Hearing the cosmic symphony
 ---
-<h3>Hearing the Cosmic Symphony</h3>
+
 <p>The gravitational-wave detectors now being built and operated are the most exquisitely sensitive instruments ever designed by humans. But because they are so sensitive, they are burdened by measurements — not of astrophysical gravitational waves — but of more mundane noise. Nearby trucks passing on the highway, trains going along railroad tracks many miles away, even waves crashing on the beach</p>
 <div class="sound">
 <p class="icon-volume-up">&nbsp;The tremendous racket of the world's most sensitive microphone</p>

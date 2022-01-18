@@ -97,3 +97,40 @@ $footer-color: $offwhite;
 @import "homepage";
 @import "article";
 @import "footer";
+
+
+
+
+
+
+
+.navbar-item.is-hoverable:hover .navbar-dropdown .navbar-dropdown {
+  display: none;
+}
+
+.navbar-dropdown .navbar-item.is-hoverable:hover > .navbar-dropdown {
+  display: block;
+}
+.navbar-dropdown .navbar-item .navbar-dropdown {
+  top: -10px;
+  margin-left: 100%;
+  box-shadow: 0 16px 8px -8px rgba(10,10,10,.1), 8px 0 8px -8px rgba(10,10,10,.1);
+}
+
+.navbar-dropdown .navbar-item.has-dropdown {
+  padding: 0;
+}
+
+.navbar-dropdown .navbar-item.has-dropdown > .navbar-link {
+  width: 100%;
+  padding: .375rem 1rem;
+  background-color: #fff;
+}
+
+.navbar-dropdown .navbar-item.has-dropdown:hover > .navbar-link {
+  background-color: #f5f5f5;
+}
+
+.navbar-dropdown .navbar-item.has-dropdown > .navbar-link:not(.is-arrowless) {
+  padding-right: 2.5em;
+}
