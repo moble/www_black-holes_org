@@ -1,0 +1,53 @@
+{%- assign includedepth = include.depth | default: 1 -%}
+{%- assign includeprefix = include.prefix | default: "/" -%}
+{%- assign nextdepth = include.depth | plus: 1 -%}
+{%- capture pages -%}{%- include find_sub_pages.html depth=includedepth prefix=includeprefix -%}{%- endcapture -%}
+{%- capture indices -%}{%- include find_index_pages.html depth=includedepth prefix=includeprefix -%}{%- endcapture -%}
+{%- assign items = pages | append: indices | split: ", " -%}
+{%- assign menupages = site.pages | where_exp: "pg","items contains pg.url" | where_exp: "pg","pg.order" | sort: "order" -%}
+
+includedepth: {{ includedepth }} {{ include.depth }}
+
+includeprefix: {{ includeprefix }} {{ include.prefix }}
+
+nextdepth: {{ nextdepth }}
+
+pages: {{ pages }}
+
+indices: {{ indices }}
+
+menupages:
+{% for pg in menupages %}    {{ pg.url }} {{ pg.order }}
+{% endfor %}
+
+
+{%- for menupage in menupages -%}
+    {%- if menupage.name == "index.md" -%}
+        {%- assign dropdown = true -%}
+    {%- else -%}
+        {%- assign dropdown = false -%}
+    {%- endif -%}
+
+    {%- if dropdown -%}
+        <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item" href="{{ menupage.url }}">
+                {{ menupage.title }}
+                {%- if menupage.subtitle %}
+                    <br><span class="navbar-subtitle">{{ menupage.subtitle }}</span>
+                {%- endif %}
+            </a>
+            <div class="navbar-dropdown">
+                {% include submenu.html depth=nextdepth prefix=menupage.url %}
+            </div>
+        </div>
+
+    {% else %}
+        <a class="navbar-item" href="{{ menupage.url }}">
+            {{ menupage.title }}
+            {%- if menupage.subtitle %}
+                <br><span class="navbar-subtitle">{{ menupage.subtitle }}</span>
+            {%- endif %}
+        </a>
+
+    {% endif -%}
+{%- endfor -%}

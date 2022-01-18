@@ -1,0 +1,15 @@
+{%- comment -%}
+Arguments:
+- pages (optional; defaults to site.pages)
+- depth (optional; defaults to 1)
+- prefix (optional; defaults to "/")
+{%- endcomment -%}
+
+{%- assign sortedpages = include.pages | default: site.pages | where_exp: "pg","pg.order" | sort: "order" -%}
+{%- assign targetdepth = include.depth | default: 1 -%}
+{%- assign prefix = include.prefix | default: "/" -%}
+{%- for pg in sortedpages -%}
+{%- assign tail = pg.url | slice: -1,1 -%}
+{%- assign depth = pg.url | split: "/" | size | minus: 1 -%}
+{%- if tail != "/" and depth == targetdepth and pg.url contains prefix -%}{{ pg.url }}, {% endif -%}
+{%- endfor -%}
