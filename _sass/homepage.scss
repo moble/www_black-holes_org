@@ -210,11 +210,13 @@
     }
 
     // The "coins" are the circular things that flip.  We'll style them below, using these variables.
+    $coinmargin: 35;
     $coinradius: 90;
     $coinedge: 10;
     $coinsize: (2*($coinradius + $coinedge)) + px;
     $coinface: (2*$coinradius) + px;
-    $coinmargin: (-$coinradius) + px;
+    $centeringmargin: (-$coinradius) + px;
+    $cointotal: (2*($coinradius + $coinedge + $coinmargin)) + px;
 
     // This contains the coins
     .coins {
@@ -230,7 +232,7 @@
         transition: all 0.6s ease-in-out;
         width: $coinsize !important;
         height: $coinsize !important;
-        margin: 35px;
+        margin: $coinmargin + px;
         position: relative;
         text-align: center;
         color: #FFFFFF;
@@ -241,7 +243,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            margin: $coinmargin 0 0 $coinmargin;
+            margin: $centeringmargin 0 0 $centeringmargin;
         }
 
         .edge {
