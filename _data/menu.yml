@@ -1,0 +1,66 @@
+- url: /
+
+- url: /the-science
+  title: The Science
+  submenu:
+    - url: relativity
+      submenu:
+        - url: center-of-the-universe
+        - url: einsteins-point-of-view
+        - url: moving-point-of-view
+        - url: curving-space-and-time
+        - url: geodesics
+        - url: warped-point-of-view
+    - url: compact-objects
+      submenu:
+        - url: white-dwarfs
+        - url: neutron-stars-and-pulsars
+        - url: black-holes
+    - url: gravitational-wave-astronomy
+      submenu:
+        - url: gravitational-waves
+        - url: sources
+          submenu:
+            - url: compact-binaries
+            - url: extreme-mass-ratio-inspirals
+            - url: collapsing-stars-and-supernovae
+            - url: black-holes-and-neutron-stars
+            - url: the-first-moments
+            - url: exotic-possibilities
+            - url: the-unknown
+        - url: a-totally-new-kind-of-astronomy
+        - url: a-totally-new-kind-of-observatory
+        - url: needles-in-the-haystack
+    - url: numerical-relativity
+      submenu:
+        - url: einsteins-equations
+        - url: why-numerical-relativity
+        - url: computer-simulations
+        - url: gravitational-lensing
+
+- url: /explore
+  submenu:
+    - url: movies
+    - url: sounds
+    - url: faq
+    - url: glossary
+    - url: downloads
+    - url: further-explorations
+
+- url: /about-sxs
+  submenu:
+    - url: news-and-updates
+    - url: motivation
+    - url: people
+    - url: institutions
+    - url: sxs_code_of_conduct
+    - url: site
+
+- url: /for-researchers
+  submenu:
+    - url: simulation-highlights
+    - url: initial-data
+    - url: our-institutions
+    - url: useful-links
+
+- url: /contact-us
