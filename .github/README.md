@@ -81,7 +81,7 @@ on the page we're writing.
 - [x] Breadcrumbs and/or sub-navigation in sidebar for main pages
 - [x] Add Prev/Next buttons in the main pages
 - [x] Randomly select a sidebar quote for pages that don't have one specified
-- [ ] Create menu automatically from pages
+- [x] Create menu automatically from ~~pages~~ `_data/menu.yml`
 - [ ] Fix menu on mobile devices
 - [ ] Fix navigation coins on homepage, so that they're in rows of 4, 2, or 1
 - [ ] Add navigation coins in the sidebar for articles
