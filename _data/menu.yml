@@ -53,7 +53,8 @@
     - url: motivation
     - url: people
     - url: institutions
-    - url: sxs_code_of_conduct
+    - url: sxs_code_of_conduct.pdf
+      title: Code of Conduct
     - url: site
 
 - url: /for-researchers

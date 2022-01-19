@@ -1,4 +1,4 @@
-# SXS Research
+# News and Updates
 
 {% for post in site.posts %}
 ## {{ post.title }}
