@@ -7,7 +7,7 @@ automatically does this rendering for us because it detects jekyll files in the 
 though it would also be possible to render manually via github actions if we need to use features
 github doesn't enable by default.
 
-See the rendered site [here](https://moble.github.io/bh_jekyll).
+See the rendered site [here](https://moble.github.io/www.black-holes.org).
 
 
 ## Writing your own posts
