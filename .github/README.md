@@ -93,10 +93,15 @@ on the page we're writing.
       for the title and
       [Yellowtail](https://fonts.google.com/specimen/Yellowtail?category=Handwriting&preview.text=Black%20holes,%20neutron%20stars,%20and%20beyond%E2%80%A6&preview.text_type=custom&slant=8&subset=latin)
       or similar for the extras
-- [ ] Glossary something-or-other
+- [ ] Automate glossary links?  (This would presumably require some non-standard plugin, and thus
+      more CI work)
 - [ ] Add `index.md` files in every relevant directory
 - [ ] Add redirects for old ugly pages with
       [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from), which is allowed on github
+- [ ] Update old `.markdown` files to actually use markdown and have correct front matter
+- [ ] Style audio so that it's visible
+- [ ] Make the FAQ something like [the old one](https://www.black-holes.org/explore/faq)
+
 
 ## Fonts used on the SXS website
 

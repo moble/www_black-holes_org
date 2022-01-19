@@ -37,12 +37,22 @@ header > .logo:hover {
     z-index: 2;
     border: 2px solid $terracotta;
     border-radius: 3px;
+    background-color: $earth;
 }
 
 
 // Automatically capitalize all the items that reside in the navbar itself
 .navbar-menu > .navbar-start > a.navbar-item, .navbar-menu > .navbar-start > .has-dropdown > a {
     text-transform: uppercase;
+}
+
+.navbar-dropdown .navbar-item.has-dropdown:hover>.navbar-link {
+    background-color: $terracotta;
+    color: $sandyyellow;
+}
+
+.navbar-dropdown .navbar-item.has-dropdown>.navbar-link {
+    background-color: $clay;
 }
 
 // Put a border around the search box
@@ -54,4 +64,64 @@ header > .logo:hover {
     align-items: stretch;
     display: flex;
     width: 100%;
+}
+
+.navbar-item, .navbar-link {
+    display: block;
+}
+.menu-subtitle {
+    color: $lightgrey;
+    font-size: 77%;
+}
+
+// Lay out the menus properly
+.navbar-item.is-hoverable:hover .navbar-dropdown .navbar-dropdown {
+  display: none;
+}
+
+.navbar-dropdown .navbar-item.is-hoverable:hover > .navbar-dropdown {
+  display: block;
+}
+.navbar-dropdown .navbar-item .navbar-dropdown {
+  top: -10px;
+  margin-left: 100%;
+  box-shadow: 0 16px 8px -8px rgba(10,10,10,.1), 8px 0 8px -8px rgba(10,10,10,.1);
+}
+
+.navbar-dropdown .navbar-item.has-dropdown {
+  padding: 0;
+}
+
+.navbar-dropdown .navbar-item.has-dropdown > .navbar-link {
+  width: 100%;
+  padding: .375rem 1rem;
+  // background-color: #fff;
+}
+
+// .navbar-dropdown .navbar-item.has-dropdown:hover > .navbar-link {
+//   background-color: #f5f5f5;
+// }
+
+
+// These are for dropdown items *below* the top level
+.navbar-dropdown .navbar-item.has-dropdown > .navbar-link:not(.is-arrowless) {
+  padding-right: 2.5em;
+}
+.navbar-dropdown .navbar-item.has-dropdown > .navbar-link:not(.is-arrowless)::after {
+    border: 3px solid transparent;
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: block;
+    height: 0.625em;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-135deg);
+    transform-origin: center;
+    width: 0.625em;
+    border-color: #EFEDD8;
+    margin-top: -0.375em;
+    right: 1.125em;
 }
