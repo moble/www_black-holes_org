@@ -1,0 +1,16 @@
+{% for menuitem in include.menu %}
+    {%- if menuitem.submenu %}
+        {%- assign itemurl = include.baseurl | append: menuitem.url | append: "/" %}
+    {%- else %}
+        {%- assign itemurl = include.baseurl | append: menuitem.url %}
+    {%- endif %}
+    {%- assign itempage = site.pages | where_exp: "item", "item.url == itemurl" | first %}
+    {{ site.baseurl }}{{ itemurl }}
+    {{ menuitem.title | default: itempage.title }}
+    {%- if itempage.subtitle -%}
+        <br><span class="menu-subtitle">{{ itempage.subtitle }}</span>
+    {%- endif %}
+    {% if menuitem.submenu %}
+        {% include menu_recursion.html menu=menuitem.submenu baseurl=itemurl %}
+    {% endif %}
+{% endfor %}
