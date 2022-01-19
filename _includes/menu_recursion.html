@@ -1,16 +1,32 @@
 {% for menuitem in include.menu %}
-    {%- if menuitem.submenu %}
-        {%- assign itemurl = include.baseurl | append: menuitem.url | append: "/" %}
-    {%- else %}
-        {%- assign itemurl = include.baseurl | append: menuitem.url %}
-    {%- endif %}
-    {%- assign itempage = site.pages | where_exp: "item", "item.url == itemurl" | first %}
-    {{ site.baseurl }}{{ itemurl }}
-    {{ menuitem.title | default: itempage.title }}
-    {%- if itempage.subtitle -%}
+{%- if menuitem.submenu %}
+{%- assign itemurl = include.baseurl | append: menuitem.url | append: "/" %}
+{%- else %}
+{%- assign itemurl = include.baseurl | append: menuitem.url %}
+{%- endif %}
+{%- assign itempage = site.pages | where_exp: "item", "item.url == itemurl" | first %}
+{%- if menuitem.url == "/" -%}{%- assign tabindex="0" -%}{%- else -%}{%- assign tabindex="-1" -%}{%- endif -%}
+
+{%- if menuitem.submenu -%}
+<div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link" href="{{ site.baseurl }}{{ itemurl }}" tabindex={{ tabindex }}>
+        {{ menuitem.title | default: itempage.title }}
+        {%- if itempage.subtitle -%}
         <br><span class="menu-subtitle">{{ itempage.subtitle }}</span>
-    {%- endif %}
-    {% if menuitem.submenu %}
+        {%- endif %}
+        <span class="border-fixer"></span>
+    </a>
+    <div class="navbar-dropdown" role="menu" aria-label="{{ menuitem.title | default: itempage.title }}">
         {% include menu_recursion.html menu=menuitem.submenu baseurl=itemurl %}
-    {% endif %}
+    </div>
+</div>
+{%- else -%}
+    <a class="navbar-item" href="{{ site.baseurl }}{{ itemurl }}" tabindex={{ tabindex }}>
+        {{ menuitem.title | default: itempage.title }}
+        {%- if itempage.subtitle -%}
+        <br><span class="menu-subtitle">{{ itempage.subtitle }}</span>
+        {%- endif %}
+    </a>
+{%- endif -%}
+
 {% endfor %}

@@ -18,6 +18,7 @@ $palegrey: #F5F5F5;
 $offwhite: #EFEDD8;
 $sandyyellow: #FFEC6D;
 $palepeach: #FFEFBE4C;  // The extra 2 letters are for transparency
+$palepeachsolid: #FFEFBE;
 $peach: #F7A87D;
 $terracotta: #DB6C3C; // #D55B2F;
 $clay: #A8573E;
@@ -61,6 +62,7 @@ $input-border-color: $clay;
 
 $footer-padding: ($navbar-margin + 7.5) + px 0;
 $footer-color: $offwhite;
+
 
 
 //// This section imports pieces of bulma
