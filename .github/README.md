@@ -7,7 +7,7 @@ automatically does this rendering for us because it detects jekyll files in the 
 though it would also be possible to render manually via github actions if we need to use features
 github doesn't enable by default.
 
-See the rendered site [here](https://moble.github.io/www.black-holes.org).
+See the rendered site [here](https://moble.github.io/www_black-holes_org).
 
 
 ## Writing your own posts
@@ -101,6 +101,7 @@ on the page we're writing.
 - [ ] Update old `.markdown` files to actually use markdown and have correct front matter
 - [ ] Style audio so that it's visible
 - [ ] Make the FAQ something like [the old one](https://www.black-holes.org/explore/faq)
+- [ ] Correct Next/Prev buttons to use `_data/menu.yml`
 
 
 ## Fonts used on the SXS website
