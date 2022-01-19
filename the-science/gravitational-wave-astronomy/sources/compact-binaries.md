@@ -1,7 +1,7 @@
 ---
 order: 0
 title: Compact Binaries
-subtitle: Pairs of stars locked in a mad, whirling dance
+subtitle: Pairs of dead stars locked in a mad, whirling dance
 ---
 
 <p>Spinning Neutron Stars and rippling Black Holes will stir up spacetime and give off gravitational waves very effectively. The more stirring, the better, though. The bigger the lump is, and the faster it moves, the stronger the waves given off will be. There is another, much simpler and more effective way of producing a big "lump" moving quickly.</p>
