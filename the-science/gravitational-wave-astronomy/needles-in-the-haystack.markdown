@@ -8,7 +8,7 @@ subtitle: Hearing the cosmic symphony
 <div class="sound">
 <p class="icon-volume-up">&nbsp;The tremendous racket of the world's most sensitive microphone</p>
 <p>
-<audio src="/assets/sound/h.mp3" type="audio/mpeg"></audio>
+<audio src="/sound/h.mp3" type="audio/mpeg"></audio>
 </p>
 </div>
 <p><a href="index.php?Itemid=238" class="button" title="More Sounds">More Sounds...</a></p>

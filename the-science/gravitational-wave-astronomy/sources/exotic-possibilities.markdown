@@ -10,7 +10,7 @@ subtitle: Objects that physicists are just beginning to imagine
 <div class="sound">
 <p class="icon-volume-up">&nbsp;The cracking whip of a cosmic string</p>
 <p>
-<audio src="/assets/sound/Cusp.wav" type="audio/x-wav"></audio>
+<audio src="/sound/Cusp.wav" type="audio/x-wav"></audio>
 </p>
 </div>
 <p><a href="index.php?Itemid=238" class="button" title="More Sounds...">More Sounds...</a></p>
