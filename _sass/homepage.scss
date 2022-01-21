@@ -161,8 +161,8 @@
 
 .the-science {
     background: $brownishgrey url($img + "/site/homepage_coins_background.jpg") repeat 0 0;
-    max-height: 442px;
-    height: 442px;
+    // max-height: 442px;
+    min-height: 442px;
     border-top: 13px solid $lightgrey;
     border-bottom: 4px solid $greyish;
 
@@ -182,7 +182,7 @@
         text-align: center;
         letter-spacing: 3px;
         font-size: 30px;
-        margin-bottom: 0;
+        margin-bottom: 12px;
 
         h1 {
             font-family: "Times New Roman", Georgia, serif;
@@ -327,6 +327,49 @@
         background: url($img + "/site/homepage_coin_nr.png") center;
     }
 
+}
+
+#coins {
+    font-size: 0; /* Eliminates extraneous spaces between elements */
+    margin: 0 auto 35px;
+    width: 1080px;
+    height: 270px;
+
+    @media screen and (max-width: 1080px) {
+        width: 540px;
+        height: 540px;
+    }
+    @media screen and (max-width: 540px) {
+        width: 270px;
+        height: 1080px;
+    }
+    & > div {
+        height: 200px;
+        width: 200px;
+        margin: 35px;
+        position: relative;
+        transition: all 0.6s ease-in-out;
+    }
+    div {
+        font-size: 16px;
+        display: inline-block;
+        transition: all 0.6s ease-in-out;
+    }
+    .edge {
+        box-shadow: 0 0 0 10px #ffffff33;
+    }
+    .field {
+        background: #333333;
+    }
+    .centering {
+        width: 180px !important;
+        height: 180px !important;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -90px 0 0 -90px;
+        border-radius: 50%;
+    }
 }
 
 

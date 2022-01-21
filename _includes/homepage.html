@@ -25,15 +25,15 @@
         </div>
     </div>
 
-    <div class="hero the-science">
-        <div class="container arrow-down"></div>
+    <div class="the-science">
+        <div class="container arrow-down" style="margin-bottom:15px;"></div>
         <div class="container title">
             <h1>the <strong>Science</strong></h2>
-            <h2>~ four main areas we study ~</h2>
+                <h2>~ four main areas we study ~</h2>
         </div>
-        <div class="container is-max-widescreen">
-            <ul class="coins">
-                <li class="coin coin1"
+        <div>
+            <div id="coins">
+                <div class="coin coin1"
                     onclick="window.location='{{ site.baseurl }}/the-science/relativity/center-of-the-universe';">
                     <div class="coin centering edge"></div>
                     <div class="coin centering obverse coin1"></div>
@@ -45,21 +45,8 @@
                     <div class="label">
                         Relativity
                     </div>
-                </li>
-                <li class="coin coin2"
-                    onclick="window.location='{{ site.baseurl }}/the-science/gravitational-wave-astronomy/gravitational-waves';">
-                    <div class="coin centering edge"></div>
-                    <div class="coin centering obverse coin2"></div>
-                    <div class="coin centering reverse coin2">
-                        <h3>Gravitational<br/>Waves</h3>
-                        <p>Ripples in the Fabric of Spacetime</p>
-                        <a href="{{ site.baseurl }}/the-science/gravitational-wave-astronomy/gravitational-waves" title="Gravitational Waves">Read More</a>
-                    </div>
-                    <div class="label">
-                        Gravitational waves
-                    </div>
-                </li>
-                <li class="coin coin3"
+                </div>
+                <div class="coin coin3"
                     onclick="window.location='{{ site.baseurl }}/the-science/compact-objects/white-dwarfs';">
                     <div class="coin centering edge"></div>
                     <div class="coin centering obverse coin3"></div>
@@ -71,8 +58,21 @@
                     <div class="label">
                         Compact Objects
                     </div>
-                </li>
-                <li class="coin coin4"
+                </div>
+                <div class="coin coin2"
+                    onclick="window.location='{{ site.baseurl }}/the-science/gravitational-wave-astronomy/gravitational-waves';">
+                    <div class="coin centering edge"></div>
+                    <div class="coin centering obverse coin2"></div>
+                    <div class="coin centering reverse coin2">
+                        <h3>Gravitational<br/>Waves</h3>
+                        <p>Ripples in the Fabric of Spacetime</p>
+                        <a href="{{ site.baseurl }}/the-science/gravitational-wave-astronomy/gravitational-waves" title="Gravitational Waves">Read More</a>
+                    </div>
+                    <div class="label">
+                        Gravitational Waves
+                    </div>
+                </div>
+                <div class="coin coin4"
                     onclick="window.location='{{ site.baseurl }}/the-science/numerical-relativity/einsteins-equations';">
                     <div class="coin centering edge"></div>
                     <div class="coin centering obverse coin4"></div>
@@ -84,8 +84,8 @@
                     <div class="label">
                         Numerical Relativity
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </div>
 
