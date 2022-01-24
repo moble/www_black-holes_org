@@ -374,6 +374,7 @@
 
 
 .research {
+    margin: 12px;
     h1 {
         text-align: center;
         margin-bottom: 30px;
@@ -384,33 +385,48 @@
         font-weight: 400;
     }
     .honeycomb {
+        position: relative;
         a {
-            position: relative;
+            position: absolute;
             transition: all .5s ease-in-out;
             -moz-transition: all .5s ease-in-out;
             -webkit-transition: all .5s ease-in-out;
         }
+        // Below are defaults that may be overwritten in the @media query
+        height: 165px;
+        width: 521px;
         .sounds {
-            left: -20px;
+            left: 100px;
             top: 60px;
         }
         .glossary {
-            left: -40px;
+            left: 200px;
         }
         .faq {
-            left: -60px;
+            left: 300px;
             top: 60px;
         }
         .downloads {
-            left: -80px;
+            left: 400px;
         }
-        margin-bottom: 60px;
-        min-width: 542px;
-        white-space: nowrap;
+        @media screen and (max-width: 545px) {
+            height: 225px;
+            width: 321px;
+            margin: auto;
+            .faq {
+                left: 0px;
+                top: 120px;
+            }
+            .downloads {
+                left: 200px;
+                top: 120px;
+            }
+        }
     }
     .bh-quote {
-        max-width:450px;
-        padding: 12px 0;
+        min-width: 276px;
+        max-width: 450px;
+        padding: 12px 12px;
         .quote {
             background: url($img + "/site/homepage_admit-one_background.png") #333 repeat 0 0;
             color: $offwhite;

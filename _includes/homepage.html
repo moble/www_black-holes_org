@@ -96,7 +96,7 @@
 
             <div class="columns">
                 {% for post in site.posts limit:2 %}
-                    <div class="column">
+                    <div class="column content">
                         <h2 class="title is-4">{{ post.title }}</h2>
                         <p class="dt-published">Created on {{ post.date | date: "%B %-d, %Y" }}</p>
                         <div class="latest-research">{{ post.excerpt }}</div>
@@ -115,8 +115,7 @@
 
                 <div class="column">
                     <h2 class="title is-4">Explore the Science of SXS</h2>
-                    <div>
-                        <p class="honeycomb">
+                    <div class="honeycomb">
                             <a href="{{ site.baseurl }}/explore/movies" class="movies" title="Videos">
                                 <img alt="Videos" src="{{ site.baseurl }}/images/site/homepage_explore_videos.png">
                             </a>
@@ -132,7 +131,6 @@
                             <a href="{{ site.baseurl }}/explore/downloads" class="downloads" title="Downloads">
                                 <img alt="Downloads" src="{{ site.baseurl }}/images/site/homepage_explore_downloads.png">
                             </a>
-                        </p>
                     </div>
                 </div>
 
