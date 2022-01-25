@@ -18,44 +18,63 @@ footer {
     .hero-body {
         width: 100%;
         word-wrap: break-word;
-    }
 
-    .title {
-        color: $terracotta;
-    }
+        .title {
+            color: $terracotta;
+        }
 
-    p {
-        margin-bottom: 20px;
-    }
+        p {
+            margin-bottom: 20px;
+        }
 
-    .hero-body img {
-        margin: 10px 25px;
-        vertical-align: middle;
-        opacity: 0.7;
-        transition: all .2s linear 0s;
-    }
+        img {
+            margin: 10px 25px;
+            vertical-align: middle;
+            opacity: 0.7;
+            transition: all .2s linear 0s;
+        }
 
-    .hero-body img:hover {
-        opacity: 1;
-        transition: all .4s linear 0s;
-    }
+        img:hover {
+            opacity: 1;
+            transition: all .4s linear 0s;
+        }
 
-    #latest-tweet {
-        padding: 4px 30px;
+        #latest-tweet {
+            padding: 4px 30px;
+        }
     }
 
     //// The trim is the part at the very bottom with contrasting stitching
+    .trim {
+        a {
+            color: $offwhite;
+        }
 
-    .trim a {
-        color: $offwhite;
-    }
+        a:hover {
+            color: $darkgrey;
+        }
 
-    .trim a:hover {
-        color: $darkgrey;
-    }
+        & > .container {
+            padding: 8px;
+        }
 
-    .trim > .container {
-        padding: 8px;
+        @media screen and (min-width: 700px) {
+            .copyright-narrow {
+                display: none;
+            }
+            .copyright-wide {
+                display: initial;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            .copyright-narrow {
+                display: initial;
+            }
+            .copyright-wide {
+                display: none;
+            }
+        }
     }
 
 }
