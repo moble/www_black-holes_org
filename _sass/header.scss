@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-
+// Basically, this is just the logo and its background
 header {
     background:#f0f0f0 url($img + "/site/banner_background.png");
     position:relative;
@@ -30,6 +30,7 @@ header {
     }
 }
 
+// The burger is the little box with three horizontal lines that shows up on touchscreen-sized media
 .navbar-burger {
     position: fixed;
     top: 8px;
@@ -45,95 +46,113 @@ header {
     }
 }
 
-
-// Automatically capitalize all the items that reside in the navbar itself
-.navbar-menu > .navbar-start > a.navbar-item, .navbar-menu > .navbar-start > .has-dropdown > a {
-    text-transform: uppercase;
-}
-
-.navbar-dropdown .navbar-item.has-dropdown:hover>.navbar-link {
-    background-color: $terracotta;
-    color: $sandyyellow;
-}
-
-.navbar-dropdown .navbar-item.has-dropdown>.navbar-link {
-    @include desktop {
-        background-color: $clay;
-    }
-}
-
-// Put a border around the search box
-.navbar input {
-    border: 1px solid $clay;
-}
-
-.navbar .trim > .container {
-    align-items: stretch;
-    display: flex;
-    width: 100%;
-}
-
-.navbar-item, .navbar-link {
-    display: block;
-}
-.menu-subtitle {
-    color: $lightgrey;
-    font-size: 77%;
-}
-
-// Lay out the menus properly
-.navbar-item.is-hoverable:hover .navbar-dropdown .navbar-dropdown {
-  display: none;
-}
-
-.navbar-dropdown .navbar-item.is-hoverable:hover > .navbar-dropdown {
-  display: block;
-}
-.navbar-dropdown .navbar-item .navbar-dropdown {
-    top: -10px;
-    @include desktop {
-        margin-left: 100%;
-        box-shadow: 0 16px 8px -8px rgba(10,10,10,.1), 8px 0 8px -8px rgba(10,10,10,.1);
-    }
+#navbarMenu {
     @include touch {
-        margin-left: 8%;
+        background-color: $clay;
+        position: fixed;
+        top: 60px;
+        left: 8px;
+        height: calc(100% - 68px);
+        width: 95%;
+        z-index: 2;
+        overflow-y:scroll;
+        #navbarMenuContent {
+            overflow-y:scroll;
+        }
     }
-}
+    @include desktop {
+        .navbar-dropdown {
+            background-color: $clay;
+        }
+    }
 
-.navbar-dropdown .navbar-item.has-dropdown {
-  padding: 0;
-}
+    #navbarMenuContent {
+        display: contents;
+    }
 
-.navbar-dropdown .navbar-item.has-dropdown > .navbar-link {
-  width: 100%;
-  @include desktop {
-      padding: .375rem 1rem;
-  }
-  @include touch {
-      padding: .5rem 1.5rem;
-  }
-}
+    .navbar-item, .navbar-link {
+        display: block;
+    }
 
+    // Automatically capitalize all the items that reside in the navbar itself
+    .navbar-menu > .navbar-start > a.navbar-item, .navbar-menu > .navbar-start > .has-dropdown > a {
+        text-transform: uppercase;
+    }
 
-// These are for dropdown items *below* the top level
-.navbar-dropdown .navbar-item.has-dropdown > .navbar-link:not(.is-arrowless) {
-  padding-right: 2.5em;
-}
-.navbar-dropdown .navbar-item.has-dropdown > .navbar-link:not(.is-arrowless)::after {
-    border: 3px solid transparent;
-    border-radius: 2px;
-    border-right: 0;
-    border-top: 0;
-    content: " ";
-    display: block;
-    height: 0.625em;
-    pointer-events: none;
-    position: absolute;
-    top: 50%;
-    transform: rotate(-135deg);
-    transform-origin: center;
-    width: 0.625em;
-    border-color: #EFEDD8;
-    margin-top: -0.375em;
-    right: 1.125em;
+    // When a submenu has popped out, highlight the parent, but don't when not hovering
+    .navbar-dropdown .navbar-item.has-dropdown:hover>.navbar-link {
+        background-color: $terracotta;
+        color: $sandyyellow;
+    }
+    .navbar-dropdown .navbar-item.has-dropdown>.navbar-link {
+        @include desktop {
+            background-color: $clay;
+        }
+    }
+
+    .menu-subtitle {
+        color: $lightgrey;
+        font-size: 77%;
+    }
+
+    // Lay out the menus properly
+    .navbar-item.is-hoverable:hover .navbar-dropdown .navbar-dropdown {
+        display: none;
+    }
+
+    .navbar-dropdown .navbar-item.is-hoverable:hover > .navbar-dropdown {
+        display: block;
+    }
+    .navbar-dropdown .navbar-item .navbar-dropdown {
+        top: -10px;
+        @include desktop {
+            margin-left: 100%;
+            box-shadow: 0 16px 8px -8px rgba(10,10,10,.1), 8px 0 8px -8px rgba(10,10,10,.1);
+        }
+        @include touch {
+            margin-left: 8%;
+        }
+    }
+
+    .navbar-dropdown .navbar-item.has-dropdown {
+        padding: 0;
+    }
+
+    .navbar-dropdown .navbar-item.has-dropdown > .navbar-link {
+        width: 100%;
+        @include desktop {
+            padding: .375rem 1rem;
+        }
+        @include touch {
+            padding: .5rem 1.5rem;
+        }
+    }
+
+    // These are for dropdown items *below* the top level
+    .navbar-dropdown .navbar-item.has-dropdown > .navbar-link:not(.is-arrowless) {
+        padding-right: 2.5em;
+    }
+    .navbar-dropdown .navbar-item.has-dropdown > .navbar-link:not(.is-arrowless)::after {
+        border: 3px solid transparent;
+        border-radius: 2px;
+        border-right: 0;
+        border-top: 0;
+        content: " ";
+        display: block;
+        height: 0.625em;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        transform: rotate(-135deg);
+        transform-origin: center;
+        width: 0.625em;
+        border-color: #EFEDD8;
+        margin-top: -0.375em;
+        right: 1.125em;
+    }
+
+    // Put a border around the search box
+    .navbar input {
+        border: 1px solid $clay;
+    }
 }
