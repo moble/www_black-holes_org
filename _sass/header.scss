@@ -5,39 +5,44 @@ header {
     background:#f0f0f0 url($img + "/site/banner_background.png");
     position:relative;
     padding:0.1px;
-}
 
-header > .logo {
-    @include desktop {
-        background: url($img + "/site/sxs_logo.png") 50% 0 no-repeat !important;
-        margin: 16px auto;
-        width: 498px;
-        height: 160px !important;
+    & > .logo {
+        @include desktop {
+            background: url($img + "/site/sxs_logo.png") 50% 0 no-repeat !important;
+            margin: 16px auto;
+            width: 498px;
+            height: 160px !important;
+        }
+        @include touch {
+            background: url($img + "/site/sxs_logo.png") no-repeat scroll 50% -160px transparent !important;
+            margin: 30px auto !important;
+            width: 250px !important;
+            height: 181px !important;
+        }
+        opacity: 1;
+        transition:all .2s ease-in-out;
+        display: block;
     }
-    @include touch {
-        background: url($img + "/site/sxs_logo.png") no-repeat scroll 50% -160px transparent !important;
-        margin: 30px auto !important;
-        width: 250px !important;
-        height: 181px !important;
-    }
-    opacity: 1;
-    transition:all .2s ease-in-out;
-    display: block;
-}
 
-header > .logo:hover {
-    opacity:.8;
-    transform: scale(.95,.95);
+    & > .logo:hover {
+        opacity:.8;
+        transform: scale(.95,.95);
+    }
 }
 
 .navbar-burger {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 8px;
     z-index: 2;
-    border: 2px solid $terracotta;
-    border-radius: 3px;
+    border: 0;
+    border-radius: 2px;
     background-color: $earth;
+    height: 50px;
+    width: 50px;
+    &:hover {
+        background-color: $earth;
+    }
 }
 
 
@@ -52,7 +57,9 @@ header > .logo:hover {
 }
 
 .navbar-dropdown .navbar-item.has-dropdown>.navbar-link {
-    background-color: $clay;
+    @include desktop {
+        background-color: $clay;
+    }
 }
 
 // Put a border around the search box
@@ -83,9 +90,14 @@ header > .logo:hover {
   display: block;
 }
 .navbar-dropdown .navbar-item .navbar-dropdown {
-  top: -10px;
-  margin-left: 100%;
-  box-shadow: 0 16px 8px -8px rgba(10,10,10,.1), 8px 0 8px -8px rgba(10,10,10,.1);
+    top: -10px;
+    @include desktop {
+        margin-left: 100%;
+        box-shadow: 0 16px 8px -8px rgba(10,10,10,.1), 8px 0 8px -8px rgba(10,10,10,.1);
+    }
+    @include touch {
+        margin-left: 8%;
+    }
 }
 
 .navbar-dropdown .navbar-item.has-dropdown {
@@ -94,13 +106,13 @@ header > .logo:hover {
 
 .navbar-dropdown .navbar-item.has-dropdown > .navbar-link {
   width: 100%;
-  padding: .375rem 1rem;
-  // background-color: #fff;
+  @include desktop {
+      padding: .375rem 1rem;
+  }
+  @include touch {
+      padding: .5rem 1.5rem;
+  }
 }
-
-// .navbar-dropdown .navbar-item.has-dropdown:hover > .navbar-link {
-//   background-color: #f5f5f5;
-// }
 
 
 // These are for dropdown items *below* the top level
