@@ -4,6 +4,10 @@
     font-size: 90%;
 }
 
+main.article {
+    padding: 0 12px;
+}
+
 article {
     //// Default to centering these things; note that kramdown allows you to append attribute lists:
     //// https://kramdown.gettalong.org/syntax.html#inline-attribute-lists
