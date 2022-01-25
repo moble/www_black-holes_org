@@ -427,6 +427,9 @@
         min-width: 276px;
         max-width: 450px;
         padding: 12px 12px;
+        @media screen and (max-width: 545px) {
+            margin: auto;
+        }
         .quote {
             background: url($img + "/site/homepage_admit-one_background.png") #333 repeat 0 0;
             color: $offwhite;
