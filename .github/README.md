@@ -102,6 +102,7 @@ on the page we're writing.
 - [ ] Style audio so that it's visible
 - [ ] Make the FAQ something like [the old one](https://www.black-holes.org/explore/faq)
 - [ ] Correct Next/Prev buttons to use `_data/menu.yml`
+- [ ] Convert old Flash animations to use CSS or JavaScript
 
 
 ## Fonts used on the SXS website
