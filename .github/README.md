@@ -88,6 +88,8 @@ on the page we're writing.
 - [ ] "Featured Video" in sidebar?
 - [ ] Streamline CSS, so that only the necessary elements get served: one for homepage, another for
       everything else; maybe get rid of Bulma?
+- [ ] Styling on the about-sxs/people page is very broken
+- [ ] Style audio so that it's visible
 - [ ] Switch to the SVG logo, using
       [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text=IMULATING%20ETREME%20PACETIMES&preview.text_type=custom&query=ubuntu)
       for the title and
@@ -99,7 +101,6 @@ on the page we're writing.
 - [ ] Add redirects for old ugly pages with
       [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from), which is allowed on github
 - [ ] Update old `.markdown` files to actually use markdown and have correct front matter
-- [ ] Style audio so that it's visible
 - [ ] Make the FAQ something like [the old one](https://www.black-holes.org/explore/faq)
 - [ ] Correct Next/Prev buttons to use `_data/menu.yml`
 - [ ] Convert old Flash animations to use CSS or JavaScript
