@@ -1,5 +1,5 @@
 ---
-name: Leo Stein
+name: Leo C. Stein
 lastname: Stein
 group: faculty
 position: Assistant Professor
@@ -29,4 +29,4 @@ arriving at Mississippi as a professor.
 
 ##### Selected Publications
 
-See <a href="http://duetosymmetry.com/">http://duetosymmetry.com/</a>.
+See <a href="https://duetosymmetry.com/">https://duetosymmetry.com/</a>.

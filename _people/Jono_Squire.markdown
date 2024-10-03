@@ -36,4 +36,3 @@ Rev. Lett.113, 025006 (2014) [http://arxiv.org/pdf/1406.6582].</li>
 variational particle-in-cell scheme. Phys. Plasmas 19, 4501 (2012)
 [http://arxiv.org/abs/1401.6723].</li>
 </ul>
-</div

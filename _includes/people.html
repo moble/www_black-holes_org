@@ -2,7 +2,8 @@
 {%- for member in sorted -%}
 {%- if member.group == include.groups -%}
 <div class="bio">
-    <h3>{{ member.name }}</h3>
+  <details>
+    <summary>{{ member.name }}</summary>
 
     {%- if member.position -%}
     <h4>{{ member.position }}</h4>
@@ -35,6 +36,7 @@
     {%- endif -%}
 
     {{ member.content }}
+  </details>
 </div>
 <div style="clear:both;"></div>
 {%- endif -%}
