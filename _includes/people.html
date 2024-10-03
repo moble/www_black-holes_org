@@ -8,8 +8,12 @@
     <h4>{{ member.position }}</h4>
     {%- endif -%}
 
-    <img src="{{ site.baseurl }}/images/people/{{ member.path | replace: '_people/', '' | replace: 'markdown', 'jpg' }}" alt="{{ member.name }}"
-         onerror='if (this.src != "{{ site.baseurl }}/images/people/placeholder.jpg") { this.src="{{ site.baseurl }}/images/people/placeholder.jpg" }' />
+    {% assign img_path = '/images/people/' | append: member.path | replace: '_people/', '' | replace: 'markdown', 'jpg' %}
+    {% assign file_exists = site.static_files | where: "path", img_path %}
+    {% if file_exists.size == 0 %}
+      {% assign img_path = '/images/people/placeholder.jpg' %}
+    {% endif %}
+    <img class="member_photo" src="{{ site.baseurl }}/{{ img_path }}" alt="{{ member.name }}" />
 
     <div class="contact-info">
         {%- if member.address -%}
