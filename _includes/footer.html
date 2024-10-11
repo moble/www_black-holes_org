@@ -37,33 +37,19 @@
             </div>
 
             <div class="institutions">
-                {% include institution_logo.html
-                    href="https://www.pma.caltech.edu/" src="caltech_new_s.png" alt="Caltech" width="133" height="32"
-                    title="California Institute of Technology Division of Physics, Mathematics &amp; Astronomy" %}
-                {% include institution_logo.html
-                    href="https://physics.fullerton.edu/gwpac/" src="csuf_s.png" alt="Cal State Fullerton" width="106" height="106"
-                    title="The Gravitational-Wave Physics and Astronomy Center at Cal State Fullerton" %}
-                {% include institution_logo.html
-                    href="https://astro.cornell.edu/" src="cornell_new_s.png" alt="Cornell" width="106" height="106"
-                    title="Cornell University Astronomy Department" %}
-                {% include institution_logo.html
-                    href="https://www.aei.mpg.de/" src="ae_engli_white_small.png" alt="Albert Einstein Institute" width="200" height="64"
-                    title="Albert Einstein Institute" %}
-                {% include institution_logo.html
-                    href="https://www.oberlin.edu/physics/" src="oberlin_s.png" alt="Oberlin College" width="150" height="75"
-                    title="Oberlin College Department of Physics and Astronomy" %}
-                {% include institution_logo.html
-                    href="https://www.umassd.edu/cas/math/" src="umass_dartmouth.svg" alt="UMass Dartmouth" width="221" height="124"
-                    title="UMass Dartmouth Department of Mathematics" %}
-                {% include institution_logo.html
-                    href="https://physics.olemiss.edu/" src="CrestUM_StackedBlue2767_TMR.png" alt="Ole Miss" width="139" height="106"
-                    title="The University of Mississippi Department of Physics" %}
-                {% include institution_logo.html
-                    href="https://cns.utexas.edu/" src="utaustin_rgb_university_primary_stacked.png" alt="UT Austing" width="204" height="141"
-                    title="The University of Texas at Austin College of Natural Sciences" %}
-                {% include institution_logo.html
-                    href="https://astro.wsu.edu/" src="wsu_new_s_light.png" alt="Washington State University" width="130" height="80"
-                    title="Washington State University Department of Physics and Astronomy" %}
+              {%- assign sorted = site.institutions | sort: 'name' -%}
+              {%- for inst in sorted -%}
+              <a target="_blank" rel="noopener" href="{{ inst.home_url }}" title="{{ inst.logo_title }}">
+                <img src="{{ site.baseurl }}/images/institutions/{{ inst.logo_src }}"
+                     {%- if inst.logo_alt %}
+                       alt="{{ inst.logo_alt }}"
+                     {% endif -%}{%- if inst.logo_w %}
+                       width="{{ inst.logo_w }}"
+                     {% endif -%}{%- if inst.logo_h %}
+                       height="{{ inst.logo_h }}"
+                     {% endif -%} />
+              </a>
+              {%- endfor -%}
             </div>
 
         </div>
@@ -85,5 +71,4 @@
  {% include navbar-burgers.js %}
  {% include latest-tweet.js %}
 </script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
