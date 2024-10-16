@@ -469,3 +469,24 @@
         }
     }
 }
+
+.bio img.member_photo {
+    max-width: 300px;
+}
+
+.people_group {
+    details {
+        margin-left: 1em;
+    }
+    summary {
+        font-size: 20px;
+        font-weight: 700;
+        color: $bluegreen;
+    }
+}
+
+.institution img.inst_logo_r {
+    float: right;
+    max-width:  300px;
+    max-height: 150px;
+}

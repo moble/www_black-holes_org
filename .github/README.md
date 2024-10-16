@@ -10,6 +10,23 @@ github doesn't enable by default.
 See the rendered site [here](https://moble.github.io/www_black-holes_org).
 
 
+## Quickstart for updaters: building locally with Jekyll
+
+If you want to test the site locally before submitting a PR, you need
+to have Jekyll and all the dependencies installed.
+
+1. Install ruby through your system's package manager
+2. Optionally install rbenv so you can have more fine-grained control
+   to use a specific version of ruby in just this repo
+3. Do `gem install bundler` to install the ruby "gem" named bundler
+4. Do `bundle install` to install the gems for jekyll and all other
+   dependancies
+5. Do `git submodule init` followed by `git submodule update` to make
+   sure you have the files in `_sass/bulma`
+6. You should now be able to build locally.  To serve the site in real
+   time, do `bundle exec jekyll serve`.  To build the deployment into
+   the `_site` subdirectory, do `bundle exec jekyll build`.
+
 ## Writing your own posts
 
 One of the goals of making this website more usable is to encourage SXS members to write entries
