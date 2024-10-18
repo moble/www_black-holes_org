@@ -1,6 +1,12 @@
 ---
 title: "Controlling the Growth of Constraints in Hyperbolic Evolution Systems"
-authors: "Lee Lindblom, Mark A. Scheel, Lawrence E. Kidder, Harald P. Pfeiffer, Deirdre Shoemaker, Saul A. Teukolsky"
+authors:
+  - "Lee Lindblom"
+  - "Mark A. Scheel"
+  - "Lawrence E. Kidder"
+  - "Harald P. Pfeiffer"
+  - "Deirdre Shoemaker"
+  - "Saul A. Teukolsky"
 jref: "Phys.Rev. D69, 124025 (2004)"
 doi: "10.1103/PhysRevD.69.124025"
 date: 2004-06-28

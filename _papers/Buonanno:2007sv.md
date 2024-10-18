@@ -1,6 +1,9 @@
 ---
 title: "Estimating the final spin of a binary black hole coalescence"
-authors: "Alessandra Buonanno, Lawrence E. Kidder, and Luis Lehner"
+authors:
+  - "Alessandra Buonanno"
+  - "Lawrence E. Kidder"
+  - "Luis Lehner"
 jref: "Phys. Rev. D 77, 026004 (2008)"
 doi: "10.1103/PhysRevD.77.026004"
 date: 2007-09-24

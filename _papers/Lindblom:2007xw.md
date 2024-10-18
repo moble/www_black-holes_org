@@ -1,6 +1,10 @@
 ---
 title: "Gauge Drivers for the Generalized Harmonic Einstein Equations"
-authors: "Lee Lindblom, Keith D. Matthews, Oliver Rinne, and Mark A. Scheel"
+authors:
+  - "Lee Lindblom"
+  - "Keith D. Matthews"
+  - "Oliver Rinne"
+  - "Mark A. Scheel"
 date: 2007-11-14
 doi: "10.1103/PhysRevD.77.084001"
 arxiv: "0711.2084"

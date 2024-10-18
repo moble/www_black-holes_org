@@ -1,6 +1,9 @@
 ---
 title: "Self-Renormalization of the Classical Quasilocal Energy"
-authors: "Andrew P. Lundgren, Bjoern S. Schmekel, James W. York Jr"
+authors:
+  - "Andrew P. Lundgren"
+  - "Bjoern S. Schmekel"
+  - "James W. York Jr"
 jref: "Phys. Rev. D 75, 084026 (2007)"
 doi: "10.1103/PhysRevD.75.084026"
 date: 2006-10-18

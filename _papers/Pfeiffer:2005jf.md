@@ -1,6 +1,8 @@
 ---
 title: "Uniqueness and Non-uniqueness in the Einstein Constraints"
-authors: "Harald P. Pfeiffer and James W. York"
+authors:
+  - "Harald P. Pfeiffer"
+  - "James W. York"
 jref: "Phys.Rev.Lett. 95, 091101 (2005)"
 doi: "10.1103/PhysRevLett.95.091101"
 date: 2005-08-26

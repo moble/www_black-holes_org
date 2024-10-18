@@ -1,6 +1,11 @@
 ---
 title: "Black hole evolution by spectral methods"
-authors: "Lawrence E. Kidder, Mark A. Scheel, Saul A. Teukolsky, Eric D. Carlson, Gregory B. Cook"
+authors:
+  - "Lawrence E. Kidder"
+  - "Mark A. Scheel"
+  - "Saul A. Teukolsky"
+  - "Eric D. Carlson"
+  - "Gregory B. Cook"
 jref: "Phys.Rev. D62, 084032 (2000)"
 doi: "10.1103/PhysRevD.62.084032"
 date: 2000-09-26

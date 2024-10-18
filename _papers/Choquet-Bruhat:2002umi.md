@@ -1,6 +1,8 @@
 ---
 title: "Bianchi - Euler system for relativistice fluids and Bel - Robinson type energy"
-authors: "Yvonne Choquet-Bruhat, James W. York"
+authors:
+  - "Yvonne Choquet-Bruhat"
+  - "James W. York"
 jref: "Comptes Rendus Mathematique, Volume 335, Number 8, 15 October 2002, pp. 711-716(6)"
 doi: ""
 date: 2002-06-29

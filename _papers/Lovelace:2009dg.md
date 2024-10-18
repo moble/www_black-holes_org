@@ -1,6 +1,15 @@
 ---
 title: "Momentum flow in black-hole binaries: II. Numerical simulations of equal-mass, head-on mergers with antiparallel spins."
-authors: "Geoffrey Lovelace, Yanbei Chen, Michael Cohen, Jeffrey D. Kaplan, Drew Keppel, Keith D. Matthews, David A. Nichols, Mark A. Scheel, and Ulrich Sperhake"
+authors:
+  - "Geoffrey Lovelace"
+  - "Yanbei Chen"
+  - "Michael Cohen"
+  - "Jeffrey D. Kaplan"
+  - "Drew Keppel"
+  - "Keith D. Matthews"
+  - "David A. Nichols"
+  - "Mark A. Scheel"
+  - "Ulrich Sperhake"
 jref: "Submitted to Phys. Rev. D (currently with referees)"
 doi: "10.1103/PhysRevD.82.064031"
 date: 2009-07-05

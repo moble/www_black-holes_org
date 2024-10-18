@@ -1,6 +1,9 @@
 ---
 title: "Evolving relativistic fluid spacetimes using pseudospectral methods and finite differencing"
-authors: "Matthew D. Duez, Lawrence E. Kidder, Saul A. Teukolsky"
+authors:
+  - "Matthew D. Duez"
+  - "Lawrence E. Kidder"
+  - "Saul A. Teukolsky"
 date: 2007-02-25
 doi: "10.1142/9789812834300_0197"
 arxiv: "gr-qc/0702126"

@@ -1,6 +1,8 @@
 ---
 title: "Schwarzschild Tests of the Wahlquist-Estabrook-Buchman-Bardeen Tetrad Formulation for Numerical Relativity"
-authors: "L. T. Buchman and J. M. Bardeen"
+authors:
+  - "L. T. Buchman"
+  - "J. M. Bardeen"
 jref: "Phys. Rev. D72, 124014 (2005)"
 doi: "10.1103/PhysRevD.72.124014"
 date: 2005-12-15

@@ -1,6 +1,11 @@
 ---
 title: "Boundary Conditions for the Einstein Evolution System"
-authors: "Lawrence E. Kidder, Lee Lindblom, Mark A. Scheel, Luisa T. Buchman, Harald P. Pfeiffer"
+authors:
+  - "Lawrence E. Kidder"
+  - "Lee Lindblom"
+  - "Mark A. Scheel"
+  - "Luisa T. Buchman"
+  - "Harald P. Pfeiffer"
 jref: "Phys. Rev. D71 (2005) 064020"
 doi: "10.1103/PhysRevD.71.064020"
 date: 2005-03-15

@@ -1,6 +1,10 @@
 ---
 title: "Initial data for Einstein's equations with superposed gravitational waves"
-authors: "Harald P. Pfeiffer, Lawrence E. Kidder, Mark A. Scheel, Deirdre Shoemaker"
+authors:
+  - "Harald P. Pfeiffer"
+  - "Lawrence E. Kidder"
+  - "Mark A. Scheel"
+  - "Deirdre Shoemaker"
 jref: "Phys. Rev. D71, 024020 (2005)"
 doi: "10.1103/PhysRevD.71.024020"
 date: 2005-01-20

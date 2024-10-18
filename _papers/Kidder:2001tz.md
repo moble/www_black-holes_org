@@ -1,6 +1,9 @@
 ---
 title: "Extending the lifetime of 3D black hole computations with a new hyperbolic system of evolution equations"
-authors: "Lawrence E. Kidder, Mark A. Scheel and Saul A. Teukolsky"
+authors:
+  - "Lawrence E. Kidder"
+  - "Mark A. Scheel"
+  - "Saul A. Teukolsky"
 jref: "Phys. Rev. D64, 064017 (2001)"
 doi: "10.1103/PhysRevD.64.064017"
 date: 2001-08-27

@@ -1,6 +1,8 @@
 ---
 title: "A model problem for the initial-boundary value formulation of Einstein's field equations"
-authors: "Oscar Reula, Olivier Sarbach"
+authors:
+  - "Oscar Reula"
+  - "Olivier Sarbach"
 jref: "J. Hyperbolic Differential Eqs. 2, 397-435 (2005)"
 doi: "10.1142/S0219891605000488"
 date: 2005-06-01

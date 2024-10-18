@@ -1,6 +1,9 @@
 ---
 title: "Black hole initial data on hyperboloidal slices"
-authors: "Luisa T. Buchman, Harald P. Pfeiffer, and James M. Bardeen"
+authors:
+  - "Luisa T. Buchman"
+  - "Harald P. Pfeiffer"
+  - "James M. Bardeen"
 jref: "Phys. Rev. D 80, 084024 (2009)"
 doi: "10.1103/PhysRevD.80.084024"
 date: 2009-10-19

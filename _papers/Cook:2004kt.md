@@ -1,6 +1,8 @@
 ---
 title: "Excision boundary conditions for black hole initial data"
-authors: "Gregory B. Cook, Harald P. Pfeiffer"
+authors:
+  - "Gregory B. Cook"
+  - "Harald P. Pfeiffer"
 jref: "Phys.Rev. D70, 104016 (2004)"
 doi: "10.1103/PhysRevD.70.104016"
 date: 2004-11-12

@@ -1,6 +1,12 @@
 ---
 title: "Solving Einstein's Equations With Dual Coordinate Frames"
-authors: "Mark A. Scheel, Harald P. Pfeiffer, Lee Lindblom, Lawrence E. Kidder, Oliver Rinne, and Saul A. Teukolsky"
+authors:
+  - "Mark A. Scheel"
+  - "Harald P. Pfeiffer"
+  - "Lee Lindblom"
+  - "Lawrence E. Kidder"
+  - "Oliver Rinne"
+  - "Saul A. Teukolsky"
 jref: "Physical Review D, 74 104006 (2006)"
 doi: "10.1103/PhysRevD.74.104006"
 date: 2006-11-15

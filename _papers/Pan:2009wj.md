@@ -1,6 +1,13 @@
 ---
 title: "Effective-one-body waveforms calibrated to numerical relativity simulations: Coalescence of nonprecessing, spinning, equal-mass black holes"
-authors: "Yi Pan, Alessandra Buonanno, Luisa T. Buchman, Tony Chu, Lawrence E. Kidder, Harald P. Pfeiffer, Mark A. Scheel"
+authors:
+  - "Yi Pan"
+  - "Alessandra Buonanno"
+  - "Luisa T. Buchman"
+  - "Tony Chu"
+  - "Lawrence E. Kidder"
+  - "Harald P. Pfeiffer"
+  - "Mark A. Scheel"
 jref: "Phys. Rev. D 81, 084041 (2010)"
 doi: "10.1103/PhysRevD.81.084041"
 date: 2010-04-20

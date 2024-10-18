@@ -1,6 +1,9 @@
 ---
 title: "Testing outer boundary treatments for the Einstein equations"
-authors: "Oliver Rinne, Lee Lindblom, and Mark A. Scheel"
+authors:
+  - "Oliver Rinne"
+  - "Lee Lindblom"
+  - "Mark A. Scheel"
 jref: "Class. Quantum Grav. 24 (2007) 4053--4078"
 doi: "10.1088/0264-9381/24/16/006"
 date: 2007-04-05

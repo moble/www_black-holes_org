@@ -1,6 +1,11 @@
 ---
 title: "Toward stable 3D numerical evolutions of black-hole spacetimes"
-authors: "Mark A. Scheel, Lawrence E. Kidder, Lee Lindblom, Harald P. Pfeiffer, and Saul A. Teukolsky"
+authors:
+  - "Mark A. Scheel"
+  - "Lawrence E. Kidder"
+  - "Lee Lindblom"
+  - "Harald P. Pfeiffer"
+  - "Saul A. Teukolsky"
 jref: "Phys. Rev. D 66, 124005 (2002)"
 doi: "10.1103/PhysRevD.66.124005"
 date: 2002-12-17

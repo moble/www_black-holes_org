@@ -1,6 +1,9 @@
 ---
 title: "Outer boundary conditions for Einstein's field equations in harmonic coordinates"
-authors: "Milton Ruiz, Oliver Rinne, and Olivier Sarbach"
+authors:
+  - "Milton Ruiz"
+  - "Oliver Rinne"
+  - "Olivier Sarbach"
 date: 2007-07-18
 doi: "10.1088/0264-9381/24/24/012"
 arxiv: "0707.2797"

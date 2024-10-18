@@ -1,6 +1,11 @@
 ---
 title: "A New Generalized Harmonic Evolution System"
-authors: "Lee Lindblom, Mark A. Scheel, Lawrence E. Kidder, Robert Owen and Oliver Rinne"
+authors:
+  - "Lee Lindblom"
+  - "Mark A. Scheel"
+  - "Lawrence E. Kidder"
+  - "Robert Owen"
+  - "Oliver Rinne"
 jref: "Class. Quant. Grav. 23, S447-S462 (2006)"
 doi: "10.1088/0264-9381/23/16/S09"
 date: 2006-08-21

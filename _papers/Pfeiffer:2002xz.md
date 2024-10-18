@@ -1,6 +1,9 @@
 ---
 title: "Comparing initial-data sets for binary black holes"
-authors: "Harald P. Pfeiffer, Gregory B. Cook, Saul A. Teukolsky"
+authors:
+  - "Harald P. Pfeiffer"
+  - "Gregory B. Cook"
+  - "Saul A. Teukolsky"
 jref: "Phys.Rev. D66, 024047 (2002)"
 doi: "10.1103/PhysRevD.66.024047"
 date: 2002-07-31

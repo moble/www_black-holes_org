@@ -1,6 +1,9 @@
 ---
 title: "A numerical examination of an evolving black string horizon"
-authors: "D. Garfinkle, L. Lehner, F. Pretorius"
+authors:
+  - "D. Garfinkle"
+  - "L. Lehner"
+  - "F. Pretorius"
 jref: "Phys. Rev. D 71, 064009 (2005)"
 doi: "10.1103/PhysRevD.71.064009"
 date: 2005-03-11

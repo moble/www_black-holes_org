@@ -1,6 +1,9 @@
 ---
 title: "Ineffectiveness of Padé resummation techniques in post-Newtonian approximations"
-authors: "Abdul H. Mroué, Lawrence E. Kidder, Saul A. Teukolsky"
+authors:
+  - "Abdul H. Mroué"
+  - "Lawrence E. Kidder"
+  - "Saul A. Teukolsky"
 jref: "Phys. Rev. D 78, 044004 (2008)"
 doi: "10.1103/PhysRevD.78.044004"
 date: 2008-05-15

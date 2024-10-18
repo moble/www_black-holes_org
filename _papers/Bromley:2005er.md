@@ -1,6 +1,9 @@
 ---
 title: "The intermediate problem for binary black hole inspiral and the periodic standing wave approximation"
-authors: "Benjamin Bromley, Robert Owen, Richard H.Price"
+authors:
+  - "Benjamin Bromley"
+  - "Robert Owen"
+  - "Richard H.Price"
 date: 2005-02-28
 doi: ""
 arxiv: "gr-qc/0502121"

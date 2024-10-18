@@ -1,6 +1,8 @@
 ---
 title: "Extrinsic Curvature and the Einstein Constraints"
-authors: "Harald P. Pfeiffer, James W. York"
+authors:
+  - "Harald P. Pfeiffer"
+  - "James W. York"
 jref: "Phys.Rev. D67, 044022 (2003)"
 doi: "10.1103/PhysRevD.67.044022"
 date: 2003-02-26

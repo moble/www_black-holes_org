@@ -1,6 +1,13 @@
 ---
 title: "High-accuracy numerical simulation of black-hole binaries: Computation of the gravitational-wave energy flux and comparisons with post-Newtonian approximants"
-authors: "Michael Boyle, Alessandra Buonanno, Lawrence E. Kidder, Abdul H. Mroué, Yi Pan, Harald P. Pfeiffer, Mark A. Scheel"
+authors:
+  - "Michael Boyle"
+  - "Alessandra Buonanno"
+  - "Lawrence E. Kidder"
+  - "Abdul H. Mroué"
+  - "Yi Pan"
+  - "Harald P. Pfeiffer"
+  - "Mark A. Scheel"
 date: 2008-04-25
 doi: "10.1103/PhysRevD.78.104020"
 arxiv: "0804.4184"

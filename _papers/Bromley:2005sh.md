@@ -1,6 +1,9 @@
 ---
 title: "The periodic standing-wave approximation: nonlinear scalar fields, adapted coordinates, and the eigenspectral method"
-authors: "Benjamin Bromley, Robert Owen, Richard H. Price"
+authors:
+  - "Benjamin Bromley"
+  - "Robert Owen"
+  - "Richard H. Price"
 jref: "Phys. Rev. D 71, 104017 (2005)"
 doi: "10.1103/PhysRevD.71.104017"
 date: 2005-05-13

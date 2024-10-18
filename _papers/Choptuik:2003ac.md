@@ -1,6 +1,10 @@
 ---
 title: "Critical Collapse of the Massless Scalar Field in Axisymmetry"
-authors: "M.W. Choptuik, E.W. Hirschmann, S.L. Liebling, F.Pretorius"
+authors:
+  - "M.W. Choptuik"
+  - "E.W. Hirschmann"
+  - "S.L. Liebling"
+  - "F.Pretorius"
 jref: "Phys.Rev. D68, 044007 (2003)"
 doi: "10.1103/PhysRevD.68.044007"
 date: 2003-08-07

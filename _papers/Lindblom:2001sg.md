@@ -1,6 +1,9 @@
 ---
 title: "Numerical evolutions of nonlinear r-modes in neutron stars"
-authors: "Lee Lindblom, Joel E. Tohline, Michele Vallisneri"
+authors:
+  - "Lee Lindblom"
+  - "Joel E. Tohline"
+  - "Michele Vallisneri"
 jref: "Phys.Rev. D65, 084039 (2002)"
 doi: "10.1103/PhysRevD.65.084039"
 date: 2002-04-09

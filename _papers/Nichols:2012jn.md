@@ -1,6 +1,14 @@
 ---
 title: "Visualizing spacetime curvature via frame-drag vortexes and tidal tendexes. III. Quasinormal pulsations of Schwarzschild and Kerr black holes"
-authors: "David A. Nichols, Aaron Zimmerman, Yanbei Chen, Geoffrey Lovelace, Keith D. Matthews, Robert Owen, Fan Zhang, Kip S. Thorne"
+authors:
+  - "David A. Nichols"
+  - "Aaron Zimmerman"
+  - "Yanbei Chen"
+  - "Geoffrey Lovelace"
+  - "Keith D. Matthews"
+  - "Robert Owen"
+  - "Fan Zhang"
+  - "Kip S. Thorne"
 jref: "Phys. Rev. D 86, 104028 (2012)"
 doi: "10.1103/PhysRevD.86.104028"
 date: 2012-11-12

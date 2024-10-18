@@ -1,6 +1,8 @@
 ---
 title: "Towards absorbing outer boundaries in General Relativity"
-authors: "Luisa T. Buchman, Olivier C. A. Sarbach"
+authors:
+  - "Luisa T. Buchman"
+  - "Olivier C. A. Sarbach"
 jref: "Class. Quant. Grav. 23, 6709-6744 (2006)"
 doi: "10.1088/0264-9381/23/23/007"
 date: 2006-12-07

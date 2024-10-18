@@ -1,6 +1,9 @@
 ---
 title: "Numerical implementation of isolated horizon boundary conditions"
-authors: "J.L. Jaramillo, M. Ansorg, and F. Limousin"
+authors:
+  - "J.L. Jaramillo"
+  - "M. Ansorg"
+  - "F. Limousin"
 jref: "Phys. Rev. D75 024019 (2007)"
 doi: "10.1103/PhysRevD.75.024019"
 date: 2007-01-12

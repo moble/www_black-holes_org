@@ -1,6 +1,10 @@
 ---
 title: "Initial data for black hole-neutron star binaries: a flexible, high-accuracy spectral method"
-authors: "Francois Foucart, Lawrence E. Kidder, Harald P. Pfeiffer, Saul A. Teukolsky"
+authors:
+  - "Francois Foucart"
+  - "Lawrence E. Kidder"
+  - "Harald P. Pfeiffer"
+  - "Saul A. Teukolsky"
 jref: "Phys. Rev. D 77, 124051 (2008)"
 doi: "10.1103/PhysRevD.77.124051"
 date: 2008-04-23

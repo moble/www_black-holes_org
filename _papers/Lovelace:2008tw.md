@@ -1,6 +1,10 @@
 ---
 title: "Binary-black-hole initial data with nearly extremal spins"
-authors: "Geoffrey Lovelace, Robert Owen, Harald P. Pfeiffer, and Tony Chu"
+authors:
+  - "Geoffrey Lovelace"
+  - "Robert Owen"
+  - "Harald P. Pfeiffer"
+  - "Tony Chu"
 jref: "Phys. Rev. D 78, 084017"
 doi: "10.1103/PhysRevD.78.084017"
 date: 2008-10-10

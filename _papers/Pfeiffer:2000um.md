@@ -1,6 +1,9 @@
 ---
 title: "Quasi-circular Orbits for Spinning Binary Black Holes"
-authors: "Harald P. Pfeiffer, Saul A. Teukolsky, Gregory B. Cook"
+authors:
+  - "Harald P. Pfeiffer"
+  - "Saul A. Teukolsky"
+  - "Gregory B. Cook"
 jref: "Phys.Rev. D62, 104018 (2000)"
 doi: "10.1103/PhysRevD.62.104018"
 date: 2000-10-19

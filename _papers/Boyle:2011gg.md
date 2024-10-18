@@ -1,6 +1,9 @@
 ---
 title: "Geometric approach to the precession of compact binaries"
-authors: "Michael Boyle, Robert Owen, Harald P. Pfeiffer"
+authors:
+  - "Michael Boyle"
+  - "Robert Owen"
+  - "Harald P. Pfeiffer"
 jref: "Phys. Rev. D 84, 124011 (2011)"
 doi: "10.1103/PhysRevD.84.124011"
 date: 2011-12-02

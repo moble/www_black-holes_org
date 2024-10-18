@@ -1,6 +1,8 @@
 ---
 title: "Energy Norms and the Stability of the Einstein Evolution Equations"
-authors: "Lee Lindblom, Mark A. Scheel"
+authors:
+  - "Lee Lindblom"
+  - "Mark A. Scheel"
 jref: "Phys.Rev. D66, 084014 (2002)"
 doi: "10.1103/PhysRevD.66.084014"
 date: 2002-10-28

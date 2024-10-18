@@ -1,6 +1,12 @@
 ---
 title: "Reducing Orbital Eccentricity in Binary Black Hole Simulations"
-authors: "Harald P. Pfeiffer, Duncan A. Brown, Lawrence E. Kidder, Lee Lindblom, Geoffrey Lovelace, Mark A. Scheel"
+authors:
+  - "Harald P. Pfeiffer"
+  - "Duncan A. Brown"
+  - "Lawrence E. Kidder"
+  - "Lee Lindblom"
+  - "Geoffrey Lovelace"
+  - "Mark A. Scheel"
 jref: "Class. Quant. Grav. 24, S59 (2007)"
 doi: "10.1088/0264-9381/24/12/S06"
 date: 2007-02-20

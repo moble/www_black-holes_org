@@ -1,6 +1,12 @@
 ---
 title: "3D simulations of linearized scalar fields in Kerr spacetime"
-authors: "Mark A. Scheel, Adrienne L. Erickcek, Lior M. Burko, Lawrence E. Kidder, Harald P. Pfeiffer, Saul A. Teukolsky"
+authors:
+  - "Mark A. Scheel"
+  - "Adrienne L. Erickcek"
+  - "Lior M. Burko"
+  - "Lawrence E. Kidder"
+  - "Harald P. Pfeiffer"
+  - "Saul A. Teukolsky"
 jref: "Phys.Rev. D69, 104006 (2004)"
 doi: "10.1103/PhysRevD.69.104006"
 date: 2004-03-12

@@ -1,6 +1,12 @@
 ---
 title: "Optimal Constraint Projection for Hyperbolic Evolution Systems"
-authors: "Michael Holst, Lee Lindblom, Robert Owen, Harald P. Pfeiffer, Mark A. Scheel, Lawrence E. Kidder"
+authors:
+  - "Michael Holst"
+  - "Lee Lindblom"
+  - "Robert Owen"
+  - "Harald P. Pfeiffer"
+  - "Mark A. Scheel"
+  - "Lawrence E. Kidder"
 jref: "Phys. Rev. D 70, 084017 (2004)"
 doi: "10.1103/PhysRevD.70.084017"
 date: 2004-10-13

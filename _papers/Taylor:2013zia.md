@@ -1,6 +1,13 @@
 ---
 title: "Comparing gravitational waveform extrapolation to Cauchy-characteristic extraction in binary black hole simulations"
-authors: "Nicholas W. Taylor, Michael Boyle, Christian Reisswig, Mark A. Scheel, Tony Chu, Lawrence E. Kidder, and Béla Szilágyi"
+authors:
+  - "Nicholas W. Taylor"
+  - "Michael Boyle"
+  - "Christian Reisswig"
+  - "Mark A. Scheel"
+  - "Tony Chu"
+  - "Lawrence E. Kidder"
+  - "Béla Szilágyi"
 jref: "Phys. Rev. D 88, 124010 (2013)"
 doi: "10.1103/PhysRevD.88.124010"
 date: 2013-12-03

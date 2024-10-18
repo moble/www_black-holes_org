@@ -1,6 +1,14 @@
 ---
 title: "High-accuracy comparison of numerical relativity simulations with post-Newtonian expansions"
-authors: "Michael Boyle, Duncan A. Brown, Lawrence E. Kidder, Abdul H. Mroué, Harald P. Pfeiffer, Mark A. Scheel, Gregory B. Cook, and Saul A. Teukolsky"
+authors:
+  - "Michael Boyle"
+  - "Duncan A. Brown"
+  - "Lawrence E. Kidder"
+  - "Abdul H. Mroué"
+  - "Harald P. Pfeiffer"
+  - "Mark A. Scheel"
+  - "Gregory B. Cook"
+  - "Saul A. Teukolsky"
 jref: "Phys. Rev. D 76, 124038 (2007)"
 doi: "10.1103/PhysRevD.76.124038"
 date: 2007-12-27

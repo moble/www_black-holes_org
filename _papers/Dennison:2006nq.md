@@ -1,6 +1,9 @@
 ---
 title: "Approximate initial data for binary black holes"
-authors: "Kenneth A. Dennison, Thomas W. Baumgarte, Harald P. Pfeiffer"
+authors:
+  - "Kenneth A. Dennison"
+  - "Thomas W. Baumgarte"
+  - "Harald P. Pfeiffer"
 jref: "Phys. Rev. D74 064016 (2006)"
 doi: "10.1103/PhysRevD.74.064016"
 date: 2006-09-13

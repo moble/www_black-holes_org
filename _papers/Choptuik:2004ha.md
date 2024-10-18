@@ -1,6 +1,10 @@
 ---
 title: "Critical Collapse of a Complex Scalar Field with Angular Momentum"
-authors: "M.W. Choptuik, E.W. Hirschmann, S.L. Liebling, F. Pretorius"
+authors:
+  - "M.W. Choptuik"
+  - "E.W. Hirschmann"
+  - "S.L. Liebling"
+  - "F. Pretorius"
 jref: "Phys.Rev.Lett. 93, 131101 (2004)"
 doi: "10.1103/PhysRevLett.93.131101"
 date: 2004-09-21

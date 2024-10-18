@@ -1,6 +1,8 @@
 ---
 title: "Precessing Binary Black Holes Simulations: Quasicircular Initial Data"
-authors: "Abdul H. Mroué, Harald P. Pfeiffer"
+authors:
+  - "Abdul H. Mroué"
+  - "Harald P. Pfeiffer"
 jref: "1210.2958"
 doi: ""
 date: 2012-10-10

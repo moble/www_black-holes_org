@@ -1,6 +1,12 @@
 ---
 title: "Evolving black hole-neutron star binaries in general relativity using pseudospectral and finite difference methods"
-authors: "Matthew D. Duez, Francois Foucart, Lawrence E. Kidder, Harald P. Pfeiffer, Mark A. Scheel, Saul A. Teukolsky"
+authors:
+  - "Matthew D. Duez"
+  - "Francois Foucart"
+  - "Lawrence E. Kidder"
+  - "Harald P. Pfeiffer"
+  - "Mark A. Scheel"
+  - "Saul A. Teukolsky"
 date: 2008-08-29
 doi: "10.1103/PhysRevD.78.104015"
 arxiv: "0809.0002"

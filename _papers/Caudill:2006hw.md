@@ -1,6 +1,10 @@
 ---
 title: "Circular orbits and spin in black-hole initial data"
-authors: "Matthew Caudill, Gregory B. Cook, Jason D. Grigsby, Harald P. Pfeiffer"
+authors:
+  - "Matthew Caudill"
+  - "Gregory B. Cook"
+  - "Jason D. Grigsby"
+  - "Harald P. Pfeiffer"
 jref: "Phys. Rev. D74 064011 (2006)"
 doi: "10.1103/PhysRevD.74.064011"
 date: 2006-09-11

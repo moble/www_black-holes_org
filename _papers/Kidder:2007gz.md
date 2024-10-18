@@ -1,6 +1,9 @@
 ---
 title: "Radiation reaction in the 2.5PN waveform from inspiralling binaries in circular orbits"
-authors: "Lawrence E. Kidder, Luc Blanchet, and Bala R. Iyer"
+authors:
+  - "Lawrence E. Kidder"
+  - "Luc Blanchet"
+  - "Bala R. Iyer"
 jref: "Class. Quant. Grav. 24, 5307 (2007)"
 doi: "10.1088/0264-9381/24/20/N01"
 date: 2007-06-05

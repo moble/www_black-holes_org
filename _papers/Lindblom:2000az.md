@@ -1,6 +1,9 @@
 ---
 title: "Non-Linear Evolution of the r-Modes in Neutron Stars"
-authors: "Lee Lindblom, Joel E. Tohline, Michele Vallisneri"
+authors:
+  - "Lee Lindblom"
+  - "Joel E. Tohline"
+  - "Michele Vallisneri"
 jref: "Phys.Rev.Lett. 86, 1152-1155 (2001)"
 doi: "10.1103/PhysRevLett.86.1152"
 date: 2001-02-07

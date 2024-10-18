@@ -1,6 +1,8 @@
 ---
 title: "Dynamical Gauge Conditions for the Einstein Evolution Equations"
-authors: "Lee Lindblom and Mark Scheel"
+authors:
+  - "Lee Lindblom"
+  - "Mark Scheel"
 jref: "Phys. Rev. D67, 124005 (2003)"
 doi: "10.1103/PhysRevD.67.124005"
 date: 2003-06-04

@@ -1,6 +1,8 @@
 ---
 title: "Boundary conditions for Einstein's field equations: Analytical and numerical analysis"
-authors: "Olivier Sarbach, Manuel Tiglio"
+authors:
+  - "Olivier Sarbach"
+  - "Manuel Tiglio"
 jref: "J. Hyperbolic Differential Eqs. 2, 839-883 (2005)"
 doi: "10.1142/S0219891605000634"
 date: 2005-12-01

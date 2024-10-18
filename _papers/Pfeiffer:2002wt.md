@@ -1,6 +1,10 @@
 ---
 title: "A multidomain spectral method for solving elliptic equations"
-authors: "Harald P. Pfeiffer, Lawrence E. Kidder, Mark A. Scheel, Saul A. Teukolsky"
+authors:
+  - "Harald P. Pfeiffer"
+  - "Lawrence E. Kidder"
+  - "Mark A. Scheel"
+  - "Saul A. Teukolsky"
 jref: "Comput.Phys.Commun. 152, 253-273 (2003)"
 doi: "10.1016/S0010-4655(02)00847-0"
 date: 2003-05-15

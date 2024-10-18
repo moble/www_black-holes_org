@@ -1,6 +1,10 @@
 ---
 title: "Initial data for high-compactness black hole-neutron star binaries"
-authors: "Katherine Henriksson, François Foucart, Lawrence E. Kidder, Saul A. Teukolsky"
+authors:
+  - "Katherine Henriksson"
+  - "François Foucart"
+  - "Lawrence E. Kidder"
+  - "Saul A. Teukolsky"
 jref: "Submitted to Phys. Rev. D"
 doi: "10.1088/0264-9381/33/10/105009"
 date: 2014-01-01

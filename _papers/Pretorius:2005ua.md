@@ -1,6 +1,8 @@
 ---
 title: "Adaptive Mesh Refinement for Coupled Elliptic-Hyperbolic Systems"
-authors: "Frans Pretorius, Matthew W. Choptuik"
+authors:
+  - "Frans Pretorius"
+  - "Matthew W. Choptuik"
 jref: "J. Comput. Phys. 218, 246-274 (2006)"
 doi: "10.1016/j.jcp.2006.02.011"
 date: 2006-10-10

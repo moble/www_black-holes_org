@@ -1,6 +1,10 @@
 ---
 title: "An Axisymmetric Gravitational Collapse Code"
-authors: "M.W. Choptuik, E.W. Hirschmann, S.L. Liebling, F. Pretorius"
+authors:
+  - "M.W. Choptuik"
+  - "E.W. Hirschmann"
+  - "S.L. Liebling"
+  - "F. Pretorius"
 jref: "Class.Quant.Grav. 20, 1857-1878 (2003)"
 doi: "10.1088/0264-9381/20/9/318"
 date: 2003-04-15

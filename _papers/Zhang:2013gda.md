@@ -1,6 +1,8 @@
 ---
 title: "Joint approach for reducing eccentricity and spurious gravitational radiation in binary black hole initial data construction"
-authors: "Fan Zhang, Béla Szilágyi"
+authors:
+  - "Fan Zhang"
+  - "Béla Szilágyi"
 jref: "Phys. Rev. D 88, 084033 (2013)"
 doi: "10.1103/PhysRevD.88.084033"
 date: 2013-10-22

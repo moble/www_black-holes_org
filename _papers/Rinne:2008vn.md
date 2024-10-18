@@ -1,6 +1,10 @@
 ---
 title: "Implementation of higher-order absorbing boundary conditions for the Einstein equations"
-authors: "Oliver Rinne, Luisa T. Buchman, Mark A. Scheel and Harald P. Pfeiffer"
+authors:
+  - "Oliver Rinne"
+  - "Luisa T. Buchman"
+  - "Mark A. Scheel"
+  - "Harald P. Pfeiffer"
 jref: "Class. Quantum Grav. 26 (2009) 075009"
 doi: "10.1088/0264-9381/26/7/075009"
 date: 2009-03-10

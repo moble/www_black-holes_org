@@ -1,6 +1,9 @@
 ---
 title: "The Einstein constraints: uniqueness and non-uniqueness in the conformal thin sandwich approach"
-authors: "Thomas W. Baumgarte, Niall Ó Murchadha, and Harald P. Pfeiffer"
+authors:
+  - "Thomas W. Baumgarte"
+  - "Niall Ó Murchadha"
+  - "Harald P. Pfeiffer"
 jref: "Phys. Rev. D75 044009 (2007)"
 doi: "10.1103/PhysRevD.75.044009"
 date: 2007-02-07

@@ -1,6 +1,9 @@
 ---
 title: "High accuracy simulations of black hole binaries: spins anti-aligned with the orbital angular momentum"
-authors: "Tony Chu, Harald P. Pfeiffer, Mark A. Scheel"
+authors:
+  - "Tony Chu"
+  - "Harald P. Pfeiffer"
+  - "Mark A. Scheel"
 jref: "Phys. Rev. D 80, 124051 (2009)"
 doi: "10.1103/PhysRevD.80.124051"
 date: 2009-12-31

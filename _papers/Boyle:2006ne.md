@@ -1,6 +1,11 @@
 ---
 title: "Testing the Accuracy and Stability of Spectral Methods in Numerical Relativity"
-authors: "Michael Boyle, Lee Lindblom, Harald Pfeiffer, Mark Scheel, Lawrence E. Kidder"
+authors:
+  - "Michael Boyle"
+  - "Lee Lindblom"
+  - "Harald Pfeiffer"
+  - "Mark Scheel"
+  - "Lawrence E. Kidder"
 jref: "Phys. Rev. D75 024006 (2007)"
 doi: "10.1103/PhysRevD.75.024006"
 date: 2007-01-05

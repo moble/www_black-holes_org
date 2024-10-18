@@ -1,6 +1,8 @@
 ---
 title: "Einstein Bianchi equations with sources"
-authors: "Yvonne Choquet-Bruhat, James W. York"
+authors:
+  - "Yvonne Choquet-Bruhat"
+  - "James W. York"
 date: 2005-11-07
 doi: ""
 arxiv: "gr-qc/0511032"

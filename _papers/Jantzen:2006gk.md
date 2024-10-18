@@ -1,6 +1,8 @@
 ---
 title: "New Minimal Distortion Shift Gauge"
-authors: "Robert T. Jantzen, James W. York, Jr"
+authors:
+  - "Robert T. Jantzen"
+  - "James W. York, Jr"
 jref: "Phys. Rev. D73, 104008 (2006)"
 doi: "10.1103/PhysRevD.73.104008"
 date: 2006-05-05

@@ -1,6 +1,8 @@
 ---
 title: "Adaptive Mesh Refinement for Characteristic Codes"
-authors: "Frans Pretorius, Luis Lehner"
+authors:
+  - "Frans Pretorius"
+  - "Luis Lehner"
 jref: "J.Comput.Phys. 198, 10-34 (2004)"
 doi: "10.1016/j.jcp.2004.01.001"
 date: 2004-07-20

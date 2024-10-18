@@ -1,6 +1,12 @@
 ---
 title: "Towards the Final Fate of an Unstable Black String"
-authors: "M.W. Choptuik, L. Lehner, I. Olabarrieta, R. Petryk, F. Pretorius, H. Villegas"
+authors:
+  - "M.W. Choptuik"
+  - "L. Lehner"
+  - "I. Olabarrieta"
+  - "R. Petryk"
+  - "F. Pretorius"
+  - "H. Villegas"
 jref: "Phys.Rev. D68, 044001 (2003)"
 doi: "10.1103/PhysRevD.68.044001"
 date: 2003-08-01

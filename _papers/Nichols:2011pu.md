@@ -1,6 +1,17 @@
 ---
 title: "Visualizing spacetime curvature via frame-drag vortexes and tidal tendexes: General theory and weak-gravity applications"
-authors: "David A. Nichols, Robert Owen, Fan Zhang, Aaron Zimmerman, Jeandrew Brink, Yanbei Chen, Jeffrey D. Kaplan, Geoffrey Lovelace, Keith D. Matthews, Mark A. Scheel, Kip S. Thorne"
+authors:
+  - "David A. Nichols"
+  - "Robert Owen"
+  - "Fan Zhang"
+  - "Aaron Zimmerman"
+  - "Jeandrew Brink"
+  - "Yanbei Chen"
+  - "Jeffrey D. Kaplan"
+  - "Geoffrey Lovelace"
+  - "Keith D. Matthews"
+  - "Mark A. Scheel"
+  - "Kip S. Thorne"
 jref: "Phys. Rev. D 84, 124014 (2011)"
 doi: "10.1103/PhysRevD.84.124014"
 date: 2011-12-06

@@ -1,6 +1,8 @@
 ---
 title: "A strongly hyperbolic and regular reduction of Einstein's equations for axisymmetric spacetimes"
-authors: "Oliver Rinne and John M. Stewart"
+authors:
+  - "Oliver Rinne"
+  - "John M. Stewart"
 jref: "Class. Quantum Grav. 22(6) 1143-1166 (2005)"
 doi: "10.1088/0264-9381/22/6/015"
 date: 2005-03-21

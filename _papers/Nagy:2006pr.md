@@ -1,6 +1,8 @@
 ---
 title: "A minimization problem for the lapse and the initial-boundary value problem for Einstein's field equations"
-authors: "Gabriel Nagy, Olivier Sarbach"
+authors:
+  - "Gabriel Nagy"
+  - "Olivier Sarbach"
 jref: "Class. Quant. Grav. 23, S477-S504 (2006)"
 doi: "10.1088/0264-9381/23/16/S11"
 date: 2006-08-21

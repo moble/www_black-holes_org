@@ -1,6 +1,9 @@
 ---
 title: "High accuracy simulations of Kerr tails: coordinate dependence and higher multipoles"
-authors: "Manuel Tiglio, Lawrence Kidder, Saul Teukolsky"
+authors:
+  - "Manuel Tiglio"
+  - "Lawrence Kidder"
+  - "Saul Teukolsky"
 jref: "Class. Quant. Grav. 25, 105022 (2008)"
 doi: "10.1088/0264-9381/25/10/105022"
 date: 2007-12-16
