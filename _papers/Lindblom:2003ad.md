@@ -7,6 +7,7 @@ jref: "Phys. Rev. D67, 124005 (2003)"
 doi: "10.1103/PhysRevD.67.124005"
 date: 2003-06-04
 arxiv: "gr-qc/0301120"
+used_spec: true
 abstract: |
   The Einstein evolution equations have been written in a number of
   symmetric hyperbolic forms when the gauge fields--the densitized

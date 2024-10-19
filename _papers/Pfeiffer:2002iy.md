@@ -7,6 +7,7 @@ jref: "Phys.Rev. D67, 044022 (2003)"
 doi: "10.1103/PhysRevD.67.044022"
 date: 2003-02-26
 arxiv: "gr-qc/0207095"
+used_spec: true
 abstract: |
   The Einstein initial-value equations in the extrinsic curvature
   (Hamiltonian) representation and conformal thin sandwich

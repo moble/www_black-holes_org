@@ -9,6 +9,7 @@ jref: "Comput.Phys.Commun. 152, 253-273 (2003)"
 doi: "10.1016/S0010-4655(02)00847-0"
 date: 2003-05-15
 arxiv: "gr-qc/0202096"
+used_spec: true
 abstract: |
   We present a new solver for coupled nonlinear elliptic partial
   differential equations (PDEs). The solver is based on

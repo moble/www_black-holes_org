@@ -8,8 +8,10 @@ authors:
   - "Mark A. Scheel"
   - "Saul A. Teukolsky"
 date: 2008-08-29
+jref: "Physical Review D 78, 104015 (2008)"
 doi: "10.1103/PhysRevD.78.104015"
 arxiv: "0809.0002"
+used_spec: true
 abstract: |
   We present a code for solving the coupled Einstein-hydrodynamics
   equations to evolve relativistic, self-gravitating fluids. The

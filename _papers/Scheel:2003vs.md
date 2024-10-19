@@ -11,6 +11,7 @@ jref: "Phys.Rev. D69, 104006 (2004)"
 doi: "10.1103/PhysRevD.69.104006"
 date: 2004-03-12
 arxiv: "gr-qc/0305027"
+used_spec: true
 abstract: |
   We investigate the behavior of a dynamical scalar field on a fixed
   Kerr background in Kerr-Schild coordinates using a 3+1 dimensional

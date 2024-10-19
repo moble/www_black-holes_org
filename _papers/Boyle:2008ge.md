@@ -9,8 +9,10 @@ authors:
   - "Harald P. Pfeiffer"
   - "Mark A. Scheel"
 date: 2008-04-25
+jref: "Physical Review D 78, 104020 (2008)"
 doi: "10.1103/PhysRevD.78.104020"
 arxiv: "0804.4184"
+used_spec: true
 abstract: |
   Expressions for the gravitational wave (GW) energy flux and
   center-of-mass energy of a compact binary are integral building

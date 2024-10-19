@@ -7,6 +7,7 @@ jref: "Phys.Rev. D70, 104016 (2004)"
 doi: "10.1103/PhysRevD.70.104016"
 date: 2004-11-12
 arxiv: "gr-qc/0407078"
+used_spec: true
 abstract: |
   We define and extensively test a set of boundary conditions that can
   be applied at black hole excision surfaces when the Hamiltonian and

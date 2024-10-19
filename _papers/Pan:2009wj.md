@@ -12,6 +12,7 @@ jref: "Phys. Rev. D 81, 084041 (2010)"
 doi: "10.1103/PhysRevD.81.084041"
 date: 2010-04-20
 arxiv: "0912.3466"
+used_spec: true
 abstract: |
   We present the first attempt at calibrating the effective-one-body
   (EOB) model to accurate numerical-relativity simulations of

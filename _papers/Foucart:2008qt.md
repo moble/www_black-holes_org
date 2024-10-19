@@ -9,6 +9,7 @@ jref: "Phys. Rev. D 77, 124051 (2008)"
 doi: "10.1103/PhysRevD.77.124051"
 date: 2008-04-23
 arxiv: "0804.3787"
+used_spec: true
 abstract: |
   We present a new numerical scheme to solve the initial value problem
   for black hole-neutron star binaries. This method takes advantage of

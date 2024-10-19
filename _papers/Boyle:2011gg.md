@@ -8,6 +8,7 @@ jref: "Phys. Rev. D 84, 124011 (2011)"
 doi: "10.1103/PhysRevD.84.124011"
 date: 2011-12-02
 arxiv: "1110.2965"
+used_spec: true
 abstract: |
   We discuss a geometrical method to define a preferred reference
   frame for precessing binary systems and the gravitational waves they

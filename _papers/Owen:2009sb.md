@@ -5,6 +5,7 @@ jref: "Phys. Rev. D 80, 084012 (2009)"
 doi: "10.1103/PhysRevD.80.084012"
 date: 2009-10-12
 arxiv: "0907.0280"
+used_spec: true
 abstract: |
   Methods are presented to define and compute source multipoles of
   dynamical horizons in numerical relativity codes, extending previous

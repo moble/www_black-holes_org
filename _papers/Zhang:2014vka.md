@@ -1,0 +1,22 @@
+---
+title: "Decline of the current quadrupole moment during the merger phase of binary black hole coalescence"
+authors: "Zhang, F."
+jref: "ArXiv e-prints ,  (2014)"
+doi:
+date: 2014-03-01
+arxiv: "1403.0512"
+used_spec: true
+abstract: |
+  Utilizing the tools of tendex and vortex, we study the highly
+  dynamic plunge and merger phases of several &pi; -symmetric binary
+  black hole coalescences. In particular, we observe a decline of the
+  strength of the current quadrupole moment compared to that of the
+  mass quadrupole moment during the merger phase, contrary to a naive
+  estimate according to the dependence of these moments on the
+  separation between the black holes. We further show that this
+  decline of the current quadrupole moment is achieved through the
+  remnants of the two individual spins becoming nearly aligned or
+  anti-aligned with the total angular momentum. We also speculate on
+  the ability to achieve a consistency between the electric and
+  magnetic parity quasinormal modes.
+---

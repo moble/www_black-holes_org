@@ -8,6 +8,7 @@ jref: "Phys. Rev. D75 044009 (2007)"
 doi: "10.1103/PhysRevD.75.044009"
 date: 2007-02-07
 arxiv: "gr-qc/0610120"
+used_spec: true
 abstract: |
   We study the appearance of multiple solutions to certain
   decompositions of Einstein's constraint equations. Pfeiffer and York

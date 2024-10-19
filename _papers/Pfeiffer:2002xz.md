@@ -8,6 +8,7 @@ jref: "Phys.Rev. D66, 024047 (2002)"
 doi: "10.1103/PhysRevD.66.024047"
 date: 2002-07-31
 arxiv: "gr-qc/0203085"
+used_spec: true
 abstract: |
   We compare the results of constructing binary black hole initial
   data with three different decompositions of the constraint equations

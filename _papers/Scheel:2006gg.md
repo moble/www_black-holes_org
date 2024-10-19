@@ -11,6 +11,7 @@ jref: "Physical Review D, 74 104006 (2006)"
 doi: "10.1103/PhysRevD.74.104006"
 date: 2006-11-15
 arxiv: "gr-qc/0607056"
+used_spec: true
 abstract: |
   A method is introduced for solving Einstein's equations using two
   distinct coordinate systems. The coordinate basis vectors associated

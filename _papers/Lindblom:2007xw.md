@@ -8,6 +8,7 @@ authors:
 date: 2007-11-14
 doi: "10.1103/PhysRevD.77.084001"
 arxiv: "0711.2084"
+used_spec: true
 abstract: |
   The generalized harmonic representation of Einstein's equation is
   manifestly hyperbolic for a large class of gauge

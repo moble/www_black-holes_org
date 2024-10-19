@@ -9,6 +9,7 @@ jref: "Phys. Rev. D74 064011 (2006)"
 doi: "10.1103/PhysRevD.74.064011"
 date: 2006-09-11
 arxiv: "gr-qc/0605053"
+used_spec: true
 abstract: |
   The construction of initial data for black-hole binaries usually
   involves the choice of free parameters that define the spins of the

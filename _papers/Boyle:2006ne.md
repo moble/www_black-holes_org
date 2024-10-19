@@ -10,6 +10,7 @@ jref: "Phys. Rev. D75 024006 (2007)"
 doi: "10.1103/PhysRevD.75.024006"
 date: 2007-01-05
 arxiv: "gr-qc/0609047"
+used_spec: true
 abstract: |
   The accuracy and stability of the Caltech-Cornell pseudospectral
   code is evaluated using the KST representation of the Einstein

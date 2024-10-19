@@ -10,6 +10,7 @@ jref: "Phys. Rev. D 66, 124005 (2002)"
 doi: "10.1103/PhysRevD.66.124005"
 date: 2002-12-17
 arxiv: "gr-qc/0209115"
+used_spec: true
 abstract: |
   Three dimensional (3D) numerical evolutions of static black holes
   with excision are presented. These evolutions extend to about 8000M,

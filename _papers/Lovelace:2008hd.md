@@ -5,6 +5,7 @@ jref: "Class. Quantum Grav. 26, 114002 (2009)"
 doi: "10.1088/0264-9381/26/11/114002"
 date: 2009-06-07
 arxiv: "0812.3132"
+used_spec: true
 abstract: |
   At early times in numerical evolutions of binary black holes,
   current simulations contain an initial burst of spurious

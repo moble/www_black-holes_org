@@ -10,6 +10,7 @@ jref: "Class. Quant. Grav. 23, S447-S462 (2006)"
 doi: "10.1088/0264-9381/23/16/S09"
 date: 2006-08-21
 arxiv: "gr-qc/0512093"
+used_spec: true
 abstract: |
   A new representation of the Einstein evolution equations is
   presented that is first order, linearly degenerate, and symmetric

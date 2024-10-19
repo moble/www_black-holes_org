@@ -11,6 +11,7 @@ jref: "Class. Quant. Grav. 24, S59 (2007)"
 doi: "10.1088/0264-9381/24/12/S06"
 date: 2007-02-20
 arxiv: "gr-qc/0702106"
+used_spec: true
 abstract: |
   Binary black hole simulations starting from quasi-circular (i.e.,
   zero radial velocity) initial data have orbits with small but

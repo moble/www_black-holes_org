@@ -7,6 +7,7 @@ jref: "1210.2958"
 doi: ""
 date: 2012-10-10
 arxiv: "1210.2958"
+used_spec: true
 abstract: |
   In numerical evolutions of binary black holes (BBH) it is desirable
   to easily control the orbital eccentricity of the BBH, and the

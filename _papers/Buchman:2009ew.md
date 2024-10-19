@@ -8,6 +8,7 @@ jref: "Phys. Rev. D 80, 084024 (2009)"
 doi: "10.1103/PhysRevD.80.084024"
 date: 2009-10-19
 arxiv: "0907.3163"
+used_spec: true
 abstract: |
   We generalize Bowen-York black hole initial data to hyperboloidal
   constant mean curvature slices which extend to future null

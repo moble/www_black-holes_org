@@ -16,6 +16,7 @@ jref: "Phys. Rev. D 84, 124014 (2011)"
 doi: "10.1103/PhysRevD.84.124014"
 date: 2011-12-06
 arxiv: "1108.5486"
+used_spec: true
 abstract: |
   When one splits spacetime into space plus time, the Weyl curvature
   tensor (vacuum Riemann tensor) gets split into two spatial,

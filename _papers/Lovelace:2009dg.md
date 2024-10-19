@@ -14,6 +14,7 @@ jref: "Submitted to Phys. Rev. D (currently with referees)"
 doi: "10.1103/PhysRevD.82.064031"
 date: 2009-07-05
 arxiv: "0907.0869"
+used_spec: true
 abstract: |
   Research on extracting science from binary-black-hole (BBH)
   simulations has often adopted a "scattering matrix" perspective:

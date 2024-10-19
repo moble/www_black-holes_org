@@ -8,6 +8,7 @@ jref: "Phys. Rev. D 78, 044004 (2008)"
 doi: "10.1103/PhysRevD.78.044004"
 date: 2008-05-15
 arxiv: "0805.2390"
+used_spec: true
 abstract: |
   We test the resummation techniques used in developing Padé and
   Effective One Body (EOB) waveforms for gravitational wave

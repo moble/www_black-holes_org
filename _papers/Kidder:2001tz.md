@@ -8,6 +8,7 @@ jref: "Phys. Rev. D64, 064017 (2001)"
 doi: "10.1103/PhysRevD.64.064017"
 date: 2001-08-27
 arxiv: "gr-qc/0105031"
+used_spec: true
 abstract: |
   We present a new many-parameter family of hyperbolic representations
   of Einstein's equations, which we obtain by a straightforward

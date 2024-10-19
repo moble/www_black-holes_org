@@ -9,6 +9,7 @@ jref: "Phys. Rev. D71, 024020 (2005)"
 doi: "10.1103/PhysRevD.71.024020"
 date: 2005-01-20
 arxiv: "gr-qc/0410016"
+used_spec: true
 abstract: |
   A method is presented to construct initial data for Einstein's
   equations as a superposition of a gravitational wave perturbation on

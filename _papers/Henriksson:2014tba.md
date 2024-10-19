@@ -9,6 +9,7 @@ jref: "Submitted to Phys. Rev. D"
 doi: "10.1088/0264-9381/33/10/105009"
 date: 2014-01-01
 arxiv: "1409.7159"
+used_spec: true
 abstract: |
   For highly compact neutron stars, constructing numerical initial
   data for black hole-neutron star binary evolutions is very

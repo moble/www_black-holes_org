@@ -7,6 +7,7 @@ jref: "Phys.Rev. D66, 084014 (2002)"
 doi: "10.1103/PhysRevD.66.084014"
 date: 2002-10-28
 arxiv: "gr-qc/0206035"
+used_spec: true
 abstract: |
   The Einstein evolution equations may be written in a variety of
   equivalent analytical forms, but numerical solutions of these

@@ -11,6 +11,7 @@ jref: "Phys. Rev. D 70, 084017 (2004)"
 doi: "10.1103/PhysRevD.70.084017"
 date: 2004-10-13
 arxiv: "gr-qc/0407011"
+used_spec: true
 abstract: |
   Techniques are developed for projecting the solutions of symmetric
   hyperbolic evolution systems onto the constraint submanifold (the

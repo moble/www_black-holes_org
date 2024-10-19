@@ -10,6 +10,7 @@ jref: "Phys. Rev. D71 (2005) 064020"
 doi: "10.1103/PhysRevD.71.064020"
 date: 2005-03-15
 arxiv: "gr-qc/0412116"
+used_spec: true
 abstract: |
   New boundary conditions are constructed and tested numerically for a
   general first-order form of the Einstein evolution system. These
