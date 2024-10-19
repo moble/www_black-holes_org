@@ -505,3 +505,12 @@
     margin-top:    0em;
     margin-bottom: 0.25em;
 }
+
+#year_link a {
+    background: $terracotta;
+    color: white;
+    padding: 4px 8px 6px;
+    margin:  4px;
+    border-radius: 4px;
+    display: inline-grid;
+}

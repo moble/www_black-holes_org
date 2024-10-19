@@ -6,6 +6,18 @@ date: 2013-04-16 01:37:02.000000000 +00:00
 
 Numerical Relativity papers published by members of the SXS Collaboration in reverse chronological order.
 
+<div id="year_link">
+{% capture written_year %}'None'{% endcapture %}
+{%- assign sorted = site.papers | sort: 'date' -%}
+{%- for paper in sorted reversed %}
+  {% capture year %}{{ paper.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <a href="#{{ year }}">{{ year }}</a>
+  {% endif %}
+  {% capture written_year %}{{ year }}{% endcapture %}
+{%- endfor -%}
+</div>
+
 {% capture written_year %}'None'{% endcapture %}
 {%- assign sorted = site.papers | sort: 'date' -%}
 {%- for paper in sorted reversed %}
