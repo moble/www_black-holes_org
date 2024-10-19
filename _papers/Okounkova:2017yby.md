@@ -1,13 +1,13 @@
 ---
-title: "Numerical binary black hole mergers in dynamical Chern-Simons: I. Scalar field"
+title: "Numerical binary black hole mergers in dynamical Chern-Simons gravity: Scalar field"
 authors:
-  - "Okounkova, M."
-  - "Stein, L. C."
-  - "Scheel, M. A."
-  - "Hemberger, D. A. "
-jref: "ArXiv e-prints ,  (2017)"
-doi:
-date: 2017-05-01
+  - "Okounkova, Maria"
+  - "Stein, Leo C."
+  - "Scheel, Mark A."
+  - "Hemberger, Daniel A."
+jref: "Phys.Rev.D 96, 044020 (2017)"
+doi: "10.1103/PhysRevD.96.044020"
+date: 2017-05-22
 arxiv: "1705.07924"
 used_spec: true
 abstract: |

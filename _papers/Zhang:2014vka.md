@@ -1,9 +1,9 @@
 ---
 title: "Decline of the current quadrupole moment during the merger phase of binary black hole coalescence"
-authors: "Zhang, F."
-jref: "ArXiv e-prints ,  (2014)"
-doi:
-date: 2014-03-01
+authors: "Zhang, Fan"
+jref: "Universe 6, 3 (2019)"
+doi: "10.3390/universe6010003"
+date: 2014-03-03
 arxiv: "1403.0512"
 used_spec: true
 abstract: |
