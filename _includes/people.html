@@ -18,16 +18,16 @@
 
     <div class="contact-info">
         {%- if member.address -%}
-        <p class="address">{{ member.address }}</p>
+        <p class="address"><i class="fa-solid fa-location-dot"></i> {{ member.address }}</p>
         {%- endif -%}
         {%- if member.institution -%}
-        <p class="address">{{ member.institution }}</p>
+        <p class="address"><i class="fa-solid fa-location-dot"></i> {{ member.institution }}</p>
         {%- endif -%}
         {%- if member.email -%}
-        <p class="email">{{ member.email }}</p>
+        <p class="email"><i class="fa-solid fa-envelope"></i> {{ member.email }}</p>
         {%- endif -%}
         {%- if member.phone -%}
-        <p class="phone">{{ member.phone }}</p>
+        <p class="phone"><i class="fa-regular fa-phone"></i> {{ member.phone }}</p>
         {%- endif -%}
     </div>
 

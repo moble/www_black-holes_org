@@ -34,7 +34,8 @@ Numerical Relativity papers published by members of the SXS Collaboration in rev
   {% if paper.doi %}<a href="http://dx.doi.org/{{ paper.doi }}">{% endif %}{{ paper.jref }}{% if paper.doi %}</a>{% endif %}
   </p>
   {% endif %}
-  <p class="paper_arxiv">[arXiv:<a href="https://arxiv.org/abs/{{ paper.arxiv }}">{{ paper.arxiv }}</a>]</p>
+  <p class="paper_arxiv"><i class="ai ai-arxiv"></i>
+  [<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>]</p>
   <details>
   <summary>Abstract</summary>
   {{ paper.abstract }}
