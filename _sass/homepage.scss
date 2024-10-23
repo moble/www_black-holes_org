@@ -490,3 +490,27 @@
     max-width:  300px;
     max-height: 150px;
 }
+
+
+.paper {
+    padding: 8px;
+}
+
+.paper:nth-of-type(even) {
+    background-color: $lightgrey;
+    border-radius: 4px;
+}
+
+.paper_authors, .paper_jref, .paper_arxiv {
+    margin-top:    0em;
+    margin-bottom: 0.25em;
+}
+
+#year_link a {
+    background: $terracotta;
+    color: white;
+    padding: 4px 8px 6px;
+    margin:  4px;
+    border-radius: 4px;
+    display: inline-grid;
+}
