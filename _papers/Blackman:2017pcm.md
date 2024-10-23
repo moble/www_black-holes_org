@@ -1,18 +1,18 @@
 ---
-title: "A Numerical Relativity Waveform Surrogate Model for Generically Precessing Binary Black Hole Mergers"
+title: "Numerical relativity waveform surrogate model for generically precessing binary black hole mergers"
 authors:
-  - "Blackman, J."
-  - "Field, S. E."
-  - "Scheel, M. A."
-  - "Galley, C. R."
-  - "Ott, C. D."
-  - "Boyle, M."
-  - "Kidder, L. E."
-  - "Pfeiffer, H. P."
-  - "Szilágyi, B."
-jref: "ArXiv e-prints ,  (2017)"
-doi:
-date: 2017-05-01
+  - "Blackman, Jonathan"
+  - "Field, Scott E."
+  - "Scheel, Mark A."
+  - "Galley, Chad R."
+  - "Ott, Christian D."
+  - "Boyle, Michael"
+  - "Kidder, Lawrence E."
+  - "Pfeiffer, Harald P."
+  - "Szilágyi, Béla"
+jref: "Phys.Rev.D 96, 024058 (2017)"
+doi: "10.1103/PhysRevD.96.024058"
+date: 2017-05-19
 arxiv: "1705.07089"
 used_spec: true
 abstract: |

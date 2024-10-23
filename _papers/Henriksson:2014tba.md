@@ -5,7 +5,7 @@ authors:
   - "François Foucart"
   - "Lawrence E. Kidder"
   - "Saul A. Teukolsky"
-jref: "Submitted to Phys. Rev. D"
+jref: "Class.Quant.Grav. 33, 105009 (2016)"
 doi: "10.1088/0264-9381/33/10/105009"
 date: 2014-01-01
 arxiv: "1409.7159"
