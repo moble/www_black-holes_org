@@ -6,7 +6,7 @@
     <summary>{{ member.name }}</summary>
 
     {%- if member.position -%}
-    <h4>{{ member.position }}</h4>
+    <h3 class="position">{{ member.position }}</h3>
     {%- endif -%}
 
     {% assign img_path = '/images/people/' | append: member.path | replace: '_people/', '' | replace: 'markdown', 'jpg' %}
@@ -18,21 +18,22 @@
 
     <div class="contact-info">
         {%- if member.address -%}
-        <p class="address"><i class="fa-solid fa-location-dot"></i> {{ member.address }}</p>
+        <div class="address"><i class="fa-solid fa-location-dot"></i> {{ member.address }}</div>
         {%- endif -%}
         {%- if member.institution -%}
-        <p class="address"><i class="fa-solid fa-location-dot"></i> {{ member.institution }}</p>
+        <div class="address"><i class="fa-solid fa-building-columns"></i> {{ member.institution }}</div>
         {%- endif -%}
         {%- if member.email -%}
-        <p class="email"><i class="fa-solid fa-envelope"></i> {{ member.email }}</p>
+        <div class="email"><i class="fa-solid fa-envelope"></i>
+        <a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
         {%- endif -%}
         {%- if member.phone -%}
-        <p class="phone"><i class="fa-regular fa-phone"></i> {{ member.phone }}</p>
+        <div class="phone"><i class="fa-solid fa-phone"></i> {{ member.phone }}</div>
         {%- endif -%}
     </div>
 
     {%- if member.advisor -%}
-    <p>Advisor: {{ member.advisor }}</p>
+    <div class="advisor">Advisor: {{ member.advisor }}</div>
     {%- endif -%}
 
     {{ member.content }}
