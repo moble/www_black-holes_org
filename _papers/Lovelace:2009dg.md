@@ -10,7 +10,7 @@ authors:
   - "David A. Nichols"
   - "Mark A. Scheel"
   - "Ulrich Sperhake"
-jref: "Submitted to Phys. Rev. D (currently with referees)"
+jref: "Phys.Rev.D 82, 064031 (2010)"
 doi: "10.1103/PhysRevD.82.064031"
 date: 2009-07-05
 arxiv: "0907.0869"

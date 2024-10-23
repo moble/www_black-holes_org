@@ -1,13 +1,13 @@
 ---
 title: "Gravitational-wave modes from precessing black-hole binaries"
 authors:
-  - "Boyle, M."
-  - "Kidder, L. E."
-  - "Ossokine, S."
-  - "Pfeiffer, H. P. "
-jref: "ArXiv e-prints ,  (2014)"
+  - "Boyle, Michael"
+  - "Kidder, Lawrence E."
+  - "Ossokine, Serguei"
+  - "Pfeiffer, Harald P."
+jref:
 doi:
-date: 2014-09-01
+date: 2014-09-15
 arxiv: "1409.4431"
 used_spec: true
 abstract: |
